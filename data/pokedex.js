@@ -824,5 +824,3032 @@ kitsunoh:{num:-57,species:"Kitsunoh",types:["Steel","Ghost"],baseStats:{hp:80,at
 cyclohm:{num:-58,species:"Cyclohm",types:["Electric","Dragon"],baseStats:{hp:108,atk:60,def:118,spa:112,spd:70,spe:80},abilities:{0:"Shield Dust",1:"Static"},heightm:1.6,weightkg:59,color:"Yellow",eggGroups:["Dragon","Monster"]},
 colossoil:{num:-59,species:"Colossoil",types:["Dark","Ground"],baseStats:{hp:133,atk:122,def:72,spa:71,spd:72,spe:95},abilities:{0:"Rebound",1:"Guts"},heightm:2.6,weightkg:683.6,color:"Brown",eggGroups:["Water 2","Field"]},
 krilowatt:{num:-60,species:"Krilowatt",types:["Electric","Water"],baseStats:{hp:151,atk:84,def:73,spa:83,spd:74,spe:105},abilities:{0:"Trace",1:"Magic Guard"},heightm:0.7,weightkg:10.6,color:"Red",eggGroups:["Water 1","Fairy"]},
-voodoom:{num:-61,species:"Voodoom",types:["Fighting","Dark"],baseStats:{hp:90,atk:85,def:80,spa:105,spd:80,spe:110},abilities:{0:"Volt Absorb",1:"Lightningrod"},heightm:2,weightkg:75.5,color:"Brown",eggGroups:["Human-Like","Ground"]}
+voodoom:{num:-61,species:"Voodoom",types:["Fighting","Dark"],baseStats:{hp:90,atk:85,def:80,spa:105,spd:80,spe:110},abilities:{0:"Volt Absorb",1:"Lightningrod"},heightm:2,weightkg:75.5,color:"Brown",eggGroups:["Human-Like","Ground"]},
+
+//Pokemon SAGE starter here
+//Sidenote: 186/229 are 1:1 mf, 13/229 are 7:1 mf, 30 unknown
+// 4/229 7:1 mf left
+
+Foliat:{
+        num:1001, // Pokedex Number
+        species:"Foliat", // Friendly Species name (can use caps and space)
+        types:["Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.875,F:0.125}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Florabri"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Florabri:{
+        num:1002, // Pokedex Number
+        species:"Florabri", // Friendly Species name (can use caps and space)
+        types:["Grass","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.875,F:0.125}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Floressum"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Florresum:{
+        num:1003, // Pokedex Number
+        species:"Florresum", // Friendly Species name (can use caps and space)
+        types:["Grass","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.875,F:0.125}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Kidling:{
+        num:1004, // Pokedex Number
+        species:"Kidling", // Friendly Species name (can use caps and space)
+        types:["Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.875,F:0.125}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Pyroat"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Pyroat:{
+        num:1005, // Pokedex Number
+        species:"Pyroat", // Friendly Species name (can use caps and space)
+        types:["Fire","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.875,F:0.125}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Flairees"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Flairees:{
+        num:1006, // Pokedex Number
+        species:"Flairees", // Friendly Species name (can use caps and space)
+        types:["Fire","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.875,F:0.125}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Aguade:{
+        num:1007, // Pokedex Number
+        species:"Aguade", // Friendly Species name (can use caps and space)
+        types:["Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.875,F:0.125}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Iguadium"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Iguadium:{
+        num:1008, // Pokedex Number
+        species:"Iguadium", // Friendly Species name (can use caps and space)
+        types:["Water","Fighting"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.875,F:0.125}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Aguanaut"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Aguanaut:{
+        num:1009, // Pokedex Number
+        species:"Aguanaut", // Friendly Species name (can use caps and space)
+        types:["Water","Fighting"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.875,F:0.125}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Harpee:{
+        num:1010, // Pokedex Number
+        species:"Harpee", // Friendly Species name (can use caps and space)
+        types:["Normal","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Aquilor"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Aquilor:{
+        num:1011, // Pokedex Number
+        species:"Aquilor", // Friendly Species name (can use caps and space)
+        types:["Normal","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Warquila"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Warquila:{
+        num:1012, // Pokedex Number
+        species:"Warquila", // Friendly Species name (can use caps and space)
+        types:[""Normal","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Capig:{
+        num:1013, // Pokedex Number
+        species:"Foliat", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Capabara"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Capabara:{
+        num:1014, // Pokedex Number
+        species:"Capabara", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Cubzero:{
+        num:1015, // Pokedex Number
+        species:"Cubzero", // Friendly Species name (can use caps and space)
+        types:["Ice"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Avalynx"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Avalynx:{
+        num:1016, // Pokedex Number
+        species:"Avalynx", // Friendly Species name (can use caps and space)
+        types:["Ice"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Fawning:{
+        num:1017, // Pokedex Number
+        species:"Fawning", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Llamarsh"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Llamarsh:{
+        num:1018, // Pokedex Number
+        species:"Llamarsh", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Buckston"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Buckston:{
+        num:1019, // Pokedex Number
+        species:"Buckston", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Pengliff:{
+        num:1020, // Pokedex Number
+        species:"Pengliff", // Friendly Species name (can use caps and space)
+        types:["Ice"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Penglacier"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Penglacier:{
+        num:1021, // Pokedex Number
+        species:"Penglacier", // Friendly Species name (can use caps and space)
+        types:["Ice","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Bluffin:{
+        num:1022, // Pokedex Number
+        species:"Bluffin", // Friendly Species name (can use caps and space)
+        types:["Ice"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Burrmudail"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Burrmudail:{
+        num:1023, // Pokedex Number
+        species:"Burrmudail", // Friendly Species name (can use caps and space)
+        types:["Ice","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Koblin:{
+        num:1024, // Pokedex Number
+        species:"Koblin", // Friendly Species name (can use caps and space)
+        types:["Dark"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Koberus","Kobalt"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Koberus:{
+        num:1025, // Pokedex Number
+        species:"Koberus", // Friendly Species name (can use caps and space)
+        types:["Dark","Fire:], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Kobalt:{
+        num:1026, // Pokedex Number
+        species:"Kobalt", // Friendly Species name (can use caps and space)
+        types:["Dark","Steel"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Pebblosa:{
+        num:1027, // Pokedex Number
+        species:"Pebblosa", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Terratetra"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Terratetra:{
+        num:1028, // Pokedex Number
+        species:"Terratetra", // Friendly Species name (can use caps and space)
+        types:["Normal","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Gigaard"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Gigaard:{
+        num:1029, // Pokedex Number
+        species:"Gigaard", // Friendly Species name (can use caps and space)
+        types:["Normal","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Cowatti:{
+        num:1030, // Pokedex Number
+        species:"Cowatti", // Friendly Species name (can use caps and space)
+        types:["Electric"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Snome:{
+        num:1031, // Pokedex Number
+        species:"Snome", // Friendly Species name (can use caps and space)
+        types:["Ice"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Snogre"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Snogre:{
+        num:1032, // Pokedex Number
+        species:"Snogre", // Friendly Species name (can use caps and space)
+        types:["Ice"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Taomarin:{
+        num:1033, // Pokedex Number
+        species:"Taomarin", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Orangutao"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Orangutao:{
+        num:1034, // Pokedex Number
+        species:"Orangutao", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Larvabidae:{
+        num:1035, // Pokedex Number
+        species:"Larvabidae", // Friendly Species name (can use caps and space)
+        types:["Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Caranox","Carajoule","Caracrust"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Caranox:{
+        num:1036, // Pokedex Number
+        species:"Caranox", // Friendly Species name (can use caps and space)
+        types:["Bug","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Carajoule:{
+        num:1037, // Pokedex Number
+        species:"Carajoule", // Friendly Species name (can use caps and space)
+        types:["Bug","Electric"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Caracrust:{
+        num:1038, // Pokedex Number
+        species:"Caracrust", // Friendly Species name (can use caps and space)
+        types:["Bug","Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Musburry:{
+        num:1039, // Pokedex Number
+        species:"Musburry", // Friendly Species name (can use caps and space)
+        types:["Normal","Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Musbushel"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Musbushel:{
+        num:1040, // Pokedex Number
+        species:"Musbushel", // Friendly Species name (can use caps and space)
+        types:["Normal","Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//#'s to this point are fine
+Berratel:{
+        num:1041, // Pokedex Number
+        species:"Berratel", // Friendly Species name (can use caps and space)
+        types:["Dark"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Growmeo:{
+        num:1042, // Pokedex Number
+        species:"Growmeo", // Friendly Species name (can use caps and space)
+        types:["Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:1,F:0}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Montegrew"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Montegrew:{
+        num:1043, // Pokedex Number
+        species:"Montegrew", // Friendly Species name (can use caps and space)
+        types:["Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:1,F:0}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Tuliep:{
+        num:1044, // Pokedex Number
+        species:"Tuliep", // Friendly Species name (can use caps and space)
+        types:["Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0,F:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Capulilly"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Capulilly:{
+        num:1045, // Pokedex Number
+        species:"Capulilly", // Friendly Species name (can use caps and space)
+        types:["Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0,F:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Dreamdery:{
+        num:1046, // Pokedex Number
+        species:"Dreamdery", // Friendly Species name (can use caps and space)
+        types:["Psychic"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Macabra:{
+        num:1047, // Pokedex Number
+        species:"Macabra", // Friendly Species name (can use caps and space)
+        types:["Dark"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Kertruffle:{
+        num:1048, // Pokedex Number
+        species:"Kertruffle", // Friendly Species name (can use caps and space)
+        types:["Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Mosshroom","Lumishroom","Perishroom"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Mosshroom:{
+        num:1049, // Pokedex Number
+        species:"Mosshroom", // Friendly Species name (can use caps and space)
+        types:["Grass","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Lumishroom:{
+        num:1050, // Pokedex Number
+        species:"Lumishroom", // Friendly Species name (can use caps and space)
+        types:["Poison","Electric"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Perishroom:{
+        num:1051, // Pokedex Number
+        species:"Perishroom", // Friendly Species name (can use caps and space)
+        types:["Poison","Ghost"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Rocano:{
+        num:1052, // Pokedex Number
+        species:"Rocano", // Friendly Species name (can use caps and space)
+        types:["Fire","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Volcaroc"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Volcaroc:{
+        num:1053, // Pokedex Number
+        species:"Volcaroc", // Friendly Species name (can use caps and space)
+        types:["Fire","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Volcoalder"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Volcoalder:{
+        num:1054, // Pokedex Number
+        species:"Volcoalder", // Friendly Species name (can use caps and space)
+        types:["Fire","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//good up to here
+Pounther:{
+        num:1055, // Pokedex Number
+        species:"Pounther", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Jaguile"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Jaguile:{
+        num:1056, // Pokedex Number
+        species:"Jaguile", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Neureka:{
+        num:1057, // Pokedex Number
+        species:"Neureka", // Friendly Species name (can use caps and space)
+        types:["Psychic","Electric"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Cerebrulb"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Cerebrulb:{
+        num:1058, // Pokedex Number
+        species:"Cerebrulb", // Friendly Species name (can use caps and space)
+        types:["Psychic","Electric"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//good up to here
+Peppit:{
+        num:1059, // Pokedex Number
+        species:"Peppit", // Friendly Species name (can use caps and space)
+        types:["Grass","Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Hoppanero"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Hoppanero:{
+        num:1060, // Pokedex Number
+        species:"Hoppanero", // Friendly Species name (can use caps and space)
+        types:["Grass","Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Scovalope"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Scovalope:{
+        num:1061, // Pokedex Number
+        species:"Scovalope", // Friendly Species name (can use caps and space)
+        types:["Grass","Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Pawter:{
+        num:1062, // Pokedex Number
+        species:"Pawter", // Friendly Species name (can use caps and space)
+        types:["Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Huricanine"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Huricanine:{
+        num:1063, // Pokedex Number
+        species:"Juricanine", // Friendly Species name (can use caps and space)
+        types:["Water","Electric"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//good up to here
+Skullarva:{
+        num:1064, // Pokedex Number
+        species:"Skullarva", // Friendly Species name (can use caps and space)
+        types:["Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Maskoon"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Maskoon:{
+        num:1065, // Pokedex Number
+        species:"Maskoon", // Friendly Species name (can use caps and space)
+        types:["Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Mortasque"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Mortasque:{
+        num:1066, // Pokedex Number
+        species:"Mortasque", // Friendly Species name (can use caps and space)
+        types:["Bug","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Vectol:{
+        num:1067, // Pokedex Number
+        species:"Vectol", // Friendly Species name (can use caps and space)
+        types:["Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Vectol.2"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Vectol.2:{
+        num:1068, // Pokedex Number
+        species:"Vectol.2", // Friendly Species name (can use caps and space)
+        types:["Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//good up to here
+Bouwee:{
+        num:1069, // Pokedex Number
+        species:"Bouwee", // Friendly Species name (can use caps and space)
+        types:["Water","Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Scubug"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Scubug:{
+        num:1070, // Pokedex Number
+        species:"Scubug", // Friendly Species name (can use caps and space)
+        types:["Water","Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//confirmed 1070 at this point
+
+Totter:{
+        num:1071, // Pokedex Number
+        species:"Totter", // Friendly Species name (can use caps and space)
+        types:["Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Cascotta"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Cascotta:{
+        num:1072, // Pokedex Number
+        species:"Cascotta", // Friendly Species name (can use caps and space)
+        types:["Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Lutrajet"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Lutrajet:{
+        num:1073, // Pokedex Number
+        species:"Lutrajet", // Friendly Species name (can use caps and space)
+        types:["Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclar"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Alpint:{
+        num:1074, // Pokedex Number
+        species:"Alpint", // Friendly Species name (can use caps and space)
+        types:["Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Forusk"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Forusk:{
+        num:1075, // Pokedex Number
+        species:"Forusk", // Friendly Species name (can use caps and space)
+        types:["Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Platypow:{
+        num:1076, // Pokedex Number
+        species:"Platypow", // Friendly Species name (can use caps and space)
+        types:["Fighting","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Platikhao"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Platikhao:{
+        num:1077, // Pokedex Number
+        species:"Platikhao", // Friendly Species name (can use caps and space)
+        types:["Fighting","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Cuppy:{
+        num:1078, // Pokedex Number
+        species:"Cuppy", // Friendly Species name (can use caps and space)
+        types:["Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Fettlekish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Fettlekish:{
+        num:1079, // Pokedex Number
+        species:"Fettlekish", // Friendly Species name (can use caps and space)
+        types:["Water","Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Shibalbat:{
+        num:1080, // Pokedex Number
+        species:"Shibalbat", // Friendly Species name (can use caps and space)
+        types:["Rock","Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//confirmed 1080
+Nobunata:{
+        num:1081, // Pokedex Number
+        species:"Nobunata", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Psybex:{
+        num:1082, // Pokedex Number
+        species:"Psybex", // Friendly Species name (can use caps and space)
+        types:["Psychic"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Gnuru"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Gnuru:{
+        num:1083, // Pokedex Number
+        species:"Gnuru", // Friendly Species name (can use caps and space)
+        types:["Psychic"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Flowger:{
+        num:1084, // Pokedex Number
+        species:"Flowger", // Friendly Species name (can use caps and space)
+        types:["Water","Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Bullotus"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Bullotus:{
+        num:1085, // Pokedex Number
+        species:"Bullotus", // Friendly Species name (can use caps and space)
+        types:["Water","Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Burrowl:{
+        num:1086, // Pokedex Number
+        species:"Burrowl", // Friendly Species name (can use caps and space)
+        types:["Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Magowl:{
+        num:1087, // Pokedex Number
+        species:"Magowl", // Friendly Species name (can use caps and space)
+        types:["Psychic"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Craliber:{
+        num:1088, // Pokedex Number
+        species:"Craliber", // Friendly Species name (can use caps and space)
+        types:["Water","Steel"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Crawglock"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Crawglock:{
+        num:1089, // Pokedex Number
+        species:"Crawglock", // Friendly Species name (can use caps and space)
+        types:["Water","Steel"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Leafish:{
+        num:1090, // Pokedex Number
+        species:"Leafish", // Friendly Species name (can use caps and space)
+        types:["Water","Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Chlorofin"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Chlorofin:{
+        num:1091, // Pokedex Number
+        species:"Chlorofin", // Friendly Species name (can use caps and space)
+        types:["Water","Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["syclant"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Quibble:{
+        num:1092, // Pokedex Number
+        species:"Quibble", // Friendly Species name (can use caps and space)
+        types:["Normal","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Fowattle"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Fowattle:{
+        num:1093, // Pokedex Number
+        species:"Fowattle", // Friendly Species name (can use caps and space)
+        types:["Ground","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Turkistador"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Turkistador:{
+        num:1094, // Pokedex Number
+        species:"Turkistador", // Friendly Species name (can use caps and space)
+        types:["Ground","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Turkistador"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//confirmed 1094
+Sedirrot:{
+        num:1095, // Pokedex Number
+        species:"Sedirrot", // Friendly Species name (can use caps and space)
+        types:["Rock","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Condesa"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Condesa:{
+        num:1096, // Pokedex Number
+        species:"Condesa", // Friendly Species name (can use caps and space)
+        types:["Rock","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Turkistador"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Cardinite:{
+        num:1097, // Pokedex Number
+        species:"Cardinite", // Friendly Species name (can use caps and space)
+        types:["Fire","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Chardinal"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Chardinal:{
+        num:1098, // Pokedex Number
+        species:"Chardinal", // Friendly Species name (can use caps and space)
+        types:["Fire","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Turkistador"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Skurrow:{
+        num:1099, // Pokedex Number
+        species:"Skurrow", // Friendly Species name (can use caps and space)
+        types:["Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Turkistador"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Somberado:{
+        num:1100, // Pokedex Number
+        species:"Somberado", // Friendly Species name (can use caps and space)
+        types:["Ghost","Dark"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Turkistador"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Phlask:{
+        num:1101, // Pokedex Number
+        species:"Phlask", // Friendly Species name (can use caps and space)
+        types:["Poison","Ghost"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Noxial"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Noxial:{
+        num:1102, // Pokedex Number
+        species:"Noxial", // Friendly Species name (can use caps and space)
+        types:["Poison","Ghost"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Fumighast"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Fumighast:{
+        num:1103, // Pokedex Number
+        species:"Fumighast", // Friendly Species name (can use caps and space)
+        types:["Poison","Ghost"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Fumighast"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Atomite:{
+        num:1104, // Pokedex Number
+        species:"Atomite", // Friendly Species name (can use caps and space)
+        types:["Normal","Electric"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Orbatom"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Orbatom:{
+        num:1105, // Pokedex Number
+        species:"Orbatom", // Friendly Species name (can use caps and space)
+        types:["Normal","Electric"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Fumighast"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Squink:{
+        num:1106, // Pokedex Number
+        species:"Squink", // Friendly Species name (can use caps and space)
+        types:["Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Squidrift"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Squidrift:{
+        num:1107, // Pokedex Number
+        species:"Squidrift", // Friendly Species name (can use caps and space)
+        types:["Poison","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Fumighast"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Boarealis:{
+        num:1108, // Pokedex Number
+        species:"Boarealis", // Friendly Species name (can use caps and space)
+        types:["Dark","Psychic"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Fumighast"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Chelonite:{
+        num:1109, // Pokedex Number
+        species:"Chelonite", // Friendly Species name (can use caps and space)
+        types:["Psychic","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Galaxagos"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Galaxagos:{
+        num:1110, // Pokedex Number
+        species:"Galaxagos", // Friendly Species name (can use caps and space)
+        types:["Psychic","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Fumighast"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Magnitogre:{
+        num:1111, // Pokedex Number
+        species:"Magnitogre", // Friendly Species name (can use caps and space)
+        types:["Steel"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Fumighast"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Minarac:{
+        num:1112, // Pokedex Number
+        species:"Minarac", // Friendly Species name (can use caps and space)
+        types:["Bug","Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Trenchula"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Trenchula:{
+        num:1113, // Pokedex Number
+        species:"Trenchula", // Friendly Species name (can use caps and space)
+        types:["Bug","Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Fumighast"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Pottle:{
+        num:1114, // Pokedex Number
+        species:"Pottle", // Friendly Species name (can use caps and space)
+        types:["Grass","Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Trikotta"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Trikotta:{
+        num:1115, // Pokedex Number
+        species:"Trikotta", // Friendly Species name (can use caps and space)
+        types:["Grass","Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Terrorcotta"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Terrorcotta:{
+        num:1116, // Pokedex Number
+        species:"Terrorcotta", // Friendly Species name (can use caps and space)
+        types:["Grass","Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Trenchula"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Pueblant:{
+        num:1117, // Pokedex Number
+        species:"Pueblant", // Friendly Species name (can use caps and space)
+        types:["Bug","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Cahokisect"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Cahokisect:{
+        num:1118, // Pokedex Number
+        species:"Cahokisect", // Friendly Species name (can use caps and space)
+        types:["Bug","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Trenchula"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Cobrascet:{
+        num:1119, // Pokedex Number
+        species:"Cobrascet", // Friendly Species name (can use caps and space)
+        types:["Poison","Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Charmbra"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Charmbra:{
+        num:1120, // Pokedex Number
+        species:"Charmbra", // Friendly Species name (can use caps and space)
+        types:["Poison","Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Trenchula"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//confirmed 1120
+Cairup:{
+        num:1121, // Pokedex Number
+        species:"Cairup", // Friendly Species name (can use caps and space)
+        types:["Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Kairoglyph"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Kairoglyph:{
+        num:1122, // Pokedex Number
+        species:"Kairoglyph", // Friendly Species name (can use caps and space)
+        types:["Psychic","Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Trenchula"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Necronite:{
+        num:1123, // Pokedex Number
+        species:"Necronite", // Friendly Species name (can use caps and space)
+        types:["Rock","Psychic"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Gravollum"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Gravollum:{
+        num:1124, // Pokedex Number
+        species:"Gravollum", // Friendly Species name (can use caps and space)
+        types:["Rock","Psychic"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Trenchula"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Diloweed:{
+        num:1125, // Pokedex Number
+        species:"Diloweed", // Friendly Species name (can use caps and space)
+        types:["Grass","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Pangolash"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Pangolash:{
+        num:1126, // Pokedex Number
+        species:"Pangolash", // Friendly Species name (can use caps and space)
+        types:["Grass","Steel"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Trenchula"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Ignishell:{
+        num:1127, // Pokedex Number
+        species:"Ignishell", // Friendly Species name (can use caps and space)
+        types:["Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Shelosene"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Shelosene:{
+        num:1128, // Pokedex Number
+        species:"Shelosene", // Friendly Species name (can use caps and space)
+        types:["Fire","Steel"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Flarrapin"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Flarrapin:{
+        num:1129,// Pokedex Number
+        species:"Flarrapin", // Friendly Species name (can use caps and space)
+        types:["Fire","Steel"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Trenchula"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Desoula:{
+        num:1130, // Pokedex Number
+        species:"Desoula", // Friendly Species name (can use caps and space)
+        types:["Ghost","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Necrow"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Necrow:{
+        num:1131, // Pokedex Number
+        species:"Necrow", // Friendly Species name (can use caps and space)
+        types:["Ghost","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Vultergyst"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Vultergyst:{
+        num:1132, // Pokedex Number
+        species:"Vultergyst", // Friendly Species name (can use caps and space)
+        types:["Ghost","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Necrow"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Dinkywink:{
+        num:1133, // Pokedex Number
+        species:"Dinkywink", // Friendly Species name (can use caps and space)
+        types:["Water","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.875,F:0.125}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Dunkywunkr"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Dunkywunkr:{
+        num:1134, // Pokedex Number
+        species:"Dunkywunkr", // Friendly Species name (can use caps and space)
+        types:["Water","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.875,F:0.125}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Necrow"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Calphite:{
+        num:1135, // Pokedex Number
+        species:"Calphite", // Friendly Species name (can use caps and space)
+        types:["Rock","Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.875,F:0.125}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Indrolith"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Indrolith:{
+        num:1136, // Pokedex Number
+        species:"Indrolith", // Friendly Species name (can use caps and space)
+        types:["Rock","Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.875,F:0.125}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Necrow"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//confirmed 1136
+Solacari:{
+        num:1137, // Pokedex Number
+        species:"Solacari", // Friendly Species name (can use caps and space)
+        types:["Normal","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Necrow"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Nurshary:{
+        num:1138, // Pokedex Number
+        species:"Nurshary", // Friendly Species name (can use caps and space)
+        types:["Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0,F:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Necrow"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Loneleaf:{
+        num:1139, // Pokedex Number
+        species:"Loneleaf", // Friendly Species name (can use caps and space)
+        types:["Ghost","Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Forthorn"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Forthorn:{
+        num:1140, // Pokedex Number
+        species:"Forthorn", // Friendly Species name (can use caps and space)
+        types:["Ghost","Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Necrow"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Coltergeist:{
+        num:1141, // Pokedex Number
+        species:"Coltergeist", // Friendly Species name (can use caps and space)
+        types:["Ghost"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Fantasmare"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Forthorn:{
+        num:1142, // Pokedex Number
+        species:"Fantasmare", // Friendly Species name (can use caps and space)
+        types:["Ghost"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Necrow"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Chihaha:{
+        num:1143, // Pokedex Number
+        species:"Forthorn", // Friendly Species name (can use caps and space)
+        types:["Normal","Dark"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Howlequin"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Howlequin:{
+        num:1144, // Pokedex Number
+        species:"Howlequin", // Friendly Species name (can use caps and space)
+        types:["Normal","Dark"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Necrow"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Chegrin:{
+        num:1145, // Pokedex Number
+        species:"Cheshade", // Friendly Species name (can use caps and space)
+        types:["Dark","Psychic"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Cheshade"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Cheshade:{
+        num:1146, // Pokedex Number
+        species:"Cheshade", // Friendly Species name (can use caps and space)
+        types:["Dark","Psychic"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Necrow"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Doppole:{
+        num:1147, // Pokedex Number
+        species:"Doppole", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Artifish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Artifish:{
+        num:1148, // Pokedex Number
+        species:"Artifish", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Necrow"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//confirm 1148
+Thoraxe:{
+        num:1149, // Pokedex Number
+        species:"Thoraxe", // Friendly Species name (can use caps and space)
+        types:["Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Necrow"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Pomparunt:{
+        num:1150, // Pokedex Number
+        species:"Pomparunt", // Friendly Species name (can use caps and space)
+        types:["Dark"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Pompagoon"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Pompagoon:{
+        num:1151, // Pokedex Number
+        species:"Pompagoon", // Friendly Species name (can use caps and space)
+        types:["Dark","Fighting"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Artifish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Hyekuza:{
+        num:1152, // Pokedex Number
+        species:"Hyekuza", // Friendly Species name (can use caps and space)
+        types:["Dark","Fighting"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Hyekuza"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Erycoon:{
+        num:1153, // Pokedex Number
+        species:"Erycoon", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Artifish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Leukoon:{
+        num:1154, // Pokedex Number
+        species:"Leukoon", // Friendly Species name (can use caps and space)
+        types:["Normal","Ghost"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Artifish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//confirm 1154
+Toxito:{
+        num:1155, // Pokedex Number
+        species:"Toxito", // Friendly Species name (can use caps and space)
+        types:["Bug","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Sanguito"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Sanguito:{
+        num:1156, // Pokedex Number
+        species:"Sanguito", // Friendly Species name (can use caps and space)
+        types:["Bug","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Artifish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Orett:{
+        num:1157, // Pokedex Number
+        species:"Orett", // Friendly Species name (can use caps and space)
+        types:["Steel"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Anvelid"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Anvelid:{
+        num:1158, // Pokedex Number
+        species:"Anvelid", // Friendly Species name (can use caps and space)
+        types:["Steel"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Magroplex"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Magroplex:{
+        num:1159, // Pokedex Number
+        species:"Magroplex", // Friendly Species name (can use caps and space)
+        types:["Steel"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Artifish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Viipii:{
+        num:1160, // Pokedex Number
+        species:"Viipii", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Artifish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Chilloth:{
+        num:1161, // Pokedex Number
+        species:"Chilloth", // Friendly Species name (can use caps and space)
+        types:["Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Soakoth"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Soakoth:{
+        num:1162, // Pokedex Number
+        species:"Soakoth", // Friendly Species name (can use caps and space)
+        types:["Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Artifish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Chayan:{
+        num:1163, // Pokedex Number
+        species:"Chayan", // Friendly Species name (can use caps and space)
+        types:["Fighting"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Macuarrior","Ocerumi"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Macuarrior:{
+        num:1164, // Pokedex Number
+        species:"Macuarrior", // Friendly Species name (can use caps and space)
+        types:["Fighting"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:1,F:0}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Artifish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Ocerumi:{
+        num:1165, // Pokedex Number
+        species:"Ocerumi", // Friendly Species name (can use caps and space)
+        types:["Fighting"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0,F:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Artifish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Fortifry:{
+        num:1166, // Pokedex Number
+        species:"Fortifry", // Friendly Species name (can use caps and space)
+        types:["Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Oarwish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Oarwish:{
+        num:1167, // Pokedex Number
+        species:"Oarwish", // Friendly Species name (can use caps and space)
+        types:["Water","Psychic"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Artifish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//confirmed 1167
+Smashiary:{
+        num:1168, // Pokedex Number
+        species:"Smashiary", // Friendly Species name (can use caps and space)
+        types:["Fighting","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Artifish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Slatic:{
+        num:1169, // Pokedex Number
+        species:"Slatic", // Friendly Species name (can use caps and space)
+        types:["Electric"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Telsion"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Telsion:{
+        num:1170, // Pokedex Number
+        species:"Telsion", // Friendly Species name (can use caps and space)
+        types:["Electric"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Chameleohm"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Chameleohm:{
+        num:1171, // Pokedex Number
+        species:"Chameleohm", // Friendly Species name (can use caps and space)
+        types:["Electric"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Artifish"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//confirmed 1171
+Glaupua:{
+        num:1172, // Pokedex Number
+        species:"Glaupua", // Friendly Species name (can use caps and space)
+        types:["Water","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Hydranticus"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Hydranticus:{
+        num:1173, // Pokedex Number
+        species:"Hydranticus", // Friendly Species name (can use caps and space)
+        types:["Water","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Chameleohm"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Lintle:{
+        num:1174, // Pokedex Number
+        species:"Silkinder", // Friendly Species name (can use caps and space)
+        types:["Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Silkinder"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Silkinder:{
+        num:1175, // Pokedex Number
+        species:"Silkinder", // Friendly Species name (can use caps and space)
+        types:["Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Paramoth"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Paramoth:{
+        num:1176, // Pokedex Number
+        species:"Paramoth", // Friendly Species name (can use caps and space)
+        types:["Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Chameleohm"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Parapy:{
+        num:1177, // Pokedex Number
+        species:"Parapy", // Friendly Species name (can use caps and space)
+        types:["Bug","Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Mawasite"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Mawasite:{
+        num:1178, // Pokedex Number
+        species:"Mawasite", // Friendly Species name (can use caps and space)
+        types:["Bug","Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Chameleohm"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Chimpoca:{
+        num:1179, // Pokedex Number
+        species:"Chimpoca", // Friendly Species name (can use caps and space)
+        types:["Fighting"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Simayan"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Simayan:{
+        num:1180, // Pokedex Number
+        species:"Simayan", // Friendly Species name (can use caps and space)
+        types:["Fighting"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Monkezuma"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Monkezuma:{
+        num:1181, // Pokedex Number
+        species:"Monkezuma", // Friendly Species name (can use caps and space)
+        types:["Fighting"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Chameleohm"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Enigmite:{
+        num:1182, // Pokedex Number
+        species:"Enigmite", // Friendly Species name (can use caps and space)
+        types:["Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Enigmantis"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Arjibi:{
+        num:1184, // Pokedex Number
+        species:"Royjibiv", // Friendly Species name (can use caps and space)
+        types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Royjibiv"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Royjibiv:{
+        num:1185, // Pokedex Number
+        species:"Royjibiv", // Friendly Species name (can use caps and space)
+        types:["Normal","Dragon"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Monkezuma"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Barracute:{
+        num:1186, // Pokedex Number
+        species:"Barracute", // Friendly Species name (can use caps and space)
+        types:["Bug","Psychic"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Jawgodon"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Jawgodon:{
+        num:1187, // Pokedex Number
+        species:"Jawgodon", // Friendly Species name (can use caps and space)
+        types:["Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Monkezuma"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Drosire:{
+        num:1188, // Pokedex Number
+        species:"Drosire", // Friendly Species name (can use caps and space)
+        types:["Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Sunduke"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Sunduke:{
+        num:1189, // Pokedex Number
+        species:"Sunduke", // Friendly Species name (can use caps and space)
+        types:["Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Monkezuma"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Wispern:{
+        num:1190, // Pokedex Number
+        species:"Wispern", // Friendly Species name (can use caps and space)
+        types:["Ghost","Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Phantern"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Phantern:{
+        num:1191, // Pokedex Number
+        species:"Phanter", // Friendly Species name (can use caps and space)
+        types:["Ghost","Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Monkezuma"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+//confirmed 1191
+Glocto:{
+        num:1192, // Pokedex Number
+        species:"Wispern", // Friendly Species name (can use caps and space)
+        types:["Water","Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Lavoon"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Lavoon:{
+        num:1193, // Pokedex Number
+        species:"Lavoon", // Friendly Species name (can use caps and space)
+        types:["Water","Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Phantern"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+
+Gilla:{
+        num:1194, // Pokedex Number
+        species:"Wispern", // Friendly Species name (can use caps and space)
+        types:["Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Hornizard"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Hornizard:{
+        num:1195, // Pokedex Number
+        species:"Hornizard", // Friendly Species name (can use caps and space)
+        types:["Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Ankillosore"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Ankillosore:{
+        num:1196, // Pokedex Number
+        species:"Ankillosore", // Friendly Species name (can use caps and space)
+        types:["Poison","Ground"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Phantern"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Bazilisk:{
+        num:1197, // Pokedex Number
+        species:"Bazilisk", // Friendly Species name (can use caps and space)
+        types:["Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Ornitherb"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Ornitherb:{
+        num:1198, // Pokedex Number
+        species:"Ornitherb", // Friendly Species name (can use caps and space)
+        types:["Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Dilophlora"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Dilophlora:{
+        num:1199, // Pokedex Number
+        species:"Dilophlora", // Friendly Species name (can use caps and space)
+        types:["Grass","Dark"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Phantern"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Baboom:{
+        num:1200, // Pokedex Number
+        species:"Baboom", // Friendly Species name (can use caps and space)
+        types:["Electric","Dark"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Phantern"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Icetope:{
+        num:1201, // Pokedex Number
+        species:"Icetope", // Friendly Species name (can use caps and space)
+        types:["Ice","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Chillnobyl"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Chillnobyl:{
+        num:1202, // Pokedex Number
+        species:"Chillnobyl", // Friendly Species name (can use caps and space)
+        types:["Ice","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Chillnobyl"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Wendingo:{
+        num:1203, // Pokedex Number
+        species:"Wendingo", // Friendly Species name (can use caps and space)
+        types:["Ice"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Carnibal"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Carnibal:{
+        num:1204, // Pokedex Number
+        species:"Carnibal", // Friendly Species name (can use caps and space)
+        types:["Ice","Dark"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Chillnobyl"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Luchito:{
+        num:1205, // Pokedex Number
+        species:"Luchito", // Friendly Species name (can use caps and space)
+        types:["Fighting","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Eluchadon"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Eluchadon:{
+        num:1206, // Pokedex Number
+        species:"Eluchadon", // Friendly Species name (can use caps and space)
+        types:["Fighting","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Chillnobyl"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Grolem:{
+        num:1207, // Pokedex Number
+        species:"Grolem", // Friendly Species name (can use caps and space)
+        types:["Rock","Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Comossus"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Comossus:{
+        num:1208, // Pokedex Number
+        species:"Comossus", // Friendly Species name (can use caps and space)
+        types:["Rock","Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Chillnobyl"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Larvyn:{
+        num:1209, // Pokedex Number
+        species:"Larvyn", // Friendly Species name (can use caps and space)
+        types:["Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Dracoon"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Dracoon:{
+        num:1210, // Pokedex Number
+        species:"Dracoon", // Friendly Species name (can use caps and space)
+        types:["Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Basilect"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Basilect:{
+        num:1211, // Pokedex Number
+        species:"Basilect", // Friendly Species name (can use caps and space)
+        types:["Dragon","Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Chillnobyl"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Carbite:{
+        num:1212, // Pokedex Number
+        species:"Carbite", // Friendly Species name (can use caps and space)
+        types:["Dragon"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Pressaur"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Pressaur:{
+        num:1213, // Pokedex Number
+        species:"Pressaur", // Friendly Species name (can use caps and space)
+        types:["Rock","Dragon"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Diamat"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Diamat:{
+        num:1214, // Pokedex Number
+        species:"Diamat", // Friendly Species name (can use caps and space)
+        types:["Dragon","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Chillnobyl"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Quecko:{
+        num:1215, // Pokedex Number
+        species:"Quecko", // Friendly Species name (can use caps and space)
+        types:["Grass"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Tozecko"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Tozecko:{
+        num:1216, // Pokedex Number
+        species:"Tozecko", // Friendly Species name (can use caps and space)
+        types:["Grass","Dragon"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Diamat"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Crakling:{
+        num:1217, // Pokedex Number
+        species:"Crakling", // Friendly Species name (can use caps and space)
+        types:["Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Fuelong"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Fuelong:{
+        num:1218, // Pokedex Number
+        species:"Fuelong", // Friendly Species name (can use caps and space)
+        types:["Water","Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Diamat"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Draggar:{
+        num:1219, // Pokedex Number
+        species:"Draggar", // Friendly Species name (can use caps and space)
+        types:["Water"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        evos:["Ragnarow"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Ragnarow:{
+        num:1220, // Pokedex Number
+        species:"Ragnarow", // Friendly Species name (can use caps and space)
+        types:["Water","Dragon"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Diamat"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Eronze:{
+        num:1221, // Pokedex Number
+        species:"Eronze", // Friendly Species name (can use caps and space)
+        types:["Steel","Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Legendary"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Erion:{
+        num:1222, // Pokedex Number
+        species:"Erion", // Friendly Species name (can use caps and space)
+        types:["Steel","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Legendary"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Erace:{
+        num:1223, // Pokedex Number
+        species:"Erace", // Friendly Species name (can use caps and space)
+        types:["Steel","Electric"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Legendary"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Patama:{
+        num:1224, // Pokedex Number
+        species:"Patama", // Friendly Species name (can use caps and space)
+        types:["Grass","Ghost"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{F:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Legendary"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Machima:{
+        num:1225, // Pokedex Number
+        species:"Machima", // Friendly Species name (can use caps and space)
+        types:["Flying","Ghost"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{F:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Legendary"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Yacuma:{
+        num:1226, // Pokedex Number
+        species:"Yacuma", // Friendly Species name (can use caps and space)
+        types:["Water","Ghost"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{F:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Legendary"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Quetzar:{
+        num:1227, // Pokedex Number
+        species:"Quetzar", // Friendly Species name (can use caps and space)
+        types:["Dragon","Rock"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Legendary"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+	otherFormes:["quetzarspace"]
+},
+quetzarspace:{
+                num:1227,
+                species:"quetzarspace",
+                baseSpecies:"Quetzar",
+                forme:"Space",
+                formeLetter:"S",
+                types:["Psychic","Dragon"],
+                baseStats:{hp:78,atk:130,def:111,spa:130,spd:85,spe:100},
+                abilities:{0:"Tough Claws"},
+                heightm:1.7,
+                weightkg:110.5,
+                color:"Red",
+                eggGroups:["Monster","Dragon"]
+        },
+Xochi:{
+        num:1228, // Pokedex Number
+        species:"Xochi", // Friendly Species name (can use caps and space)
+        types:["Psychic","Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{F:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Legendary"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+},
+Xotec:{
+        num:1229, // Pokedex Number
+        species:"Xotec", // Friendly Species name (can use caps and space)
+        types:["Psychic","Steel""], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
+        heightm:0.2,
+        weightkg:4.0,
+        color:"", // if this has no color, make it a empty string
+        //evos:["Legendary"], // don't bother defining this if it does not evolve
+        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+}
+
+//Todo: add "prevo", add "otherformes" to Noxial?, add evolevel, possibly clean up gender Neutral?
+//evo is fine commented out
+//see http://pastebin.com/dj1FrW7f for info on this
+
 };
