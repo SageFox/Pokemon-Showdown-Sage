@@ -974,7 +974,7 @@ Aquilor:{
 Warquila:{
         num:1012, // Pokedex Number
         species:"Warquila", // Friendly Species name (can use caps and space)
-        types:[""Normal","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        types:["Normal","Flying"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
         genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
         baseStats:{hp:80,atk:105,def:80,spa:60,spd:70,spe:100},
         abilities:{0:"Keen Eye",1:"Moxie"}, // {index:"string"}
