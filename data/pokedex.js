@@ -1137,7 +1137,7 @@ Koblin:{
 Koberus:{
         num:1025, // Pokedex Number
         species:"Koberus", // Friendly Species name (can use caps and space)
-        types:["Dark","Fire:], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        types:["Dark","Fire":], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
         genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
         baseStats:{hp:80,atk:115,def:50,spa:55,spd:60,spe:100},
         abilities:{0:"Hustle",1:"Guts"}, // {index:"string"}
