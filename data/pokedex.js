@@ -3756,18 +3756,18 @@ Quetzar:{
 	otherFormes:["quetzarspace"]
 },
 quetzarspace:{
-                num:1227,
-                species:"quetzarspace",
-                baseSpecies:"Quetzar",
-                forme:"Space",
-                formeLetter:"S",
-                types:["Psychic","Dragon"],
-                baseStats:{hp:78,atk:130,def:111,spa:130,spd:85,spe:100},
-                abilities:{0:"Tough Claws"},
-                heightm:1.7,
-                weightkg:110.5,
-                color:"Red",
-                eggGroups:["Monster","Dragon"]
+        num:1227,
+        species:"quetzarspace",
+        baseSpecies:"Quetzar",
+        forme:"Space",
+        formeLetter:"S",
+        types:["Psychic","Dragon"],
+        baseStats:{hp:78,atk:130,def:111,spa:130,spd:85,spe:100},
+        abilities:{0:"Tough Claws"},
+        heightm:1.7,
+        weightkg:110.5,
+        color:"Red",
+        eggGroups:["Monster","Dragon"]
         },
 Xochi:{
         num:1228, // Pokedex Number
