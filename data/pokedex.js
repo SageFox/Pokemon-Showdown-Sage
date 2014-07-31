@@ -935,7 +935,7 @@ Aguade:{
         weightkg:9.5,
         color:"",
         evos:["Iguadium"],
-        eggGroups:["Water1","Monster"]
+        eggGroups:["Water 1","Monster"]
 },
 Iguadium:{
         num:1008,
@@ -948,7 +948,7 @@ Iguadium:{
         weightkg:29.0,
         color:"Blue",
         evos:["Aguanaut"],
-        eggGroups:["Water1","Monster"]
+        eggGroups:["Water 1","Monster"]
 },
 Aguanaut:{
         num:1009,
@@ -960,7 +960,7 @@ Aguanaut:{
         heightm:1.8,
         weightkg:101.2,
         color:"Blue",
-        eggGroups:["Water1","Monster"]
+        eggGroups:["Water 1","Monster"]
 },
 Harpee:{
         num:1010,
@@ -1621,7 +1621,7 @@ Pawter:{
         weightkg:9.1,
         color:"Blue",
         evos:["Huricanine"],
-        eggGroups:["Field","Water1"]
+        eggGroups:["Field","Water 1"]
 },
 Huricanine:{
         num:1063,
@@ -1633,7 +1633,7 @@ Huricanine:{
         heightm:1.1,
         weightkg:49.9,
         color:"Blue",
-        eggGroups:["Field","Water1"]
+        eggGroups:["Field","Water 1"]
 },
 Skullarva:{
         num:1064,
@@ -1709,7 +1709,7 @@ Bouwee:{
         weightkg:4.0,
         color:"Light Blue",
         evos:["Scubug"],
-        eggGroups:["Bug","Water3"]
+        eggGroups:["Bug","Water 3"]
 },
 Scubug:{
         num:1070,
@@ -1721,7 +1721,7 @@ Scubug:{
         heightm:0.9,
         weightkg:4.0,
         color:"Light Blue",
-        eggGroups:["Bug","Water3"]
+        eggGroups:["Bug","Water 3"]
 },
 Totter:{
         num:1071,
@@ -1734,7 +1734,7 @@ Totter:{
         weightkg:24.0,
         color:"Blue",
         evos:["Cascotta"],
-        eggGroups:["Water1"]
+        eggGroups:["Water 1"]
 },
 Cascotta:{
         num:1072,
@@ -1747,7 +1747,7 @@ Cascotta:{
         weightkg:41.0,
         color:"Blue",
         evos:["Lutrajet"],
-        eggGroups:["Water1"]
+        eggGroups:["Water 1"]
 },
 Lutrajet:{
         num:1073,
@@ -1759,7 +1759,7 @@ Lutrajet:{
         heightm:1.8,
         weightkg:118.0,
         color:"Blue",
-        eggGroups:["Water1"]
+        eggGroups:["Water 1"]
 },
 Alpint:{
         num:1074,
@@ -1797,7 +1797,7 @@ Platypow:{
         weightkg:54.5,
         color:"",
         evos:["Platikhao"],
-        eggGroups:["Field","Water1"]
+        eggGroups:["Field","Water 1"]
 },
 Platikhao:{
         num:1077,
@@ -1809,7 +1809,7 @@ Platikhao:{
         heightm:1.3,
         weightkg:98.3,
         color:"Brown",
-        eggGroups:["Field","Water1"]
+        eggGroups:["Field","Water 1"]
 },
 Cuppy:{
         num:1078,
@@ -1822,7 +1822,7 @@ Cuppy:{
         weightkg:0.6,
         color:"Light Blue",
         evos:["Fettlekish"],
-        eggGroups:["Water2"]
+        eggGroups:["Water 2"]
 },
 Fettlekish:{
         num:1079,
@@ -1834,7 +1834,7 @@ Fettlekish:{
         heightm:0.7,
         weightkg:49.9,
         color:"Light Blue",
-        eggGroups:["Water2"]
+        eggGroups:["Water 2"]
 },
 Shibalbat:{
         num:1080,
@@ -1896,7 +1896,7 @@ Flowger:{
         weightkg:5.9,
         color:"Green",
         evos:["Bullotus"],
-        eggGroups:["Water1","Grass"]
+        eggGroups:["Water 1","Grass"]
 },
 Bullotus:{
         num:1085,
@@ -1908,7 +1908,7 @@ Bullotus:{
         heightm:1.2,
         weightkg:30.4,
         color:"Green",
-        eggGroups:["Water1","Grass"]
+        eggGroups:["Water 1","Grass"]
 },
 Burrowl:{
         num:1086,
@@ -1945,7 +1945,7 @@ Craliber:{
         weightkg:4.0,
         color:"Gray",
         evos:["Crawglock"],
-        eggGroups:["Mineral","Water3"]
+        eggGroups:["Mineral","Water 3"]
 },
 Crawglock:{
         num:1089,
@@ -1957,7 +1957,7 @@ Crawglock:{
         heightm:0.9,
         weightkg:4.0,
         color:"Orange",
-        eggGroups:["Mineral","Water3"]
+        eggGroups:["Mineral","Water 3"]
 },
 Leafish:{
         num:1090,
@@ -1970,7 +1970,7 @@ Leafish:{
         weightkg:4.0,
         color:"Green",
         evos:["Chlorofin"],
-        eggGroups:["Water2","Grass"]
+        eggGroups:["Water 2","Grass"]
 },
 Chlorofin:{
         num:1091,
@@ -1982,7 +1982,7 @@ Chlorofin:{
         heightm:1.6,
         weightkg:4.0,
         color:"Green",
-        eggGroups:["Water2","Grass"]
+        eggGroups:["Water 2","Grass"]
 },
 Quibble:{
         num:1092,
