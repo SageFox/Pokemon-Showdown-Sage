@@ -827,6 +827,9 @@ krilowatt:{num:-60,species:"Krilowatt",types:["Electric","Water"],baseStats:{hp:
 voodoom:{num:-61,species:"Voodoom",types:["Fighting","Dark"],baseStats:{hp:90,atk:85,def:80,spa:105,spd:80,spe:110},abilities:{0:"Volt Absorb",1:"Lightningrod"},heightm:2,weightkg:75.5,color:"Brown",eggGroups:["Human-Like","Ground"]},
 
 /*
+Todo: add "prevo", add "otherformes" to Noxial?, add evolevel, possibly clean up gender Neutral?
+___Example file____
+http://pastebin.com/dj1FrW7f
 ___Sidenote___
 186/229 are 1:1 mf, 13/229 are 7:1 mf, 30 unknown, 4/229 7:1 mf left
 ___001-051___
@@ -1683,7 +1686,7 @@ Vectol:{
         evos:["Vectol.2"], // don't bother defining this if it does not evolve
         eggGroups:["Bug","Mineral"] // another list ["group"] or ["groupa","groupb"]
 },
-Vectol.2:{
+Vectol2:{
         num:1068, // Pokedex Number
         species:"Vectol.2", // Friendly Species name (can use caps and space)
         types:["Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
@@ -3729,8 +3732,4 @@ Xotec:{
         color:"Gold", // if this has no color, make it a empty string
         eggGroups:["Undiscovered"] // another list ["group"] or ["groupa","groupb"]
 }
-
-//Todo: add "prevo", add "otherformes" to Noxial?, add evolevel, possibly clean up gender Neutral?
-//evo is fine commented out
-//see http://pastebin.com/dj1FrW7f for info on this
 };
