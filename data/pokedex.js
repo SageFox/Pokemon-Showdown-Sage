@@ -3785,7 +3785,7 @@ Xochi:{
 Xotec:{
         num:1229, // Pokedex Number
         species:"Xotec", // Friendly Species name (can use caps and space)
-        types:["Psychic","Steel""], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
+        types:["Psychic","Steel"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
         genderRatio:{N:1}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
         baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
         abilities:{0:"Compound Eyes",1:"Snow Cloak"}, // {index:"string"}
