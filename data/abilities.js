@@ -3258,8 +3258,37 @@ exports.BattleAbilities = {
 		rating: 4,
 		num: -4
 	}
+	
+	
+	
+	
+	
+	
+	
 	//SAGE
 	"adrenaline": {
+		desc: "At low health, the bearer's speed is raised.",
+		shortDesc: "Raises speed at critical health.",
+		id: "adrenaline",
+		isNonstandard: true,
+		onCriticalHit: function (target) {
+			if (!target.volatiles['substitute']) {
+				target.setBoost({atk: 6});
+				//this.add('-setboost', target, 'atk', 12, '[from] ability: Anger Point');
+				//what does this commented line do
+			}
+		},
+		onModifySpdPriority: 5,
+		onModifySpd: function (spd, attacker, defender, move) {
+			if (attacker.hp <= attacker.maxhp / 3) {
+				this.boost({spd: 2});
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Adrenaline",
+		// implemented in the corresponding move
+		rating: 4, //don't give a shit about ratings
+		num: 200
 		
 	}
 	"allure": {
