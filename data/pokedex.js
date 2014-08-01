@@ -844,6 +844,7 @@ don't have missing weights: Atomite line, Magnitogre, Cobrascet line, Necronite 
 seriously, 101-149 is mostly devoid of weights
 what to do with Noxial's color?
 ___150-200___
+missing weights: Pomparunt,
 
 ___201-229___
 missing weights: Icetope line, Larvyn line except Basilect, Spirits
@@ -1002,7 +1003,7 @@ Warquila:{
 },
 Capig:{
         num:1013,
-        species:"Foliat",
+        species:"Capig",
         types:["Normal"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:47,atk:40,def:38,spa:33,spd:32,spe:55},
@@ -2648,7 +2649,7 @@ Howlequin:{
 },
 Chegrin:{
         num:1145,
-        species:"Cheshade",
+        species:"Chegrin",
         types:["Dark","Psychic"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:45,atk:60,def:40,spa:80,spd:50,spe:50},
@@ -2713,13 +2714,13 @@ Pomparunt:{
         species:"Pomparunt",
         types:["Dark"],
         genderRatio:{M:0.5,F:0.5},
-        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
-        abilities:{0:"Compound Eyes",1:"Snow Cloak"},
-        heightm:0.2,
+        baseStats:{hp:28,atk:74,def:32,spa:25,spd:30,spe:51},
+        abilities:{0:"Pickpocket",1:"Rivalry"},
+        heightm:0.4,
         weightkg:4.0,
         color:"",
         evos:["Pompagoon"],
-        eggGroups:["Bug"]
+        eggGroups:["Field", "Human-Like"]
 },
 Pompagoon:{
         num:1151,
@@ -2727,12 +2728,12 @@ Pompagoon:{
         types:["Dark","Fighting"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
-        abilities:{0:"Compound Eyes",1:"Snow Cloak"},
-        heightm:0.2,
-        weightkg:4.0,
+        abilities:{0:"Pickpocket",1:"Rivalry"},
+        heightm:0.9,
+        weightkg:25.4,
         color:"",
-        evos:["Artifish"],
-        eggGroups:["Bug"]
+        evos:["Hyekuza"],
+        eggGroups:["Field", "Human-Like"]
 },
 Hyekuza:{
         num:1152,
@@ -2757,7 +2758,6 @@ Erycoon:{
         heightm:0.2,
         weightkg:4.0,
         color:"",
-
         eggGroups:["Bug"]
 },
 Leukoon:{
@@ -2770,7 +2770,6 @@ Leukoon:{
         heightm:0.2,
         weightkg:4.0,
         color:"",
-
         eggGroups:["Bug"]
 },
 Toxito:{
@@ -2900,7 +2899,6 @@ Macuarrior:{
         heightm:0.2,
         weightkg:4.0,
         color:"",
-
         eggGroups:["Bug"]
 },
 Ocerumi:{
@@ -2913,7 +2911,6 @@ Ocerumi:{
         heightm:0.2,
         weightkg:4.0,
         color:"",
-
         eggGroups:["Bug"]
 },
 Fortifry:{
@@ -3021,7 +3018,7 @@ Hydranticus:{
 },
 Lintle:{
         num:1174,
-        species:"Silkinder",
+        species:"Lintle",
         types:["Bug"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
@@ -3133,9 +3130,21 @@ Enigmite:{
         evos:["Enigmantis"],
         eggGroups:["Bug"]
 },
+Enigmantis:{
+        num:1182,
+        species:"Enigmite",
+        types:["Bug", "Psychic"],
+        genderRatio:{M:0.5,F:0.5},
+        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        abilities:{0:"Compound Eyes",1:"Snow Cloak"},
+        heightm:0.2,
+        weightkg:4.0,
+        color:"Pink"
+        eggGroups:["Bug"]
+},
 Arjibi:{
         num:1184,
-        species:"Royjibiv",
+        species:"Arjibi",
         types:["Normal"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
@@ -3223,7 +3232,7 @@ Wispern:{
 },
 Phantern:{
         num:1191,
-        species:"Phanter",
+        species:"Phantern",
         types:["Ghost","Fire"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
@@ -3235,7 +3244,7 @@ Phantern:{
 },
 Glocto:{
         num:1192,
-        species:"Wispern",
+        species:"Glocto",
         types:["Water","Fire"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
@@ -3260,7 +3269,7 @@ Lavoon:{
 },
 Gilla:{
         num:1194,
-        species:"Wispern",
+        species:"Gilla",
         types:["Poison"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
@@ -3399,7 +3408,7 @@ Carnibal:{
 Luchito:{
         num:1205,
         species:"Luchito",
-        types:["Fighting","Poison"],
+        types:["Fighting","Electric"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
         abilities:{0:"No Guard",1:"Stubborn"},
@@ -3412,7 +3421,7 @@ Luchito:{
 Eluchadon:{
         num:1206,
         species:"Eluchadon",
-        types:["Fighting","Poison"],
+        types:["Fighting","Electric"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:80,atk:120,def:64,spa:75,spd:59,spe:96},
         abilities:{0:"No Guard",1:"Stubborn"},
