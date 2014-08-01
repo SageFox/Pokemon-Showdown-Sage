@@ -3266,7 +3266,7 @@ exports.BattleAbilities = {
 	
 	
 	//SAGE
-	"adrenaline": {
+	"adrenaline": { //pulled from Defiant + Overgrow
 		desc: "At low health, the bearer's speed is raised.",
 		shortDesc: "Raises speed at critical health.",
 		id: "adrenaline",
@@ -3286,7 +3286,26 @@ exports.BattleAbilities = {
 		num: 200
 		
 	}
-	"allure": {
+	"allure": { //pulled from rivalry and wonder skin whatever that is
+		desc: "The chance of encountering opposite gendered pokemon is increased, and their evasion is lowered.",
+		shortDesc: "Lowers evasion of opposite gendered pokemon on entry.",
+		id: "allure",
+		isNonstandard: true,
+		onAccuracy: function (accuracy, source, target move) { // does switching source and target do this
+			if (move.category === 'Status' && typeof move.accuracy === 'number') {
+				this.debug('Allure - lowering evasion by 20');
+				if (accuracy >=80) {
+					return 100; 
+				}
+				else {
+				return accuracy + 20;
+				} // please help i am not good with computer
+			}
+		},
+		name: "Allure",
+		// implemented in the corresponding move
+		rating: 4, //don't give a shit about ratings
+		num: 201
 		
 	}
 	"brave heart": {
