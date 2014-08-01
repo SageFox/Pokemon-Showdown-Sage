@@ -3619,8 +3619,8 @@ exports.BattleAbilities = {
 		onStart: function (source) {
 			this.setpseudoWeather('gravity'); //i am not good with computer does this work
 		},
-		id: "orbital tide",
-		name: "Pressure",
+		id: "orbitaltide",
+		name: "Orbital Tide",
 		rating: 1.5,
 		num: 224
 	}
@@ -3638,11 +3638,15 @@ exports.BattleAbilities = {
 		onModifyPriority: function (priority, pokemon, source, move) {
 			return 0;
 		}, //maybe this does it for the target too?
+		id: "orbital tide",
+		name: "Pressure",
+		rating: 1.5,
+		num: 227
 	}
-	"siphon": {
-		
+	"siphon": { //liquid ooze for info?
+			
 	}
-	"spectrum": {
+	"spectrum": { //borrow code from color change / protean and add in a detect color function?
 		
 	}
 	//SAGE LEGENDARIES
