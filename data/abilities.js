@@ -3258,4 +3258,110 @@ exports.BattleAbilities = {
 		rating: 4,
 		num: -4
 	}
+	//SAGE
+	"adrenaline": {
+		
+	}
+	"allure": {
+		
+	}
+	"brave heart": {
+		
+	}
+	"conditioning": {
+		
+	}
+	"content": {
+		
+	}
+	"conundrum": {
+		
+	}
+	"discretion": {
+		
+	}
+	"eccentric": {
+		
+	}
+	"feedback": {
+		
+	}
+	"full force": {
+		
+	}
+	"ice slick": {
+		
+	}
+	"iron jaw": {
+		
+	}
+	"malice": {
+		
+	}
+	"perforate": {
+		
+	}
+	"permafrost": {
+		
+	}
+	"psych out": {
+		
+	}
+	"stubborn": {
+		
+	}
+	"sunbathe": {
+		
+	}
+	"team player": {
+		
+	}
+	"expert": {
+		
+	}
+	"novice": {
+		
+	}
+	//SAGE signature
+	"eventide": {
+		
+	}
+	"feisty": {
+		
+	}
+	"forage": {
+		
+	}
+	"mooch": {
+		
+	}
+	"orbital tide": {
+		
+	}
+	"overshadow": {
+		
+	}
+	"pollution": {
+		
+	}
+	"quickdraw": {
+		
+	}
+	"siphon": {
+		
+	}
+	"spectrum": {
+		
+	}
+	//SAGE LEGENDARIES
+	//to be determined
+	
+	
+	
+	
+	
+	
+	
+	
+	
 };
