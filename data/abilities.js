@@ -3271,18 +3271,13 @@ exports.BattleAbilities = {
 		shortDesc: "Raises speed at critical health.",
 		id: "adrenaline",
 		isNonstandard: true,
-		onCriticalHit: function (target) {
-			if (!target.volatiles['substitute']) {
-				target.setBoost({atk: 6});
-				//this.add('-setboost', target, 'atk', 12, '[from] ability: Anger Point');
-				//what does this commented line do
-			}
-		},
 		onModifySpdPriority: 5,
 		onModifySpd: function (spd, attacker, defender, move) {
 			if (attacker.hp <= attacker.maxhp / 3) {
 				this.boost({spd: 2});
-				return this.chainModify(1.5);
+				//return this.chainModify(1.5);
+				//this.add('-setboost', target, 'atk', 12, '[from] ability: Anger Point');
+				//what do these commented lines do
 			}
 		},
 		name: "Adrenaline",
