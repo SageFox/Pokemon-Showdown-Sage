@@ -3260,11 +3260,11 @@ exports.BattleAbilities = {
 	}
 	
 	
-	
-	
-	
-	
-	
+
+
+
+
+
 	//SAGE
 	"adrenaline": { //pulled from Defiant + Overgrow
 		desc: "At low health, the bearer's speed is raised.",
@@ -3417,25 +3417,19 @@ exports.BattleAbilities = {
 		num: 208
 		move.category === 'Special'
 	}
-	"full force": { //technician + super luck
+	"full force": {
 		desc: "When this Pokemon uses an attack that has 60 Base Power or less (including Struggle), the move's Critical Hit chance is doubled.",
 		shortDesc: "This Pokemon's attacks of 60 Base Power or less have twice the critical chance. Includes Struggle.",
-		onBasePowerPriority: 8,
-		onBasePower: function (basePower, attacker, defender, move) {
-			if (basePower <= 60) {
-				onModifyMove: function (move) {
-				move.critRatio++;
-			},
-				//this.debug('Technician boost');
-				//return this.chainModify(1.5);
-			}
-		},
+        onModifyMove: function (move) {
+            if (move.basePower <= 60) {
+            	move.critRatio++;
+            }
+        },
 		id: "full force",
 		name: "Full Force",
 		rating: 4,
 		num: 209
-		
-	}
+	},
 	"ice slick": { //hail chlorophyll
 		desc: "If this Pokemon is active while Hail is in effect, its speed is temporarily doubled.",
 		shortDesc: "If Hail is active, this Pokemon's Speed is doubled.",
