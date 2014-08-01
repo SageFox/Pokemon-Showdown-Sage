@@ -3317,7 +3317,7 @@ exports.BattleAbilities = {
 				return this.chainModify(1.5);
 			}
 		},
-		id: "brave heart",
+		id: "braveheart",
 		name: "Brave Heart",
 		rating: 3,
 		num: 202
@@ -3430,7 +3430,7 @@ exports.BattleAbilities = {
 				//return this.chainModify(1.5);
 			}
 		},
-		id: "full force",
+		id: "fullforce",
 		name: "Full Force",
 		rating: 4,
 		num: 209
@@ -3444,7 +3444,7 @@ exports.BattleAbilities = {
 				return this.chain(speMod, 2);
 			}
 		},
-		id: "ice slick",
+		id: "iceslick",
 		name: "Ice Slick",
 		rating: 2,
 		num: 210
@@ -3464,62 +3464,189 @@ exports.BattleAbilities = {
 		num: 211
 		
 	}
-	"malice": { 
-		
+	"malice": { //if you know what secondary effects are please do this one, my guess is it's things like toxic damage
+		desc: "Bearer's attacks of the same type asx the bearer are not affected by the foe's type immunity.",
+		shortDesc: "Moves with same type attack bonus ignore type resistance.",
+		//code here
+		id: "perforate",
+		name: "Perforate",
+		rating: 2,
+		num: 212
 	}
-	"perforate": {
-		
+	"perforate": { //this one will take a while
+		desc: "Bearer's attacks of the same type asx the bearer are not affected by the foe's type immunity.",
+		shortDesc: "Moves with same type attack bonus ignore type resistance.",
+		//code here
+		id: "perforate",
+		name: "Perforate",
+		rating: 2,
+		num: 213
 	}
 	"permafrost": {
-		
+		desc: "If this Pokemon is active while Hail is in effect, its defense is temporarily raised.",
+		shortDesc: "If Hail is active, this Pokemon's Defense is raised.",
+		onModifyDef: function (defMod) {
+			if (this.isWeather('hail')) {
+				return this.chain(defMod, 1.5);
+			}
+		},
+		id: "permafrost",
+		name: "Permafrost",
+		rating: 2,
+		num: 214
 	}
-	"psych out": {
-		
+	"psych out": { //special intimidate
+		desc: "When this Pokemon enters the field, the Special Attack stat of each of its opponents lowers by one stage.",
+		shortDesc: "On switch-in, this Pokemon lowers adjacent foes' Special Attack by 1.",
+		onStart: function (pokemon) {
+			var foeactive = pokemon.side.foe.active;
+			for (var i = 0; i < foeactive.length; i++) {
+				if (!foeactive[i] || !this.isAdjacent(foeactive[i], pokemon)) continue;
+				if (foeactive[i].volatiles['substitute']) {
+					// does it give a message? note this is not my comment
+					this.add('-activate', foeactive[i], 'Substitute', 'ability: Psych Out', '[of] ' + pokemon);
+				} else {
+					this.add('-ability', pokemon, 'Intimidate', '[of] ' + foeactive[i]);
+					this.boost({spa: -1}, foeactive[i], pokemon);
+				} //do we need to add an 'ability: Psych Out' or something
+			}
+		},
+		id: "psychout",
+		name: "Psych Out",
+		rating: 3.5,
+		num: 215
 	}
-	"stubborn": {
-		
+	"stubborn": { //ripped from marvel scale and overgrow
+		desc: " When this pokemon reaches half health or less, its Defense receives a 50% boost.",
+		shortDesc: "If this Pokemon is at less than half health, its Defense is 1.5x.",
+		onModifyDefPriority: 6,
+		onModifyDef: function (def, pokemon) {
+			if (attacker.hp <= attacker.maxhp / 2) {
+				return this.chainModify(1.5);
+			}
+		},
+		id: "stubborn",
+		name: "Stubborn",
+		rating: 3,
+		num: 216
 	}
-	"sunbathe": {
-		
+	"sunbathe": { //sunny rain dish
+		desc: "If the weather is Sunny Day, this Pokemon recovers 1/16 of its max HP after each turn.",
+		shortDesc: "If the weather is Sunny Day, this Pokemon heals 1/16 of its max HP each turn.",
+		onWeather: function (target, source, effect) {
+			if (effect.id === 'sunnyday') {
+				this.heal(target.maxhp / 16);
+			}
+		},
+		id: "sunbathe",
+		name: "Sunbathe",
+		rating: 1.5,
+		num: 217
 	}
-	"team player": {
-		
+	"team player": { //simple and plus
+		desc: "This Pokemon doubles all of its positive and negative stat modifiers in a double battle. For example, if this Pokemon uses Curse, its Attack and Defense stats increase by two stages and its Speed stat decreases by two stages.",
+		shortDesc: "This Pokemon has its own stat boosts and drops doubled in a double battle as they happen.",
+		onBoost: function (boost) {
+			for (var i in boost) {
+				boost[i] *= 2;
+			}
+		},
+		var allyActive = pokemon.side.active;
+			if (allyActive.length === 1) {
+				return;
+			}
+			for (var i = 0; i < allyActive.length; i++) {
+				if (allyActive[i] && allyActive[i].position !== pokemon.position && !allyActive[i].fainted) {
+					for (var i in boost) {
+					boost[i] *= 2;
+				};
+				}
+			} //what i think i did here:
+			//if the ally's around, and a stat boost happens, it gets doubled
+			//i really hope that works
+		id: "teamplayer",
+		name: "Team Player",
+		rating: 4,
+		num: 218
 	}
-	"expert": {
-		
+	"expert": { //LITERALLY adaptability, but maybe it's for both sides?
+		desc: "This Pokemon's attacks that receive STAB (Same Type Attack Bonus) are increased from 50% to 100%.",
+		shortDesc: "This Pokemon's same-type attack bonus (STAB) is increased from 1.5x to 2x.",
+		onModifyMove: function (move) {
+			move.stab = 2;
+		},
+		id: "expert",
+		name: "Expert",
+		rating: 3.5,
+		num: 91	
 	}
-	"novice": {
-		
+	"novice": { //is it for both sides?
+		desc: "This Pokemon's attacks that receive STAB (Same Type Attack Bonus) are increased from 50% to 100%.",
+		shortDesc: "This Pokemon's same-type attack bonus (STAB) is increased from 1.5x to 2x.",
+		onModifyMove: function (move) {
+			move.stab = 1;
+		},
+		id: "novice",
+		name: "Novice",
+		rating: 3.5,
+		num: 219
 	}
 	//SAGE signature
-	"eventide": {
-		
+	"eventide": { 
+		//We need to somehow find Espeon and Umbreon's evolution info to get this one.
 	}
-	"feisty": {
-		
+	"feisty": { //pulled from the battle engine and from blaze
+		onModifyAtkPriority: 5,
+		onModifyAtk: function (atk, attacker, defender, move) {
+			if (target.level > pokemon.level) {
+				//this.debug('Feisty boost'); commented out because I don't know what it does
+				return this.chainModify(1.5);
+			}
+		},
 	}
 	"forage": {
 		
-	}
-	"mooch": {
+	} //just take pickup code
+	"mooch": { //lord how the fuck is this one going in
 		
 	}
-	"orbital tide": {
-		
+	"orbital tide": { //uses pressure as the base
+		desc: "Gravity is applied when this Pokemon switches in.",
+		shortDesc: "Applies gravity in battle.",
+		onStart: function (pokemon) {
+			this.add('-ability', pokemon, 'Orbital Tide');
+		},
+		onStart: function (source) {
+			this.setpseudoWeather('gravity'); //i am not good with computer does this work
+		},
+		id: "orbitaltide",
+		name: "Orbital Tide",
+		rating: 1.5,
+		num: 224
 	}
-	"overshadow": {
-		
+	"overshadow": { //nowhere is height used as a var
+		this.height = this.template.height;
+		this.heightm = this.template.heightm; //some stuff from the battle engine
 	}
-	"pollution": {
+	"pollution": { //acid rain needs to be coded in first
 		
 	}
 	"quickdraw": {
-		
+		onModifyPriority: function (priority, pokemon, target, move) {
+			return 0;
+		}, //this does it for the user
+		onModifyPriority: function (priority, pokemon, source, move) {
+			return 0;
+		}, //maybe this does it for the target too?
+		id: "orbital tide",
+		name: "Pressure",
+		rating: 1.5,
+		num: 227
 	}
-	"siphon": {
-		
+	"siphon": { //liquid ooze for info?
+			
 	}
-	"spectrum": {
+	"spectrum": { //borrow code from color change / protean and add in a detect color function?
 		
 	}
 	//SAGE LEGENDARIES
