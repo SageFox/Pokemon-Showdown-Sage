@@ -60,7 +60,6 @@ Foliat:{
                 energyball:["5M"],
                 flash:["5M"],
                 grassknot:["5M"],
-                swagger:["5M"],
                 pluck:["5M"],
                 uturn:["5M"],
                 bulletseed:["5M"],
@@ -136,7 +135,6 @@ Florabri:{
                 energyball:["5M"],
                 flash:["5M"],
                 grassknot:["5M"],
-                swagger:["5M"],
                 pluck:["5M"],
                 uturn:["5M"],
                 bulletseed:["5M"],
@@ -221,7 +219,6 @@ Florresum:{
                 acrobatics:["5M"],
                 flash:["5M"],
                 grassknot:["5M"],
-                swagger:["5M"],
                 pluck:["5M"],
                 uturn:["5M"],
                 bulletseed:["5M"],
@@ -310,7 +307,6 @@ Kidling:{
                 bulldoze:["5M"],
                 rockslide:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 wildcharge:["5M"],
                 strength:["5M"], //do hms go here?
                 
@@ -392,7 +388,6 @@ Pyroat:{
                 bulldoze:["5M"],
                 rockslide:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 wildcharge:["5M"],
                 strength:["5M"], //do hms go here?
                 
@@ -485,7 +480,6 @@ Flairees:{
                 bulldoze:["5M"],
                 rockslide:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 wildcharge:["5M"],
                 strength:["5M"], //do hms go here?
                 
@@ -578,7 +572,6 @@ Aguade:{
                 fling:["5M"],
                 rocksmash:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 waterpulse:["5M"],
                 surf:["5M"],//do hms go here?
                 strength:["5M"],
@@ -676,7 +669,6 @@ Iguadium:{
                 swordsdance:["5M"],
                 dragontail:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 focuspunch:["5M"],
                 waterpulse:["5M"],
                 surf:["5M"],//do hms go here?
@@ -784,7 +776,6 @@ Aguanaut:{
                 swordsdance:["5M"],
                 dragontail:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 focuspunch:["5M"],
                 waterpulse:["5M"],
                 surf:["5M"],//do hms go here?
@@ -879,7 +870,6 @@ Harpee:{
                 psychup:["5M"],
                 retaliate:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 pluck:["5M"],
                 uturn:["5M"],
                 fly:["5M"],
@@ -955,7 +945,6 @@ Aquilor:{
                 psychup:["5M"],
                 retaliate:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 pluck:["5M"],
                 uturn:["5M"],
                 fly:["5M"],
@@ -1037,7 +1026,6 @@ Warquila:{
                 retaliate:["5M"],
                 gigaimpact:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 pluck:["5M"],
                 uturn:["5M"],
                 fly:["5M"],
@@ -1111,7 +1099,6 @@ Capig:{
                 thunderwave:["5M"],
                 frostbreath:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 uturn:["5M"],
                 cut:["5M"],
                 strength:["5M"],
@@ -1198,7 +1185,6 @@ Capabara:{
                 frostbreath:["5M"],
                 rockslide:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 uturn:["5M"],
                 cut:["5M"],
                 surf:["5M"],
@@ -1278,7 +1264,6 @@ Cubzero:{
                 swordsdance:["5M"],
                 frostbreath:["5M"],
                 xscissor:["5M"],
-                swagger:["5M"],
                 snarl:["5M"],
                 darkpulse:["5M"],
                 cut:["5M"],
@@ -1362,7 +1347,6 @@ Avalynx:{
                 swordsdance:["5M"],
                 frostbreath:["5M"],
                 xscissor:["5M"],
-                swagger:["5M"],
                 wildcharge:["5M"],
                 snarl:["5M"],
                 darkpulse:["5M"],
@@ -1437,7 +1421,6 @@ Fawning:{
                 psychup:["5M"],
                 bulldoze:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 cut:["5M"],
                 strength:["5M"],
                 
@@ -1511,7 +1494,6 @@ Llamarsh:{
                 psychup:["5M"],
                 bulldoze:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 cut:["5M"],
                 strength:["5M"],
                 
@@ -1589,7 +1571,6 @@ Buckston:{
                 psychup:["5M"],
                 bulldoze:["5M"],
                 workup:["5M"],
-                swagger:["5M"],
                 wildcharge:["5M"],
                 cut:["5M"],
                 strength:["5M"],
@@ -3000,5 +2981,361 @@ Orangutao:{
                 naturepower:["5E"],
                 yawn:["5E"],
 
+        }
+},
+Larvabidae:{
+        learnset:{
+                stringshot:["5L1"],
+                poisonsting:["5L1"],
+                tackle:["5L4"],
+                supersonic:["5L7"],
+                harden:["5L11"],
+                bugbite:["5L13"],
+                furyswipes:["5L16"],
+                scaryface:["5L20"],
+                workup:["5L23"],
+                flail:["5L25"],
+                
+                
+                
+              
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                venoshock:["5M"],
+                sunnyday:["5M"],
+                taunt:["5M"],
+                raindance:["5M"],
+                dig:["5M"],
+                echoedvoice:["5M"],
+                falseswipe:["5M"],
+                retaliate:["5M"],
+                flash:["5M"],
+                strugglebug:["5M"],
+                xscissor:["5M"],
+                poisonjab:["5M"],
+                psychup:["5M"],
+                
+
+                
+                //tutor
+                bugbite:["5T"],
+                doubleedge:["5T"],
+                hypervoice:["5T"],
+                mudslap:["5T"],
+                signalbeam:["5T"],
+                uproar:["5T"],
+                
+                
+                //newtutor
+              
+                //egg move
+                leechlife:["5E"],
+                bugbuzz:["5E"],
+                twineedle:["5E"],
+                furycutter:["5E"],
+                pursuit:["5E"],
+        }
+},
+Caranox:{
+        learnset:{
+                crosspoison:["5L1"],
+                stringshot:["5L1"],
+                poisonsting:["5L1"],
+                tackle:["5L4"],
+                supersonic:["5L7"],
+                harden:["5L11"],
+                bugbite:["5L13"],
+                acid:["5L15"],
+                furyswipes:["5L17"],
+                scaryface:["5L20"],
+                toxic:["5L25"],
+                xscissor:["5L29"],
+                toxicspikes:["5L32"],
+                venoshock:["5L35"],
+                swordsdance:["5L39"],
+                sludgebomb:["5L43"],
+                doubleedge:["5L45"],
+                
+                
+                
+              
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                honeclaws:["5M"],
+                venoshock:["5M"],
+                sunnyday:["5M"],
+                hyperbeam:["5M"],
+                taunt:["5M"],
+                raindance:["5M"],
+                dig:["5M"],
+                brickbreak:["5M"],
+                sludgewave:["5M"],
+                sludgebomb:["5M"],
+                torment:["5M"],
+                thief:["5M"],
+                echoedvoice:["5M"],
+                gigadrain:["5M"],
+                energyball:["5M"],
+                falseswipe:["5M"],
+                fling:["5M"],
+                acrobatics:["5M"],
+                rocksmash:["5M"],
+                shadowclaw:["5M"],
+                payback:["5M"],
+                retaliate:["5M"],
+                gigaimpact:["5M"],
+                flash:["5M"],
+                swordsdance:["5M"],
+                strugglebug:["5M"],
+                xscissor:["5M"],
+                poisonjab:["5M"],
+                uturn:["5M"],
+                
+
+                
+                //tutor
+                bugbite:["5T"],
+                doubleedge:["5T"],
+
+                hypervoice:["5T"],
+
+                mudslap:["5T"],
+                signalbeam:["5T"],
+                uproar:["5T"],
+                
+                
+                //newtutor
+                fling:["5T"],
+                gastroacid:["5T"],
+                knockoff:["5T"],
+                //egg move
+                leechlife:["5E"],
+                bugbuzz:["5E"],
+                twineedle:["5E"],
+                furycutter:["5E"],
+                pursuit:["5E"],
+        }
+},
+Carajoule:{
+        learnset:{
+                discharge:["5L1"],
+                stringshot:["5L1"],
+                poisonsting:["5L1"],
+                tackle:["5L4"],
+                supersonic:["5L7"],
+                harden:["5L11"],
+                bugbite:["5L13"],
+                thundershock:["5L15"],
+                furyswipes:["5L17"],
+                scaryface:["5L20"],
+                quiverdance:["5L25"],
+                bugbuzz:["5L29"],
+                taunt:["5L32"],
+                chargebeam:["5L35"],
+                tailglow:["5L39"],
+                thunderbolt:["5L43"],
+                signalbeam:["5L45"],
+                
+                
+                
+              
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                honeclaws:["5M"],
+                venoshock:["5M"],
+                sunnyday:["5M"],
+                hyperbeam:["5M"],
+                taunt:["5M"],
+                raindance:["5M"],
+                thunderbolt:["5M"],
+                thunder:["5M"],
+                dig:["5M"],
+                sludgewave:["5M"],
+                sludgebomb:["5M"],
+                thief:["5M"],
+                echoedvoice:["5M"],
+                gigadrain:["5M"],
+                focusblast:["5M"],
+                energyball:["5M"],
+                falseswipe:["5M"],
+                chargebeam:["5M"],
+                acrobatics:["5M"],
+                rocksmash:["5M"],
+                shadowclaw:["5M"],
+                payback:["5M"],
+                retaliate:["5M"],
+                gigaimpact:["5M"],
+                flash:["5M"],
+                voltswitch:["5M"],
+                thunderwave:["5M"],
+                strugglebug:["5M"],
+                xscissor:["5M"],
+                poisonjab:["5M"],
+                flashcannon:["5M"],
+                
+
+                
+                //tutor
+                bugbite:["5T"],
+                doubleedge:["5T"],
+                hypervoice:["5T"],
+                mudslap:["5T"],
+                signalbeam:["5T"],
+                uproar:["5T"],
+                
+                
+                //newtutor
+                electroweb:["5T"],
+                magnetrise:["5T"],
+                silverwind:["5T"],
+                tailwind:["5T"],
+                //egg move
+                leechlife:["5E"],
+                bugbuzz:["5E"],
+                twineedle:["5E"],
+                furycutter:["5E"],
+                pursuit:["5E"],
+        }
+},
+Caracrust:{
+        learnset:{
+                bulldoze:["5L1"],
+                stringshot:["5L1"],
+                poisonsting:["5L1"],
+                tackle:["5L4"],
+                supersonic:["5L7"],
+                harden:["5L11"],
+                bugbite:["5L13"],
+                mudshot:["5L15"],
+                furyswipes:["5L17"],
+                scaryface:["5L20"],
+                gastroacid:["5L25"],
+                uturn:["5L29"],
+                spikes:["5L32"],
+                smackdown:["5L35"],
+                irondefense:["5L39"],
+                rollout:["5L43"],
+                dig:["5L45"],
+                
+                
+                
+              
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                honeclaws:["5M"],
+                venoshock:["5M"],
+                sunnyday:["5M"],
+                hyperbeam:["5M"],
+                taunt:["5M"],
+                raindance:["5M"],
+                smackdown:["5M"],
+                earthquake:["5M"],
+                dig:["5M"],
+                sandstorm:["5M"],
+                rocktomb:["5M"],
+                thief:["5M"],
+                echoedvoice:["5M"],
+                gigadrain:["5M"],
+                energyball:["5M"],
+                falseswipe:["5M"],
+                rocksmash:["5M"],
+                shadowclaw:["5M"],
+                payback:["5M"],
+                retaliate:["5M"],
+                gigaimpact:["5M"],
+                rockpolish:["5M"],
+                flash:["5M"],
+                stoneedge:["5M"],
+                strugglebug:["5M"],
+                bulldoze:["5M"],
+                rockslide:["5M"],
+                xscissor:["5M"],
+                poisonjab:["5M"],
+                uturn:["5M"],
+                flashcannon:["5M"],
+                strength:["5M"],
+                
+
+                
+                //tutor
+                bugbite:["5T"],
+                doubleedge:["5T"],
+                hypervoice:["5T"],
+                mudslap:["5T"],
+                signalbeam:["5T"],
+                uproar:["5T"],
+                
+                
+                //newtutor
+                ancientpower:["5T"],
+                counter:["5T"],
+                earthpower:["5T"],
+                irondefense:["5T"],
+                //egg move
+                leechlife:["5E"],
+                bugbuzz:["5E"],
+                twineedle:["5E"],
+                furycutter:["5E"],
+                pursuit:["5E"],
         }
 },
