@@ -3308,37 +3308,163 @@ exports.BattleAbilities = {
 		num: 201
 		
 	}
-	"brave heart": {
+	"brave heart": { //guts
+		desc: "When this Pokemon is poisoned (including Toxic), burned, paralyzed or asleep (including self-induced Rest), its Attack stat receives a 50% boost; the burn status' Attack drop is also ignored.",
+		shortDesc: "If this Pokemon is statused, its Attack is 1.5x; burn's Attack drop is ignored.",
+		onModifyDefPriority: 5,
+		onModifyDef: function (def, pokemon) {
+			if (pokemon.status) {
+				return this.chainModify(1.5);
+			}
+		},
+		id: "brave heart",
+		name: "Brave Heart",
+		rating: 3,
+		num: 202
 		
 	}
-	"conditioning": {
+	"conditioning": { //fury cutter, maybe? i swear to god if half of these work i'll be shocked
+	//honestly i'm not sure how to make this one work so here's the fury cutter code
+		desc: "When this Pokemon is poisoned (including Toxic), burned, paralyzed or asleep (including self-induced Rest), its Attack stat receives a 50% boost; the burn status' Attack drop is also ignored.",
+		shortDesc: "If this Pokemon is statused, its Attack is 1.5x; burn's Attack drop is ignored.",
+		basePowerCallback: function (pokemon) {
+		if (!pokemon.volatiles.furycutter) {
+			pokemon.addVolatile('furycutter');
+		}
+		return 40 * pokemon.volatiles.furycutter.multiplier;
+		id: "conditioning",
+		name: "Conditioning",
+		rating: 3,
+		num: 203
+	},
+	"content": { //damn there are so many difficult ones to code, rain dish + color change?
+		desc: "If a status move is used., this Pokemon recovers 1/16 of its max HP after each turn.",
+		shortDesc: "If a status move is used, this Pokemon heals 1/16 of its max HP each turn.",
+		onAfterMoveSecondary: function (source, target, move) { //once again switching target and source
+		if (target.isActive && move && move.category !== 'Status') { //did i mention i don't know java
+			this.heal(target.maxhp / 16); //pulled from rain dish
+		},
+		id: "content",
+		name: "Content",
+		rating: 3,
+		num: 204
+	}
+	"conundrum": { //easily pulled from poison point
+		desc: "If an opponent contact attacks this Pokemon, there is a 30% chance that the opponent will become confused.",
+		shortDesc: "30% chance of confusing a Pokemon making contact with this Pokemon.",
+		onAfterDamage: function (damage, target, source, move) {
+			if (move && move.isContact) {
+				if (this.random(10) < 3) {
+					source.tryVolatives('confusion', target, move); //I think confusion is a volatile
+				}
+			}
+		},
+		id: "content",
+		name: "Content",
+		rating: 3,
+		num: 205
+	}
+	"discretion": { //pressure might be a good base, also High Jump Kick
+		desc: "If this Pokemon's move misses, the move does not cost any PP.",
+		shortDesc: "If this Pokemon's move misses, it costs no PP.",
+		//onTargetDeductPP: function (pp, source, target) { //i worry for my antics
+		//	if (target.side === source.side) return;
+		//	return pp - 1;
+		//},
+		//onMoveFail: function (target, source, move) {
+		//this.damage(source.maxhp / 2, source, source, 'highjumpkick');
+		//},
+		onMoveFail: function (target, source, move) {
+			onTargetDeductPP: function (pp, source, target) { //can you do two on statements
+				{ return pp - 1; }
+			} //i am ingenious if this works
+		id: "discretion",
+		name: "discretion",
+		rating: 1.5,
+		num: 206
 		
 	}
-	"content": {
+	"eccentric": { //special hustle
+		desc: "This Pokemon's Special Attack receives a 50% boost but its Special attacks receive a 20% drop in Accuracy. For example, a 100% accurate move would become an 80% accurate move. The accuracy of moves that never miss, such as Swift, remains unaffected.",
+		shortDesc: "This Pokemon's Special Attack is 1.5x and accuracy of its special attacks is 0.8x.",
+		// This should be applied directly to the stat as opposed to chaining witht he others
+		onModifySpAPriority: 5,
+		onModifySpA: function (spa) {
+			return this.modify(spa, 1.5);
+		},
+		onModifyMove: function (move) {
+			if (move.category === 'Special' && typeof move.accuracy === 'number') {
+				move.accuracy *= 0.8;
+			}
+		},
+		id: "eccentric",
+		name: "Eccentric",
+		rating: 3,
+		num: 207
+	}
+	"feedback": { //pulled from rough skin + flare boost for modifier
+		desc: "Causes recoil damage equal to 1/8 of the opponent's max HP if an opponent uses a special move.",
+		shortDesc: "This Pokemon causes other Pokemon using a special move to lose 1/8 of their max HP.",
+		onAfterDamageOrder: 1,
+		onAfterDamage: function (damage, target, source, move) {
+			if (source && source !== target && move && move.category === 'Special') {
+				this.damage(source.maxhp / 8, source, target, null, true);
+			}
+		},
+		id: "feedback",
+		name: "Feedback",
+		rating: 3,
+		num: 208
+		move.category === 'Special'
+	}
+	"full force": { //technician + super luck
+		desc: "When this Pokemon uses an attack that has 60 Base Power or less (including Struggle), the move's Critical Hit chance is doubled.",
+		shortDesc: "This Pokemon's attacks of 60 Base Power or less have twice the critical chance. Includes Struggle.",
+		onBasePowerPriority: 8,
+		onBasePower: function (basePower, attacker, defender, move) {
+			if (basePower <= 60) {
+				onModifyMove: function (move) {
+				move.critRatio++;
+			},
+				//this.debug('Technician boost');
+				//return this.chainModify(1.5);
+			}
+		},
+		id: "full force",
+		name: "Full Force",
+		rating: 4,
+		num: 209
 		
 	}
-	"conundrum": {
+	"ice slick": { //hail chlorophyll
+		desc: "If this Pokemon is active while Hail is in effect, its speed is temporarily doubled.",
+		shortDesc: "If Hail is active, this Pokemon's Speed is doubled.",
+		onModifySpe: function (speMod) {
+			if (this.isWeather('hail')) {
+				return this.chain(speMod, 2);
+			}
+		},
+		id: "ice slick",
+		name: "Ice Slick",
+		rating: 2,
+		num: 210
+	}
+	"iron jaw": { //literally strong jaw
+		desc: "This Pokemon receives a 50% power boost for jaw attacks such as Bite and Crunch.",
+		shortDesc: "This Pokemon's bite-based attacks do 1.5x damage.",
+		onBasePowerPriority: 8,
+		onBasePower: function (basePower, attacker, defender, move) {
+			if (move.isBiteAttack) {
+				return this.chainModify(1.5);
+			}
+		},
+		id: "ironjaw",
+		name: "Iron Jaw",
+		rating: 3,
+		num: 211
 		
 	}
-	"discretion": {
-		
-	}
-	"eccentric": {
-		
-	}
-	"feedback": {
-		
-	}
-	"full force": {
-		
-	}
-	"ice slick": {
-		
-	}
-	"iron jaw": {
-		
-	}
-	"malice": {
+	"malice": { 
 		
 	}
 	"perforate": {
