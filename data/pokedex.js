@@ -872,7 +872,7 @@ Florabri:{
         weightkg:6.5,
         color:"Green",
         prevo:["Foliat"],
-        evos:["Floressum"],
+        evos:["Florresum"],
         eggGroups:["Grass","Flying"]
 },
 Florresum:{
@@ -1010,7 +1010,7 @@ Warquila:{
 },
 Capig:{
         num:1013,
-        species:"Foliat",
+        species:"Capig",
         types:["Normal"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:47,atk:40,def:38,spa:33,spd:32,spe:55},
@@ -1031,7 +1031,7 @@ Capabara:{
         heightm:0.2,
         weightkg:4.0,
         color:"",
-        prevo:["Capabara"],
+        prevo:["Capig"],
         eggGroups:["Field"]
 },
 Cubzero:{
@@ -1208,7 +1208,7 @@ Terratetra:{
         num:1028,
         species:"Terratetra",
         types:["Normal","Rock"],
-        genderRatio:{M:0.5,F:0.5},
+        genderRatio:{M:0.5,F:0.fm5},
         baseStats:{hp:84,atk:98,def:76,spa:43,spd:55,spe:65},
         abilities:{0:"Gluttony",1:"Solid Rock"},
         heightm:1.0,
@@ -1708,7 +1708,7 @@ Mortasque:{
         heightm:1.3,
         weightkg:44.0,
         color:"Brown",
-        prevo:["Mortasque"],
+        prevo:["Maskoon"],
         eggGroups:["Bug"]
 },
 Vectol:{
@@ -2706,7 +2706,7 @@ Fantasmare:{
         heightm:1.7,
         weightkg:4.0,
         color:"Gray",
-        prevo:["Coltergest"],
+        prevo:["Coltergeist"],
         eggGroups:["Field","Amorphous"]
 },
 Chihaha:{
@@ -2737,7 +2737,7 @@ Howlequin:{
 },
 Chegrin:{
         num:1145,
-        species:"Cheshade",
+        species:"Chegrin",
         types:["Dark","Psychic"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:45,atk:60,def:40,spa:80,spd:50,spe:50},
@@ -2799,7 +2799,7 @@ Thoraxe:{
         color:"Red",
         eggGroups:["Bug"]
 },
-//missing weights: Pomparunt, Hyekuza, Toxito, Viipii, Slatic line, Glaupau, Lintle line, Parapy line, Chimpoca line, Enigmite
+//missing weights: Pomparunt, Hyekuza, Toxito, Viipii, Slatic line, Glauqua, Lintle line, Parapy line, Chimpoca line, Enigmite
 //Barracute line, Wispern line, Gilla line, Bazilisk
 Pomparunt:{
         num:1150, // Pokedex Number
@@ -3008,7 +3008,7 @@ Ocerumi:{
         weightkg:4.0,
         color:"", // if this has no color, make it a empty string
         prevo:["Chayan"],
-        eggGroups:["Bug"] // another list ["group"] or ["groupa","groupb"]
+        eggGroups:["Human-Like"] // another list ["group"] or ["groupa","groupb"]
 },
 Fortifry:{
         num:1166, // Pokedex Number
@@ -3085,12 +3085,12 @@ Chameleohm:{
         heightm:1.5,
         weightkg:4.0,
         color:"", // if this has no color, make it a empty string
-        prevo:["Slatic"], // don't bother defining this if it does not evolve
+        prevo:["Telsion"], // don't bother defining this if it does not evolve
         eggGroups:["Field","Dragon"] // another list ["group"] or ["groupa","groupb"]
 },
-Glaupua:{
+Glauqua:{
         num:1172, // Pokedex Number
-        species:"Glaupua", // Friendly Species name (can use caps and space)
+        species:"Glauqua", // Friendly Species name (can use caps and space)
         types:["Water","Poison"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
         genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
         baseStats:{hp:64,atk:54,def:54,spa:57,spd:57,spe:50},
@@ -3111,12 +3111,12 @@ Hydranticus:{
         heightm:2.2,
         weightkg:200.0,
         color:"Light Blue", // if this has no color, make it a empty string
-        prevo:["Glaupau"], // don't bother defining this if it does not evolve
+        prevo:["Glauqua"], // don't bother defining this if it does not evolve
         eggGroups:["Water 3","Amorphous"] // another list ["group"] or ["groupa","groupb"]
 },
 Lintle:{
         num:1174, // Pokedex Number
-        species:"Silkinder", // Friendly Species name (can use caps and space)
+        species:"Lintle", // Friendly Species name (can use caps and space)
         types:["Bug"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
         genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
         baseStats:{hp:25,atk:65,def:65,spa:25,spd:25,spe:55},
@@ -3248,7 +3248,7 @@ Enigmantis:{
 },
 Arjibi:{
         num:1184, // Pokedex Number
-        species:"Royjibiv", // Friendly Species name (can use caps and space)
+        species:"Arjibi", // Friendly Species name (can use caps and space)
         types:["Normal"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
         genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
         baseStats:{hp:69,atk:31,def:31,spa:73,spd:66,spe:73},
@@ -3352,7 +3352,7 @@ Phantern:{
 },
 Glocto:{
         num:1192, // Pokedex Number
-        species:"Wispern", // Friendly Species name (can use caps and space)
+        species:"Glocto", // Friendly Species name (can use caps and space)
         types:["Water","Fire"], // List of types (["type"] for mono or ["typea","typeb"] for dual types)
         genderRatio:{M:0.5,F:0.5}, // Genderless pokemon and pokemon with only 1 gender are done using gender:"N", gender:"M"/"F"
         baseStats:{hp:88,atk:34,def:76,spa:76,spd:54,spe:26},
@@ -3524,7 +3524,7 @@ Carnibal:{
 Luchito:{
         num:1205,
         species:"Luchito",
-        types:["Fighting","Poison"],
+        types:["Fighting","Electric"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
         abilities:{0:"No Guard",1:"Stubborn"},
@@ -3537,7 +3537,7 @@ Luchito:{
 Eluchadon:{
         num:1206,
         species:"Eluchadon",
-        types:["Fighting","Poison"],
+        types:["Fighting","Electric"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:80,atk:120,def:64,spa:75,spd:59,spe:96},
         abilities:{0:"No Guard",1:"Stubborn"},
@@ -3858,14 +3858,14 @@ Xotec:{
 //
 //missing heights: Pounther line,
 //missing weights: Pounther line, Cerebrulb, Peppit line, Skullarva & Maskoon, Vectol line, Bouwee line, Alpint line, Nobunata
-//  "       "      Psybek line, Craliber line, Leafish line, Quibble line, Cardinite line,
+//  "       "      Psybex line, Craliber line, Leafish line, Quibble line, Cardinite line,
 //
 //don't have missing weights: Atomite line, Magnitogre, Cobrascet line, Necronite line, Diloweed line, Dinkywink line
 //more not missing weights: Calphite line, Nurshary, Loneleaf line, Chihaha line, Doppole line,
 //seriously, 101-149 is mostly devoid of weights
 //what to do with Noxial's color?
 //
-//missing weights: Pomparunt, Hyekuza, Toxito, Viipii, Slatic line, Glaupau, Lintle line, Parapy line, Chimpoca line, Enigmite
+//missing weights: Pomparunt, Hyekuza, Toxito, Viipii, Slatic line, Glauqua, Lintle line, Parapy line, Chimpoca line, Enigmite
 //Barracute line, Wispern line, Gilla line, Bazilisk
 //
 //no weights: Icetope line, Larvyn line except Basilect, Spirits
