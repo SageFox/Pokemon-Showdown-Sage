@@ -3610,10 +3610,11 @@ exports.BattleAbilities = {
 		shortDesc: "Applies gravity in battle.",
 		onStart: function (pokemon) {
 			this.add('-ability', pokemon, 'Orbital Tide');
-		},
-		onStart: function (source) {
+			Battle.prototype.setPseudoWeather = function(args){
 			this.setpseudoWeather('gravity'); //i am not good with computer does this work
-		},
+			},
+		}
+		
 		id: "orbitaltide",
 		name: "Orbital Tide",
 		rating: 1.5,
