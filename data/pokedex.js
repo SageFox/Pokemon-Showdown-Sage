@@ -3852,7 +3852,7 @@ Xotec:{
         weightkg:5.7,
         color:"Gold",
         eggGroups:["Undiscovered"]
-}
+},
 };
 //Missing weights:[33 to 38, 40, 48 and 49, 51 ] Taomarin to Caracrust, Musbushel, Kertruffle, Mosshroom, Perishroom
 //
