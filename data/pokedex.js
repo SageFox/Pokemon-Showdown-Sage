@@ -1170,7 +1170,7 @@ Koblin:{
 Koberus:{
         num:1025,
         species:"Koberus",
-        types:["Dark","Fire":],
+        types:["Dark","Fire"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:80,atk:115,def:50,spa:55,spd:60,spe:100},
         abilities:{0:"Hustle",1:"Guts"},
@@ -1210,7 +1210,7 @@ Terratetra:{
         num:1028,
         species:"Terratetra",
         types:["Normal","Rock"],
-        genderRatio:{M:0.5,F:0.fm5},
+        genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:84,atk:98,def:76,spa:43,spd:55,spe:65},
         abilities:{0:"Gluttony",1:"Solid Rock"},
         heightm:1.0,
@@ -1391,7 +1391,7 @@ Growmeo:{
         num:1042,
         species:"Growmeo",
         types:["Grass"],
-        gender:"M"
+        gender:"M",
         baseStats:{hp:35,atk:74,def:30,spa:68,spd:35,spe:53},
         abilities:{0:"Allure",1:"Effect Spore"},
         heightm:0.5,
@@ -1404,7 +1404,7 @@ Montegrew:{
         num:1043,
         species:"Montegrew",
         types:["Grass"],
-        gender:"M"
+        gender:"M",
         baseStats:{hp:65,atk:102,def:61,spa:96,spd:65,spe:81},
         abilities:{0:"Allure",1:"Effect Spore"},
         heightm:1.2,
@@ -2054,7 +2054,7 @@ Fowattle:{
         types:["Ground","Flying"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:65,atk:50,def:65,spa:100,spd:65,spe:60},
-        abilities:{0:"Reckless",1:"Rivalry"}, },
+        abilities:{0:"Reckless",1:"Rivalry"},
         heightm:0.8,
         weightkg:4.0,
         color:"",
@@ -2068,7 +2068,7 @@ Turkistador:{
         types:["Ground","Flying"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:100,atk:60,def:100,spa:115,spd:80,spe:60},
-        abilities:{0:"Thick Fat",1:"Rivalry"}, },
+        abilities:{0:"Thick Fat",1:"Rivalry"},
         heightm:1.6,
         weightkg:4.0,
         color:"Gray",
@@ -2106,7 +2106,7 @@ Cardinite:{
         species:"Cardinite",
         types:["Fire","Flying"],
         genderRatio:{M:0.5,F:0.5},
-        baseStats:{hp:40,atk:80,def:40,spa:70,spd:40.spe:90},
+        baseStats:{hp:40,atk:80,def:40,spa:70,spd:40,spe:90},
         abilities:{0:"Early Bird",1:"Flash Fire"},
         heightm:0.3,
         weightkg:4.0,
@@ -2164,7 +2164,7 @@ Phlask:{
         evos:["Noxial"],
         eggGroups:["Amorphous"]
 },
-Noxial-Fire:{
+NoxialFire:{
         num:1102,
         species:"Noxial",
         types:["Poison","Ghost"],
@@ -2178,7 +2178,7 @@ Noxial-Fire:{
         evos:["Fumighast"],
         eggGroups:["Amorphous"]
 },
-Noxial-Ice:{
+NoxialIce:{
         num:1102,
         species:"Noxial-Ice",
         baseSpecies:"Noxial-Fire",
@@ -2459,7 +2459,7 @@ Necronite:{
         baseStats:{hp:50,atk:40,def:85,spa:45,spd:85,spe:25,
         abilities:{0:"Levitate",1:"Feedback"},
         heightm:0.8,
-        weightkg:70.5
+        weightkg:70.5,
         color:"Black",
         evos:["Gravollum"],
         eggGroups:["Mineral"]
@@ -2915,7 +2915,7 @@ Anvelid:{
         heightm:1.2,
         weightkg:230.9,
         color:"Gray", 
-	prevo: Orett
+		prevo: ["Orett"],
         evos:["Magroplex"],
         eggGroups:["Mineral","Dragon"]
 },
@@ -3029,11 +3029,11 @@ Oarwish:{
         types:["Water","Psychic"], 
         genderRatio:{M:0.5,F:0.5}, 
         baseStats:{hp:99,atk:55,def:85,spa:94,spd:127,spe:77},
-        abilities:{"Healer","Regenerator"}, 
+        abilities:{0:"Healer",1:"Regenerator"}, 
         heightm:2.6,
         weightkg:54.7,
         color:"White", 
-	prevo:["Fortifry"],
+		prevo:["Fortifry"],
         eggGroups:["Water 2","Dragon"]
 },
 Smashiary:{
