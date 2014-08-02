@@ -259,7 +259,10 @@ exports.BattleAliases = {
 	"shinboraa": "Sigilyph",
 	"barujiina": "Mandibuzz",
 	"rankurusu": "Reuniclus",
-	"borutorosu": "Thundurus"
+	"borutorosu": "Thundurus",
 	// there's no need to type out the other Japanese names
 	// I'll autogenerate them at some point
+	"Noxial-Ice":"Noxial",
+	"quetzarspace":"Quetzar"
+	
 };
