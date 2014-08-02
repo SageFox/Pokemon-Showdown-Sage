@@ -1590,7 +1590,7 @@ Neureka:{
         abilities:{0:"Levitate"},
         heightm:0.3,
         weightkg:4.0,
-        color:"",
+        color:"Yellow",
         evos:["Cerebrulb"],
         eggGroups:["Mineral"]
 },
@@ -1695,7 +1695,7 @@ Maskoon:{
         abilities:{0:"Intimidate",1:"Malice"},
         heightm:0.5,
         weightkg:4.0,
-        color:"",
+        color:"Brown",
         prevo:["Skullarva"],
         evos:["Mortasque"],
         eggGroups:["Bug"]
@@ -1810,7 +1810,7 @@ Alpint:{
         species:"Alpint",
         types:["Grass"],
         genderRatio:{M:0.5,F:0.5},
-        baseStats:{hp:74,atk:80,def:97,spa:25,spd:61,spe:30},
+        baseStats:{hp:74,atk:80,def:97,spa:25,spd:61,spe:33},
         abilities:{0:"Anger Point",1:"Sunbathe"},
         heightm:1.0,
         weightkg:4.0,
@@ -1890,7 +1890,7 @@ Shibalbat:{
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:63,atk:51,def:94,spa:94,spd:104,spe:71},
         abilities:{0:"Eventide"},
-        heightm:0.2,
+        heightm:1.4,
         weightkg:4.0,
         color:"",
         eggGroups:["Mineral"]
@@ -1976,7 +1976,7 @@ Magowl:{
         species:"Magowl",
         types:["Psychic"],
         genderRatio:{M:0.5,F:0.5},
-        baseStats:{hp:95,atk:60,def:90,spa:115,spd:90,spe:115},
+        baseStats:{hp:95,atk:60,def:90,spa:115,spd:90,spe:50},
         abilities:{0:"Conundrum",1:"Eccentric"},
         heightm:1.5,
         weightkg:39.5,
@@ -1990,7 +1990,7 @@ Craliber:{
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:47,atk:38,def:44,spa:68,spd:35,spe:67},
         abilities:{0:"Light Metal",1:"Sniper"},
-        heightm:0.9,
+        heightm:0.2,
         weightkg:4.0,
         color:"Gray",
         evos:["Crawglock"],
@@ -2144,7 +2144,7 @@ Somberado:{
         species:"Somberado",
         types:["Dark","Ghost"],
         genderRatio:{M:0.5,F:0.5},
-        baseStats:{hp:55,atk:90,def:45,spa:80,spd:365,spe:120},
+        baseStats:{hp:55,atk:90,def:45,spa:80,spd:65,spe:120},
         abilities:{0:"Sniper",1:"Quickdraw"},
         heightm:1.5,
         weightkg:25.0,
@@ -3856,7 +3856,7 @@ Xotec:{
 //Missing weights:[33 to 38, 40, 48 and 49, 51 ] Taomarin to Caracrust, Musbushel, Kertruffle, Mosshroom, Perishroom
 //
 //missing heights: Pounther line,
-//missing weights: Pounther line, Cerebrulb, Peppit line, Skullarva & Maskoon, Vectol line, Bouwee line, Alpint line, Nobunata
+//missing weights: Pounther line, Cerebrulb, Peppit line, Skullarva & Maskoon, Vectol line, Bouwee line, Alpint line, Shibalbat, Nobunata
 //  "       "      Psybex line, Craliber line, Leafish line, Quibble line, Cardinite line,
 //
 //don't have missing weights: Atomite line, Magnitogre, Cobrascet line, Necronite line, Diloweed line, Dinkywink line
@@ -3868,4 +3868,6 @@ Xotec:{
 //Barracute line, Wispern line, Gilla line, Bazilisk
 //
 //no weights: Icetope line, Larvyn line except Basilect, Spirits
+//missing colors: Aguade, Llamarsh, Buckston, Pengliff line, Taomarin line, Caranox, Musburry, Berratel, Rocano line, 
+//''           '' Alpint, Platypow, Shibalbat, Nobunata, Psybex line, Fowattle, Skurrow
 //DO NOT DELETE
