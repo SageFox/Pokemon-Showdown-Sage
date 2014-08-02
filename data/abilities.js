@@ -3609,7 +3609,6 @@ exports.BattleAbilities = {
 		desc: "Gravity is applied when this Pokemon switches in.",
 		shortDesc: "Applies gravity in battle.",
 		onStart: function (pokemon) {
-			this.add('-ability', pokemon, 'Orbital Tide');
 			Battle.prototype.setPseudoWeather = function(args){
 			this.setpseudoWeather('gravity'); //i am not good with computer does this work
 			},
@@ -3634,8 +3633,8 @@ exports.BattleAbilities = {
 		onModifyPriority: function (priority, pokemon, source, move) {
 			return 0;
 		}, //maybe this does it for the target too?
-		id: "orbital tide",
-		name: "Pressure",
+		id: "quickdraw",
+		name: "Quickdraw",
 		rating: 1.5,
 		num: 227
 	}
