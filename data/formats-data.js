@@ -4789,4 +4789,22 @@ exports.BattleFormatsData = {
 		isNonstandard: true,
 		tier: "CAP"
 	}
+	//START OF SAGE
+	
+	
+	foliat: { isNonstandard: true, tier: "VP" }
+	florabri: { isNonstandard: true, tier: "VP" }
+	florresum: { isNonstandard: true, tier: "VP" }
+	
+	kidling: { isNonstandard: true, tier: "VP" }
+	pyroat: { isNonstandard: true, tier: "VP" }
+	flairees: { isNonstandard: true, tier: "VP" }
+	
+	aguade: { isNonstandard: true, tier: "VP" }
+	iguadium: { isNonstandard: true, tier: "VP" }
+	aguanaut: { isNonstandard: true, tier: "VP" }
+
+		
+		
+
 };
