@@ -19,6 +19,8 @@ the first two and the last two should theoretically be mutually exclusive but th
 //Shibalbat is missing egg moves.
 //Quibble line is missing tutor moves.
 
+/* Note to anyone reading: Once we are SURE that something is good, it wouldn't be a bad idea to collapse the data to
+make it take up less lines. This is optional. */
 Foliat:{
         learnset:{
                 tackle:["5L1"],
@@ -9260,5 +9262,188 @@ Orbatom:{
         }
 },
 
+/* good morning world */
 
+Squink:{
+        learnset:{
+                poisonsting:["5L1"],
+		constrict:["5L1"],
+                acid:["5L6"],
+                smokescreen:["5L10"],
+                wrap:["5L14"],
+                clearsmog:["5L17"],
+                sludge:["5L19"],
+                fakeout:["5L21"],
+                minimize:["5L25"],
+                acidspray:["5L29"],
+                octazooka:["5L32"],
+                toxic:["5L35"],
+                crosspoison:["5L37"],
+                sludgebomb:["5L40"],
+                acidrain:["5L44"],
+                mudbomb:["5L47"],
+                sludgewave:["5L50"],
 
+                //common tms. check attract for nongendered pokemon
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+
+                //specific tms.          
+                venoshock:["5M"],
+                sunnyday:["5M"],
+                taunt:["5M"],
+                raindance:["5M"],
+                smackdown:["5M"],
+                psychic:["5M"],
+                shadowball:["5M"],
+                sludgewave:["5M"],
+                flamethrower:["5M"],
+                sludgebomb:["5M"],
+                torment:["5M"],
+                flamecharge:["5M"],
+                explosion:["5M"],
+                payback:["5M"],
+                swordsdance:["5M"],
+                poisonjab:["5M"],
+                darkpulse:["5M"],
+                waterpulse:["5M"],
+
+                //tutor
+                bounce:["5T"],
+                seedbomb:["5T"],
+                gunkshot:["5T"],
+                gastroacid:["5T"],
+                fling:["5T"],
+                snore:["5T"],
+                knockoff:["5T"],
+                swift:["5T"],
+		tailwind:["5T"],
+		
+
+                //egg move
+                acidarmor:["5E"],
+                amnesia:["5E"],
+                explosion:["5E"],
+                flail:["5E"],
+                haze:["5E"],
+                memento:["5E"],
+                ominouswind:["5E"],
+                poisonjab:["5E"],
+                selfdestruct:["5E"],
+                smog:["5E"],
+                suckerpunch:["5E"],
+                venoshock:["5E"],
+                whirlwind:["5E"],
+        }
+},
+Squidrift:{
+        learnset:{
+        	wringout:["5L1"],
+        	toxicspikes:["5L1"],
+                poisonsting:["5L1"],
+		constrict:["5L1"],
+                acid:["5L6"],
+                smokescreen:["5L10"],
+                wrap:["5L14"],
+                clearsmog:["5L17"],
+                sludge:["5L19"],
+                fakeout:["5L21"],
+                minimize:["5L25"],
+                acidspray:["5L29"],
+                octazooka:["5L32"],
+                toxic:["5L35"],
+                crosspoison:["5L38"],
+                aircutter:["5L41"],
+                tempest:["5L43"],
+                sludgebomb:["5L46"],
+                airslash:["5L49"],
+                acidrain:["5L53"],
+                sludgewave:["5L56"],
+                hurricane:["5L60"],
+
+                //common tms. check attract for nongendered pokemon
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+
+                //specific tms.          
+                venoshock:["5M"],
+                sunnyday:["5M"],
+                taunt:["5M"],
+                hyperbeam:["5M"],
+                raindance:["5M"],
+                smackdown:["5M"],
+                psychic:["5M"],
+                shadowball:["5M"],
+                sludgewave:["5M"],
+                flamethrower:["5M"],
+                sludgebomb:["5M"],
+                torment:["5M"],
+                flamecharge:["5M"],
+                thief:["5M"],
+                skillswap:["5M"],
+                echoedvoice:["5M"],
+                overheat:["5M"],
+                fling:["5M"],
+                acrobatics:["5M"],
+                explosion:["5M"],
+                payback:["5M"],
+                gigaimpact:["5M"],
+                gyroball:["5M"],
+                swordsdance:["5M"],
+                poisonjab:["5M"],
+                darkpulse:["5M"],
+                waterpulse:["5M"],
+                fly:["5M"],
+
+                //tutor
+                bounce:["5T"],
+                seedbomb:["5T"],
+                gunkshot:["5T"],
+                gastroacid:["5T"],
+                fling:["5T"],
+                snore:["5T"],
+                knockoff:["5T"],
+                swift:["5T"],
+		tailwind:["5T"],
+		
+
+                //egg move
+                acidarmor:["5E"],
+                amnesia:["5E"],
+                explosion:["5E"],
+                flail:["5E"],
+                haze:["5E"],
+                memento:["5E"],
+                ominouswind:["5E"],
+                poisonjab:["5E"],
+                selfdestruct:["5E"],
+                smog:["5E"],
+                suckerpunch:["5E"],
+                venoshock:["5E"],
+                whirlwind:["5E"],
+        }
+},
