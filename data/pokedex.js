@@ -848,6 +848,7 @@ missing weights: Pomparunt, Hyekuza, Toxito, Viipii, Slatic line, Glauqua, Lintl
                  Barracute line, Wispern line, Gilla line, Bazilisk
 ___201-229___
 missing weights: Icetope line, Larvyn line except Basilect, Spirits
+SAGE DEX BEGINS HERE
 */
 Foliat:{
         num:1001,                       
@@ -1478,7 +1479,7 @@ Kertruffle:{
 Mosshroom:{
         num:1049,
         species:"Mosshroom",
-        types:["Grass","Poison"],
+        types:["Poison","Grass"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:145,atk:55,def:90,spa:55,spd:90,spe:30},
         abilities:{0:"Effect Spore",1:"Hydration"},
@@ -1741,7 +1742,7 @@ Vectol2:{
 Bouwee:{
         num:1069,
         species:"Bouwee",
-        types:["Water","Bug"],
+        types:["Bug","Water"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:40,atk:30,def:45,spa:60,spd:55,spe:70},
         abilities:{0:"Swift Swim",1:"Novice"},
@@ -1754,7 +1755,7 @@ Bouwee:{
 Scubug:{
         num:1070,
         species:"Scubug",
-        types:["Water","Bug"],
+        types:["Bug","Water"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:50,atk:30,def:100,spa:90,spd:85,spe:75},
         abilities:{0:"Swift Swim",1:"Expert"},
@@ -1935,7 +1936,7 @@ Gnuru:{
 Flowger:{
         num:1084,
         species:"Flowger",
-        types:["Water","Grass"],
+        types:["Grass","Water"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:60,atk:58,def:58,spa:40,spd:48,spe:74},
         abilities:{0:"Hydration",1:"Natural Cure"},
@@ -1948,7 +1949,7 @@ Flowger:{
 Bullotus:{
         num:1085,
         species:"Bullotus",
-        types:["Water","Grass"],
+        types:["Grass","Water"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:94,atk:85,def:91,spa:67,spd:81,spe:61},
         abilities:{0:"Hydration",1:"Natural Cure"},
@@ -2141,7 +2142,7 @@ Skurrow:{
 Somberado:{
         num:1100,
         species:"Somberado",
-        types:["Ghost","Dark"],
+        types:["Dark","Ghost"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:55,atk:90,def:45,spa:80,spd:365,spe:120},
         abilities:{0:"Sniper",1:"Quickdraw"},
@@ -2335,7 +2336,7 @@ Trenchula:{
 Pottle:{
         num:1114,
         species:"Pottle",
-        types:["Grass","Ground"],
+        types:["Ground","Grass"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:65,atk:90,def:30,spa:25,spd:80,spe:25},
         abilities:{0:"Weak Armor",1:"Water Absorb"},
@@ -2348,7 +2349,7 @@ Pottle:{
 Trikotta:{
         num:1115,
         species:"Trikotta",
-        types:["Grass","Ground"],
+        types:["Ground","Grass"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:85,atk:95,def:50,spa:45,spd:105,spe:40},
         abilities:{0:"Weak Armor",1:"Water Absorb"},
@@ -2362,7 +2363,7 @@ Trikotta:{
 Terrorcotta:{
         num:1116,
         species:"Terrorcotta",
-        types:["Grass","Ground"],
+        types:["Ground","Grass"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:110,atk:100,def:80,spa:50,spd:125,spe:45},
         abilities:{0:"Weak Armor",1:"Water Absorb"},
@@ -2401,7 +2402,7 @@ Cahokisect:{
 Cobrascet:{
         num:1119,
         species:"Cobrascet",
-        types:["Poison","Ground"],
+        types:["Ground","Poison"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:59,atk:65,def:67,spa:29,spd:68,spe:32},
         abilities:{0:"Synchronize",1:"Sturdy"},
@@ -2414,7 +2415,7 @@ Cobrascet:{
 Charmbra:{
         num:1120,
         species:"Charmbra",
-        types:["Poison","Ground"],
+        types:["Ground","Poison"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:81,atk:90,def:86,spa:55,spd:91,spe:58},
         abilities:{0:"Synchronize",1:"Shed Skin"},
@@ -2440,7 +2441,7 @@ Cairup:{
 Kairoglyph:{
         num:1122,
         species:"Kairoglyph",
-        types:["Psychic","Ground"],
+        types:["Ground","Psychic"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:102,atk:70,def:95,spa:95,spd:70,spe:60},
         abilities:{0:"Sand Stream",1:"Analytic"},
@@ -2713,7 +2714,7 @@ Fantasmare:{
 Chihaha:{
         num:1143,
         species:"Chihaha",
-        types:["Normal","Dark"],
+        types:["Dark","Normal"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:50,atk:55,def:40,spa:70,spd:40,spe:70},
         abilities:{0:"Prankster",1:"Cute Charm"},
@@ -2726,7 +2727,7 @@ Chihaha:{
 Howlequin:{
         num:1144,
         species:"Howlequin",
-        types:["Normal","Dark"],
+        types:["Dark","Normal"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:73,atk:93,def:55,spa:105,spd:65,spe:91},
         abilities:{0:"Prankster",1:"Moody"},
@@ -3235,7 +3236,7 @@ Enigmite:{
 Enigmantis:{
         num:1182, 
         species:"Enigmantis", 
-        types:["Bug"], 
+        types:["Bug","Psychic"], 
         genderRatio:{M:0.5,F:0.5}, 
         baseStats:{hp:70,atk:54,def:60,spa:117,spd:82,spe:112},
         abilities:{0:"Tinted Lens",1:"Forewarn"}, 
@@ -3274,7 +3275,7 @@ Royjibiv:{
 Barracute:{
         num:1186, 
         species:"Barracute", 
-        types:["Bug","Psychic"], 
+        types:["Water"], 
         genderRatio:{M:0.5,F:0.5}, 
         baseStats:{hp:50,atk:85,def:40,spa:60,spd:40,spe:60},
         abilities:{0:"Stubborn",1:"Iron Jaw"}, 
@@ -3602,7 +3603,7 @@ Dracoon:{
 Basilect:{
         num:1211,
         species:"Basilect",
-        types:["Dragon","Bug"],
+        types:["Bug","Dragon"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:98,atk:134,def:85,spa:65,spd:112,spe:106},
         abilities:{0:"Swarm"},
@@ -3628,7 +3629,7 @@ Carbite:{
 Pressaur:{
         num:1213,
         species:"Pressaur",
-        types:["Rock","Dragon"],
+        types:["Dragon","Rock"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:65,atk:80,def:95,spa:60,spd:70,spe:50},
         abilities:{0:"Pressure"},
@@ -3694,7 +3695,7 @@ Crakling:{
 Fuelong:{
         num:1218,
         species:"Fuelong",
-        types:["Water","Fire"],
+        types:["Fire","Dragon"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:75,atk:105,def:70,spa:115,spd:80,spe:95},
         abilities:{0:"Aftermath",1:"Blaze"},
@@ -3820,7 +3821,7 @@ quetzarspace:{
         baseSpecies:"Quetzar",
         forme:"Space",
         formeLetter:"S",
-        types:["Psychic","Dragon"],
+        types:["Dragon","Psychic"],
         baseStats:{hp:105,atk:85,def:105,spa:160,spd:125,spe:90},
         abilities:{0:"Pressure"},
         heightm:7.5,
