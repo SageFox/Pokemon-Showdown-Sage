@@ -833,6 +833,11 @@ exports.Formats = [
 		searchShow: false,
 		debug: true,
 		ruleset: ['Pokemon', 'HP Percentage Mod']
-	}
-
+	},
+    {
+        name: "VP",
+        section: "Other Metagames",
+        ruleset: ['Standard', 'Team Preview', 'Swagger Clause', 'Baton Pass Clause'],
+        banlist: ['Uber', 'Soul Dew', 'Gengarite', 'Kangaskhanite', 'Lucarionite']
+    },
 ];
