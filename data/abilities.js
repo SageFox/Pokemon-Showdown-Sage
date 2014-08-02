@@ -3610,7 +3610,7 @@ exports.BattleAbilities = {
 		shortDesc: "Applies gravity in battle.",
 		onStart: function (pokemon) {
 			Battle.prototype.setPseudoWeather = function(args){
-			this.setpseudoWeather('gravity'); //i am not good with computer does this work
+			this.addPseudoWeather('gravity', source, sourceEffect) //what am i doing
 			},
 		}
 		
