@@ -4788,20 +4788,20 @@ exports.BattleFormatsData = {
 		viableMoves: {"aurasphere":1,"darkpulse":1,"taunt":1,"painsplit":1,"substitute":1,"hiddenpowerice":1,"vacuumwave":1},
 		isNonstandard: true,
 		tier: "CAP"
-	},
+	}
 	//START OF SAGE
 	
 	
-	foliat: { isNonstandard: true, tier: "VP" },
-	florabri: { isNonstandard: true, tier: "VP" },
-	florresum: { isNonstandard: true, tier: "VP" },
+	foliat: { isNonstandard: true, tier: "VP" }
+	florabri: { isNonstandard: true, tier: "VP" }
+	florresum: { isNonstandard: true, tier: "VP" }
 	
-	kidling: { isNonstandard: true, tier: "VP" },
-	pyroat: { isNonstandard: true, tier: "VP" },
-	flairees: { isNonstandard: true, tier: "VP" },
+	kidling: { isNonstandard: true, tier: "VP" }
+	pyroat: { isNonstandard: true, tier: "VP" }
+	flairees: { isNonstandard: true, tier: "VP" }
 	
-	aguade: { isNonstandard: true, tier: "VP" },
-	iguadium: { isNonstandard: true, tier: "VP" },
+	aguade: { isNonstandard: true, tier: "VP" }
+	iguadium: { isNonstandard: true, tier: "VP" }
 	aguanaut: { isNonstandard: true, tier: "VP" }
 
 		
