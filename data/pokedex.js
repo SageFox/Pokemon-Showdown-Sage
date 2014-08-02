@@ -2456,7 +2456,7 @@ Necronite:{
         species:"Necronite",
         types:["Rock","Psychic"],
         gender:"N",
-        baseStats:{hp:50,atk:40,def:85,spa:45,spd:85,spe:25,
+        baseStats:{hp:50,atk:40,def:85,spa:45,spd:85,spe:25},
         abilities:{0:"Levitate",1:"Feedback"},
         heightm:0.8,
         weightkg:70.5,
@@ -3376,7 +3376,6 @@ Lavoon:{
         prevo:["Glocto"],
         eggGroups:["Water 2","Water 3"]
 },
-
 Gilla:{
         num:1194, 
         species:"Gilla", 
