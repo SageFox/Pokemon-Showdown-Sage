@@ -3259,12 +3259,7 @@ exports.BattleAbilities = {
 		num: -4
 	}
 	
-	
-	
-	
-	
-	
-	
+
 	//SAGE
 	"adrenaline": { //pulled from Defiant + Overgrow
 		desc: "At low health, the bearer's speed is raised.",
@@ -3286,31 +3281,27 @@ exports.BattleAbilities = {
 		num: 200
 		
 	}
-	"allure": { //pulled from rivalry and wonder skin whatever that is
+	"allure": { //pulled from rivalry, wonder skin and sweet scent
 		desc: "The chance of encountering opposite gendered pokemon is increased, and their evasion is lowered.",
 		shortDesc: "Lowers evasion of opposite gendered pokemon on entry.",
 		id: "allure",
 		isNonstandard: true,
-		onAccuracy: function (accuracy, source, target move) { // does switching source and target do this
-			if (move.category === 'Status' && typeof move.accuracy === 'number') {
-				this.debug('Allure - lowering evasion by 20');
-				if (accuracy >=80) {
-					return 100; 
-				}
-				else {
-				return accuracy + 20;
-				} // please help i am not good with computer
-			}
-		},
+        // Like Rivalry
+        onSourceAccuracy: function (accuracy, target, source, move) {
+            if (typeof accuracy !== 'number') return;
+            if ((target.gender === 'M' && source.gender === 'F') || (target.gender === 'F' && source.gender === 'M')) {
+                this.debug('Allure - accuracy is 1.2x ');
+                return accuracy * 1.2;
+            }
+        },
 		name: "Allure",
-		// implemented in the corresponding move
-		rating: 4, //don't give a shit about ratings
+		rating: 4,
 		num: 201
 		
 	}
 	"brave heart": { //guts
-		desc: "When this Pokemon is poisoned (including Toxic), burned, paralyzed or asleep (including self-induced Rest), its Attack stat receives a 50% boost; the burn status' Attack drop is also ignored.",
-		shortDesc: "If this Pokemon is statused, its Attack is 1.5x; burn's Attack drop is ignored.",
+		desc: "When this Pokemon is poisoned (including Toxic), burned, paralyzed or asleep (including self-induced Rest), its Defense stat receives a 50% boost.",
+		shortDesc: "If this Pokemon is statused, its Defense is 1.5x.",
 		onModifyDefPriority: 5,
 		onModifyDef: function (def, pokemon) {
 			if (pokemon.status) {
