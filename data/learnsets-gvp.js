@@ -1,4 +1,4 @@
-/*Thanks to BoredMan and Chaoguy2006 for contributing, and to [name] for proofreading
+/*Thanks to BoredMan and Chaoguy2006 for contributing, and to Perforate and Sagefox for proofreading */
 
 
 /*Foliat:{
