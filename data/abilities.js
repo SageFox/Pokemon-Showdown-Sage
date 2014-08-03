@@ -3570,10 +3570,10 @@ exports.BattleAbilities = {
 		num: 219
 	},
 	//SAGE signature
-	"eventide": { 
+	/*"eventide": { 
 		//We need to somehow find Espeon and Umbreon's evolution info to get this one.
-	},
-	"feisty": { //pulled from the battle engine and from blaze
+	},*/
+	/*"feisty": { //pulled from the battle engine and from blaze
 		onModifyAtkPriority: 5,
 		onModifyAtk: function (atk, attacker, defender, move) {
 			if (target.level > pokemon.level) {
@@ -3581,13 +3581,13 @@ exports.BattleAbilities = {
 				return this.chainModify(1.5);
 			}
 		}
-	},
-	"forage": {
+	},*/
+	/*"forage": {
 		
 	}, //just take pickup code
 	"mooch": { //lord how the fuck is this one going in
 		
-	},
+	},*/
 	"orbital tide": { //uses pressure as the base
 		desc: "Gravity is applied when this Pokemon switches in.",
 		shortDesc: "Applies gravity in battle.",
@@ -3601,15 +3601,15 @@ exports.BattleAbilities = {
 		rating: 1.5,
 		num: 224
 	},
-	"overshadow": { //nowhere is height used as a var
+	/*"overshadow": { //nowhere is height used as a var
 	    onStart: function (pokemon) {
 		    this.height = this.template.height;
 		    this.heightm = this.template.heightm; //some stuff from the battle engine
 		}
-	},
-	"pollution": { //acid rain needs to be coded in first
+	},*/
+	/*"pollution": { //acid rain needs to be coded in first
 		
-	},
+	},*/
 	"quickdraw": {
 		onModifyPriority: function (priority, pokemon, target, move) {
 			return 0;
@@ -3622,14 +3622,16 @@ exports.BattleAbilities = {
 		rating: 1.5,
 		num: 227
 	},
-	"siphon": { //liquid ooze for info?
+	/*"siphon": { //liquid ooze for info?
 			
 	},
 	"spectrum": { //borrow code from color change / protean and add in a detect color function?
 		
-	},
+	},*/
 	//SAGE LEGENDARIES
 	//to be determined
+
+	
 
 	
 	
