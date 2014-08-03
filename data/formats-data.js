@@ -4865,7 +4865,7 @@ exports.BattleFormatsData = {
 	maskoon: { isNonstandard: true, tier: "VP" },
 	mortasque: { isNonstandard: true, tier: "VP" },
 	vectol: { isNonstandard: true, tier: "VP" },
-	vectol.2: { isNonstandard: true, tier: "VP" },
+	vectol2: { isNonstandard: true, tier: "VP" },
 	bouwee: { isNonstandard: true, tier: "VP" },
 	scubug: { isNonstandard: true, tier: "VP" },
 	totter: { isNonstandard: true, tier: "VP" },
