@@ -5026,7 +5026,7 @@ exports.BattleFormatsData = {
 	yacuma: { isNonstandard: true, tier: "VP" },
 	quetzar: { isNonstandard: true, tier: "VP" },
 	xochi: { isNonstandard: true, tier: "VP" },
-	xotec: { isNonstandard: true, tier: "VP" },
+	xotec: { isNonstandard: true, tier: "VP" }
 	
 	
 	
