@@ -16509,6 +16509,8 @@ Bazilisk:{
                     swagger:["5M"],
                     substitute:["5M"],
                     sleeptalk:["5M"],
+            }
+},
      
     Ornitherb:{
             learnset:{
@@ -16529,7 +16531,7 @@ Bazilisk:{
                     batonpass:["5L50"],
                     dragonclaw:["5L54"],
      
-    toxic:["5M"],
+			 toxic:["5M"],
                     hiddenpower:["5M"],
                     protect:["5M"],
                     frustration:["5M"],
@@ -16542,7 +16544,8 @@ Bazilisk:{
                     swagger:["5M"],
                     substitute:["5M"],
                     sleeptalk:["5M"],
-     
+            }
+    },
     Dilophlora:{
             learnset:{
                     leafstorm:["5L1"],
@@ -16576,7 +16579,28 @@ Bazilisk:{
                     swagger:["5M"],
                     substitute:["5M"],
                     sleeptalk:["5M"],
-
+                    
+                   ancientpower:["5T"],
+		aquatail:["5T"],
+		bounce:["5T"],
+		doubleedge:["5T"],
+		dragonpulse:["5T"],
+		earthpower:["5T"],
+		fling:["5T"],
+		ironhead:["5T"],
+		irontail:["5T"],
+		knockoff:["5T"],
+		megakick:["5T"],
+		mudslap:["5T"],
+		outrage:["5T"],
+		seedbomb:["5T"],
+		snore:["5T"],
+		steelwing:["5T"],
+		superfang:["5T"],
+		synthesis:["5T"],
+		zenheadbutt:["5T"],
+}
+},
 
 
 
