@@ -22,10 +22,12 @@ the first two and the last two should theoretically be mutually exclusive but th
 //Necronite line. Just look at it.
 //Same with Diloweed line
 //Dinkywink's Tutor and Breeding are fucked up.
-//No tutor moves for Calphite line
+//No tutor moves for Calphite line, Gilla line,
 //Same for Solacari, Loneleaf line,  Coltergeist line, Chegrin line, Pomparunt line, Chilloth line, Chayan line, Fortifry line
-//No/next to none egg moves for Chegrin line, Pomparunt line, Chilloth line, chayan line, 
+//No/next to none egg moves for Chegrin line, Pomparunt line, Chilloth line, chayan line, Gilla line,
 //No TMs for Coltergeist line, Chegrin line, Pomparunt line, Chilloth, Chayan line, Fortifry,
+
+// Everything after #173 may or may not have all its moves. I didn't tell them to document it, oh well.
 /* Note to anyone reading: Once we are SURE that something is good, it wouldn't be a bad idea to collapse the data to
 make it take up less lines. This is optional. */
 Foliat:{
@@ -14775,3 +14777,3184 @@ Hydranticus:{
 
         }
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chimpoca:{
+        learnset:{
+                armthrust:["5L1"],
+                leer:["5L1"],
+                focusenergy:["5L7"],
+                karatechop:["5L11"],
+                lowsweep:["5L14"],
+                megapunch:["5L18"],
+                foresight:["5L22"],
+                revenge:["5L25"],
+                bulletpunch:["5L29"],
+                bulkup:["5L33"],
+                hammerarm:["5L37"],
+                payback:["5L40"],
+                bellydrum:["5L44"],
+                superpower:["5L48"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                
+                //tutor
+				
+                //egg move
+                quickguard:["5E"],
+                
+        }
+},
+Simayan:{
+        learnset:{
+                armthrust:["5L1"],
+                leer:["5L1"],
+                focusenergy:["5L7"],
+                karatechop:["5L11"],
+                lowsweep:["5L14"],
+                megapunch:["5L18"],
+                foresight:["5L22"],
+                revenge:["5L27"],
+                bulletpunch:["5L31"],
+                bulkup:["5L35"],
+                hammerarm:["5L40"],
+                payback:["5L43"],
+                bellydrum:["5L47"],
+                superpower:["5L52"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                
+                //tutor
+				
+                //egg move
+                quickguard:["5E"],
+                
+        }
+},
+Monkezuma:{
+        learnset:{
+                armthrust:["5L1"],
+                leer:["5L1"],
+                focusenergy:["5L7"],
+                karatechop:["5L11"],
+                lowsweep:["5L14"],
+                megapunch:["5L18"],
+                foresight:["5L22"],
+                revenge:["5L27"],
+                bulletpunch:["5L31"],
+                bulkup:["5L35"],
+                hammerarm:["5L40"],
+		heavyslam:["5L44"],
+                payback:["5L47"],
+                bellydrum:["5L51"],
+		wideguard:["5L53"],
+                superpower:["5L56"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+		gigaimpact:["5M"],
+                
+                //tutor
+				
+                //egg move
+                quickguard:["5E"],
+                
+        }
+},
+/*END OF CHIMPOCA LINE*/
+Enigmite:{
+        learnset:{
+                scratch:["5L1"],
+                defensecurl:["5L1"],
+                furycutter:["5L5"],
+                psywave:["5L9"],
+                disable:["5L12"],
+                confuseray:["5L15"],
+                bugbite:["5L19"],
+                rollout:["5L24"],
+                screech:["5L28"],
+                steamroller:["5L32"],
+                rockpolish:["5L37"],
+                powergem:["5L41"],
+                batonpass:["5L45"],
+                substitute:["5L49"],
+                bugbuzz:["5L51"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                calmmind:["5M"],
+                sunnyday:["5M"],
+                taunt:["5M"],
+                lightscreen:["5M"],
+                raindance:["5M"],
+                telekinesis:["5M"],
+                safeguard:["5M"],
+                thunderbolt:["5M"],
+                psychic:["5M"],
+                shadowball:["5M"],
+                reflect:["5M"],
+                aerialace:["5M"],
+                torment:["5M"],
+                thief:["5M"],
+                energyball:["5M"],
+                falseswipe:["5M"],
+                fling:["5M"],
+                willowisp:["5M"],
+                flash:["5M"],
+                gyroball:["5M"],
+                swordsdance:["5M"],
+                strugglebug:["5M"],
+                psychup:["5M"],
+                xscissor:["5M"],
+                dreameater:["5M"],
+                uturn:["5M"],
+                trickroom:["5M"],
+                
+                //tutor
+				
+                //egg move
+                cosmicpower:["5E"],
+                hypnosis:["5E"],
+                magicroom:["5E"],
+                meditate:["5E"],
+                psychoshift:["5E"],
+                rollout:["5E"],
+                silverwind:["5E"],
+                slash:["5E"],
+                
+        }
+},
+Enigmantis:{
+        learnset:{
+                psychocut:["5L1"],
+                scratch:["5L1"],
+                storedpower:["5L1"],
+                sweetscent:["5L5"],
+                psywave:["5L9"],
+                disable:["5L12"],
+                confuseray:["5L15"],
+                imprison:["5L19"],
+                futuresight:["5L24"],
+                signalbeam:["5L28"],
+                calmmind:["5L32"],
+                amnesia:["5L37"],
+                powergem:["5L41"],
+                batonpass:["5L45"],
+                extrasensory:["5L49"],
+                trickroom:["5L60"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                calmmind:["5M"],
+                sunnyday:["5M"],
+                taunt:["5M"],
+                hyperbeam:["5M"],
+                lightscreen:["5M"],
+                raindance:["5M"],
+                telekinesis:["5M"],
+                safeguard:["5M"],
+                thunderbolt:["5M"],
+                psychic:["5M"],
+                shadowball:["5M"],
+                reflect:["5M"],
+                aerialace:["5M"],
+                torment:["5M"],
+                thief:["5M"],
+                energyball:["5M"],
+                falseswipe:["5M"],
+                fling:["5M"],
+                willowisp:["5M"],
+                gigaimpact:["5M"],
+                flash:["5M"],
+                gyroball:["5M"],
+                swordsdance:["5M"],
+                strugglebug:["5M"],
+                psychup:["5M"],
+                xscissor:["5M"],
+                dreameater:["5M"],
+                uturn:["5M"],
+                trickroom:["5M"],
+                
+                //tutor
+				
+                //egg move
+                cosmicpower:["5E"],
+                hypnosis:["5E"],
+                magicroom:["5E"],
+                meditate:["5E"],
+                psychoshift:["5E"],
+                rollout:["5E"],
+                silverwind:["5E"],
+                slash:["5E"],
+                
+        }
+},
+/*END OF ENIGMITE LINE*/
+Arjibi:{
+        learnset:{
+                wrap:["5L1"],
+                flash:["5L1"],
+                constrict:["5L1"],
+                twister:["5L6"],
+                quickattack:["5L10"],
+                glare:["5L14"],
+                signalbeam:["5L19"],
+                dragonbreath:["5L22"],
+                camouflage:["5L25"],
+                agility:["5L28"],
+                aurorabeam:["5L32"],
+                triattack:["5L36"],
+                coil:["5L40"],
+                safeguard:["5L44"],
+                extremespeed:["5L49"],
+                dragonpulse:["5L52"],
+                hyperbeam:["5L55"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                psyshock:["5M"],
+                calmmind:["5M"],
+                roar:["5M"],
+                sunnyday:["5M"],
+                icebeam:["5M"],
+                blizzard:["5M"],
+                hyperbeam:["5M"],
+                lightscreen:["5M"],
+                raindance:["5M"],
+                safeguard:["5M"],
+                solarbeam:["5M"],
+                thunderbolt:["5M"],
+                thunder:["5M"],
+                psychic:["5M"],
+                reflect:["5M"],
+                flamethrower:["5M"],
+                fireblast:["5M"],
+                aerialace:["5M"],
+                skillswap:["5M"],
+                echoedvoice:["5M"],
+                energyball:["5M"],
+                chargebeam:["5M"],
+                acrobatics:["5M"],
+                gigaimpact:["5M"],
+                flash:["5M"],
+                thunderwave:["5M"],
+                dragontail:["5M"],
+                grassknot:["5M"],
+                flashcannon:["5M"],
+                waterpulse:["5M"],
+                fly:["5M"],
+                surf:["5M"],
+                
+                //tutor
+                aquatail:["5T"],
+				dragonpulse:["5T"],
+				healbell:["5T"],
+				heatwave:["5T"],
+				hypervoice:["5T"],
+				irontail:["5T"],
+				magiccoat:["5T"],
+				outrage:["5T"],
+				signalbeam:["5T"],
+				silverwind:["5T"],
+				swift:["5T"],
+				wonderroom:["5T"],
+				zenheadbutt:["5T"],
+				
+                //egg move
+                healpulse:["5E"],
+                irontail:["5E"],
+                mirrorcoat:["5E"],
+                naturepower:["5E"],
+                powergem:["5E"],
+                recover:["5E"],
+                
+        }
+},
+Royjibiv:{
+        learnset:{
+                hyperbeam:["5L1"],
+                solarbeam:["5L1"],
+                psybeam:["5L1"],
+                safeguard:["5L1"],
+                secretpower:["5L1"],
+                morningsun:["5L45"],
+                prismbeam:["5L48"],
+                dragonpulse:["5L52"],
+                skyattack:["5L55"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                psyshock:["5M"],
+                calmmind:["5M"],
+                roar:["5M"],
+                sunnyday:["5M"],
+                icebeam:["5M"],
+                blizzard:["5M"],
+                hyperbeam:["5M"],
+                lightscreen:["5M"],
+                raindance:["5M"],
+                safeguard:["5M"],
+                solarbeam:["5M"],
+                thunderbolt:["5M"],
+                thunder:["5M"],
+                psychic:["5M"],
+                reflect:["5M"],
+                flamethrower:["5M"],
+                fireblast:["5M"],
+                aerialace:["5M"],
+                skillswap:["5M"],
+                echoedvoice:["5M"],
+				focusblast:["5M"],
+                energyball:["5M"],
+                chargebeam:["5M"],
+                acrobatics:["5M"],
+                gigaimpact:["5M"],
+                flash:["5M"],
+                thunderwave:["5M"],
+                dragontail:["5M"],
+                grassknot:["5M"],
+                flashcannon:["5M"],
+                waterpulse:["5M"],
+                fly:["5M"],
+                surf:["5M"],
+                
+                //tutor
+                aquatail:["5T"],
+				dragometeor:["5T"],
+				dragonpulse:["5T"],
+				healbell:["5T"],
+				heatwave:["5T"],
+				hypervoice:["5T"],
+				irontail:["5T"],
+				magiccoat:["5T"],
+				outrage:["5T"],
+				signalbeam:["5T"],
+				silverwind:["5T"],
+				swift:["5T"],
+				wonderroom:["5T"],
+				zenheadbutt:["5T"],
+				
+                //egg move
+                healpulse:["5E"],
+                irontail:["5E"],
+                mirrorcoat:["5E"],
+                naturepower:["5E"],
+                powergem:["5E"],
+                recover:["5E"],
+                
+        }
+},
+/*END OF ARJIBI LINE*/
+Barracute:{
+        learnset:{
+                bite:["5L1"],
+                tailwhip:["5L1"],
+                rage:["5L5"],
+                whirlpool:["5L9"],
+                scaryface:["5L13"],
+                waterpulse:["5L17"],
+                slam:["5L22"],
+                flail:["5L26"],
+                crunch:["5L33"],
+                aquatail:["5L37"],
+                thrash:["5L45"],
+                hydropump:["5L49"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                roar:["5M"],
+                bulkup:["5M"],
+                taunt:["5M"],
+                icebeam:["5M"],
+                blizzard:["5M"],
+                raindance:["5M"],
+                earthquake:["5M"],
+                sludgebomb:["5M"],
+                rocktomb:["5M"],
+                lowsweep:["5M"],
+                scald:["5M"],
+                rocksmash:["5M"],
+                payback:["5M"],
+                stoneedge:["5M"],
+                swordsdance:["5M"],
+                bulldoze:["5M"],
+                rockslide:["5M"],
+                dragontail:["5M"],
+                workup:["5M"],
+                waterpulse:["5M"],
+                
+                //tutor
+                aquatail:["5T"],
+				doubleedge:["5T"],
+				dragonpulse:["5T"],
+				earthpower:["5T"],
+				endeavor:["5T"],
+				ironhead:["5T"],
+				irontail:["5T"],
+				mudslap:["5T"],
+				outrage:["5T"],
+				snore:["5T"],
+				superfang:["5T"],
+				swift:["5T"],
+				
+                //egg move
+                aquajet:["5E"],
+                foulplay:["5E"],
+                irontail:["5E"],
+                poisonfang:["5E"],
+                pursuit:["5E"],
+                superfang:["5E"],
+                thunderfang:["5E"],
+                
+        }
+},
+Jawgodon:{
+        learnset:{
+                bite:["5L1"],
+                tailwhip:["5L1"],
+                rage:["5L5"],
+                whirlpool:["5L9"],
+                scaryface:["5L13"],
+                waterpulse:["5L17"],
+                slam:["5L22"],
+                flail:["5L26"],
+                crunch:["5L33"],
+                aquatail:["5L39"],
+				icefang:["5L42"],
+                thrash:["5L47"],
+                hydropump:["5L54"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                roar:["5M"],
+                bulkup:["5M"],
+                taunt:["5M"],
+                icebeam:["5M"],
+                blizzard:["5M"],
+				hyperbeam:["5M"],
+                raindance:["5M"],
+                earthquake:["5M"],
+                sludgebomb:["5M"],
+                rocktomb:["5M"],
+                lowsweep:["5M"],
+                scald:["5M"],
+                rocksmash:["5M"],
+                payback:["5M"],
+				gigaimpact:["5M"],
+                stoneedge:["5M"],
+                swordsdance:["5M"],
+                bulldoze:["5M"],
+                rockslide:["5M"],
+                dragontail:["5M"],
+                workup:["5M"],
+                waterpulse:["5M"],
+                
+                //tutor
+                aquatail:["5T"],
+				doubleedge:["5T"],
+				dragonpulse:["5T"],
+				earthpower:["5T"],
+				endeavor:["5T"],
+				ironhead:["5T"],
+				irontail:["5T"],
+				mudslap:["5T"],
+				outrage:["5T"],
+				snore:["5T"],
+				superfang:["5T"],
+				swift:["5T"],
+				
+                //egg move
+                aquajet:["5E"],
+                foulplay:["5E"],
+                irontail:["5E"],
+                poisonfang:["5E"],
+                pursuit:["5E"],
+                superfang:["5E"],
+                thunderfang:["5E"],
+                
+        }
+},
+/*END OF BARRACUTE LINE*/
+Drosire:{
+        learnset:{
+                constrict:["5L1"],
+                sweetscent:["5L1"],
+                stunspore:["5L1"],
+                wrap:["5L4"],
+                absorb:["5L7"],
+                leechseed:["5L10"],
+                vinewhip:["5L14"],
+                doubleslap:["5L17"],
+                megadrain:["5L22"],
+                growth:["5L27"],
+                sunnyday:["5L32"],
+                gigadrain:["5L35"],
+                synthesis:["5L40"],
+                solarbeam:["5L45"],
+                petaldance:["5L48"],
+                gastroacid:["5L53"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                calmmind:["5M"],
+                roar:["5M"],
+                sunnyday:["5M"],
+                lightscreen:["5M"],
+                safeguard:["5M"],
+                solarbeam:["5M"],
+                brickbreak:["5M"],
+                energyball:["5M"],
+                payback:["5M"],
+                gyroball:["5M"],
+                swordsdance:["5M"],
+                poisonjab:["5M"],
+                grassknot:["5M"],
+                trickroom:["5M"],
+                bulletseed:["5M"],
+                
+                //tutor
+                ancientpower:["5T"],
+				doubleedge:["5T"],
+				gastroacid:["5T"],
+				knockoff:["5T"],
+				mudslap:["5T"],
+				painsplit:["5T"],
+				recycle:["5T"],
+				seedbomb:["5T"],
+				signalbeam:["5T"],
+				synthesis:["5T"],
+				thunderpunch:["5T"],
+				worryseed:["5T"],
+				
+                //egg move
+                
+        }
+},
+Sunduke:{
+        learnset:{
+                sleeppowder:["5L1"],
+                sweetscent:["5L1"],
+                stunspore:["5L1"],
+                wrap:["5L1"],
+                leechseed:["5L1"],
+                sunnyday:["5L1"],
+                synthesis:["5L44"],
+                growth:["5L47"],
+                powerwhip:["5L50"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                calmmind:["5M"],
+                roar:["5M"],
+                sunnyday:["5M"],
+                hyperbeam:["5M"],
+                lightscreen:["5M"],
+                safeguard:["5M"],
+                solarbeam:["5M"],
+                brickbreak:["5M"],
+				sludgebomb:["5M"],
+				aerialace:["5M"],
+				gigadrain:["5M"],
+				focusblast:["5M"],
+                energyball:["5M"],
+				drainpunch:["5M"],
+                payback:["5M"],
+				gigaimpact:["5M"],
+                gyroball:["5M"],
+                swordsdance:["5M"],
+                poisonjab:["5M"],
+                grassknot:["5M"],
+                trickroom:["5M"],
+                bulletseed:["5M"],
+                
+                //tutor
+                ancientpower:["5T"],
+				doubleedge:["5T"],
+				gastroacid:["5T"],
+				knockoff:["5T"],
+				mudslap:["5T"],
+				painsplit:["5T"],
+				recycle:["5T"],
+				seedbomb:["5T"],
+				signalbeam:["5T"],
+				synthesis:["5T"],
+				thunderpunch:["5T"],
+				worryseed:["5T"],
+				
+                //egg move
+                
+        }
+},
+/*END OF DROSIRE LINE*/
+Wispern:{
+        learnset:{
+                ember:["5L1"],
+                nightshade:["5L1"],
+                flatter:["5L6"],
+                firespin:["5L11"],
+                ominouswind:["5L15"],
+                whirlwind:["5L18"],
+                hex:["5L22"],
+                willowisp:["5L27"],
+                safeguard:["5L30"],
+                luckychant:["5L33"],
+                flameburst:["5L36"],
+                imprison:["5L39"],
+                shadowball:["5L44"],
+                wish:["5L48"],
+                memento:["5L51"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                sunnyday:["5M"],
+                taunt:["5M"],
+                lightscreen:["5M"],
+                telekinesis:["5M"],
+                safeguard:["5M"],
+                psychic:["5M"],
+                shadowball:["5M"],
+                reflect:["5M"],
+                flamethrower:["5M"],
+                fireblast:["5M"],
+                torment:["5M"],
+                flamecharge:["5M"],
+                thief:["5M"],
+                overheat:["5M"],
+                energyball:["5M"],
+                chargebeam:["5M"],
+                incinerate:["5M"],
+                willowisp:["5M"],
+                payback:["5M"],
+                flash:["5M"],
+                thunderwave:["5M"],
+                psychup:["5M"],
+                dreameater:["5M"],
+                trickroom:["5M"],
+                darkpulse:["5M"],
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+Phantern:{
+        learnset:{
+                ember:["5L1"],
+                nightshade:["5L1"],
+                flatter:["5L6"],
+                firespin:["5L11"],
+                ominouswind:["5L15"],
+                whirlwind:["5L18"],
+                hex:["5L22"],
+                willowisp:["5L27"],
+                safeguard:["5L30"],
+                luckychant:["5L38"],
+                flameburst:["5L41"],
+                imprison:["5L46"],
+                shadowball:["5L50"],
+                wish:["5L55"],
+                memento:["5L60"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                sunnyday:["5M"],
+                taunt:["5M"],
+				hyperbeam:["5M"],
+                lightscreen:["5M"],
+                telekinesis:["5M"],
+                safeguard:["5M"],
+				solarbeam:["5M"],
+                psychic:["5M"],
+                shadowball:["5M"],
+                reflect:["5M"],
+                flamethrower:["5M"],
+                fireblast:["5M"],
+                torment:["5M"],
+                flamecharge:["5M"],
+                thief:["5M"],
+                overheat:["5M"],
+                energyball:["5M"],
+                chargebeam:["5M"],
+                incinerate:["5M"],
+                willowisp:["5M"],
+                payback:["5M"],
+				gigaimpact:["5M"],
+                flash:["5M"],
+                thunderwave:["5M"],
+				gyroball:["5M"],
+                psychup:["5M"],
+                dreameater:["5M"],
+                trickroom:["5M"],
+                darkpulse:["5M"],
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+/*END OF WISPERN LINE*/
+Glocto:{
+        learnset:{
+                thundershock:["5L1"],
+                ember:["5L1"],
+                bind:["5L4"],
+                confuseray:["5L7"],
+                charge:["5L11"],
+                tailglow:["5L16"],
+                chargebeam:["5L20"],
+                flameburst:["5L25"],
+                flash:["5L30"],
+                scald:["5L33"],
+                mirrorcoat:["5L36"],
+                rest:["5L39"],
+                lavaplume:["5L44"],
+                zapcannon:["5L50"],
+                flashcannon:["5L55"],
+                eruption:["5L58"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                lightscreen:["5M"],
+                raindance:["5M"],
+                thunderbolt:["5M"],
+                thunder:["5M"],
+                reflect:["5M"],
+                flamethrower:["5M"],
+                fireblast:["5M"],
+                scald:["5M"],
+                chargebeam:["5M"],
+                incinerate:["5M"],
+                willowisp:["5M"],
+                flash:["5M"],
+                thunderwave:["5M"],
+                workup:["5M"],
+                flashcannon:["5M"],
+                waterpulse:["5M"],
+                surf:["5M"],
+                waterfall:["5M"],
+                
+                //tutor
+                heatwave:["5T"],
+				magiccoat:["5T"],
+				signalbeam:["5T"],
+				snore:["5T"],
+				swift:["5T"],
+				zenheadbutt:["5T"],
+				
+                //egg move
+                aquaring:["5E"],
+                brine:["5E"],
+                recover:["5E"],
+                soak:["5E"],
+                whirlpool:["5E"],
+                
+        }
+},
+Lavoon:{
+        learnset:{
+                sing:["5L1"],
+                hypervoice:["5L1"],
+                thundershock:["5L1"],
+                ember:["5L1"],
+                bind:["5L4"],
+                confuseray:["5L7"],
+                charge:["5L11"],
+                tailglow:["5L16"],
+                chargebeam:["5L20"],
+                flameburst:["5L25"],
+                flash:["5L30"],
+                scald:["5L33"],
+                mirrorcoat:["5L36"],
+                rest:["5L39"],
+                lavaplume:["5L44"],
+                dive:["5L45"],
+                hydropump:["5L50"],
+                eruption:["5L61"],
+                waterspout:["5L61"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+                lightscreen:["5M"],
+                raindance:["5M"],
+                thunderbolt:["5M"],
+                thunder:["5M"],
+                reflect:["5M"],
+                flamethrower:["5M"],
+                fireblast:["5M"],
+                echoedvoice:["5M"],
+                overheat:["5M"],
+                scald:["5M"],
+                chargebeam:["5M"],
+                incinerate:["5M"],
+                willowisp:["5M"],
+                gigaimpact:["5M"],
+                flash:["5M"],
+                thunderwave:["5M"],
+                dragontail:["5M"],
+                workup:["5M"],
+                flashcannon:["5M"],
+                waterpulse:["5M"],
+                surf:["5M"],
+                dive:["5M"],
+                waterfall:["5M"],
+                
+                //tutor
+                aquatail:["5T"],
+				dragonpulse:["5T"],
+				heatwave:["5T"],
+				hypervoice:["5T"],
+				magiccoat:["5T"],
+				signalbeam:["5T"],
+				snore:["5T"],
+				swift:["5T"],
+				uproar:["5T"],
+				zenheadbutt:["5T"],
+				
+                //egg move
+                aquaring:["5E"],
+                brine:["5E"],
+                recover:["5E"],
+                soak:["5E"],
+                whirlpool:["5E"],
+                
+        }
+},
+/*END OF GLOCTO LINE*/
+
+
+
+Gilla:{
+        learnset:{
+                poisonsting:["5L1"],
+                tailwhip:["5L1"],
+                tackle:["5L6"],
+                mudslap:["5L9"],
+                bite:["5L13"],
+                stomp:["5L18"],
+                bulldoze:["5L21"],
+                poisonfang:["5L25"],
+                dig:["5L30"],
+                rest:["5L34"],
+                curse:["5L39"],
+                earthpower:["5L42"],
+                sludgebomb:["5L47"],
+                gunkshot:["5L51"],
+                
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                honeclaws:["5M"],
+                dragonclaw:["5M"],
+                venoshock:["5M"],
+                sunnyday:["5M"],
+                dig:["5M"],
+                sludgewave:["5M"],
+                sludgebomb:["5M"],
+                shadowclaw:["5M"],
+                payback:["5M"],
+                retaliate:["5M"],
+                gyroball:["5M"],
+                swordsdance:["5M"],
+                bulldoze:["5M"],
+                poisonjab:["5M"],
+                strength:["5M"],
+                
+                //tutor
+               
+				
+                //egg move
+               
+        }
+},
+
+Hornizard:{
+        learnset:{
+        	ancientpower:["5L1"],
+                poisonsting:["5L1"],
+                tailwhip:["5L1"],
+                tackle:["5L6"],
+                mudslap:["5L9"],
+                bite:["5L13"],
+                stomp:["5L18"],
+                bulldoze:["5L21"],
+                poisonfang:["5L25"],
+                toxicspikes:["5L27"],
+                dig:["5L33"],
+                rest:["5L37"],
+                curse:["5L42"],
+                earthpower:["5L45"],
+                sludgebomb:["5L50"],
+                gunkshot:["5L54"],
+                
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                honeclaws:["5M"],
+                dragonclaw:["5M"],
+                bulkup:["5M"],
+                venoshock:["5M"],
+                sunnyday:["5M"],
+                earthquake:["5M"],
+                dig:["5M"],
+                sludgewave:["5M"],
+                sludgebomb:["5M"],
+                torment:["5M"],
+                lowsweep:["5M"],
+                shadowclaw:["5M"],
+                payback:["5M"],
+                retaliate:["5M"],
+                gyroball:["5M"],
+                swordsdance:["5M"],
+                bulldoze:["5M"],
+                dragontail:["5M"],
+                poisonjab:["5M"],
+                strength:["5M"],
+                
+                //tutor
+               
+				
+                //egg move
+               
+        }
+},
+
+Ankillosore:{
+        learnset:{
+        	heavyslam:["5L1"],
+        	ancientpower:["5L1"],
+                poisonsting:["5L1"],
+                tailwhip:["5L1"],
+                tackle:["5L6"],
+                mudslap:["5L9"],
+                bite:["5L13"],
+                stomp:["5L18"],
+                bulldoze:["5L21"],
+                poisonfang:["5L25"],
+                toxicspikes:["5L27"],
+                dig:["5L33"],
+                rest:["5L37"],
+                curse:["5L42"],
+                earthpower:["5L45"],
+                sludgebomb:["5L50"],
+                gunkshot:["5L54"],
+                earthquake:["5L58"],
+                
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                honeclaws:["5M"],
+                dragonclaw:["5M"],
+                bulkup:["5M"],
+                venoshock:["5M"],
+                sunnyday:["5M"],
+                hyperbeam:["5M"],
+                earthquake:["5M"],
+                dig:["5M"],
+                sludgewave:["5M"],
+                sludgebomb:["5M"],
+                sandstorm:["5M"],
+                rocktomb:["5M"],
+                torment:["5M"],
+                lowsweep:["5M"],
+                rocksmash:["5M"],
+                shadowclaw:["5M"],
+                payback:["5M"],
+                retaliate:["5M"],
+                gigaimpact:["5M"],
+                gyroball:["5M"],
+                swordsdance:["5M"],
+                bulldoze:["5M"],
+                rockslide:["5M"],
+                dragontail:["5M"],
+                poisonjab:["5M"],
+                cut:["5M"],
+                strength:["5M"],
+                
+                //tutor
+               
+				
+                //egg move
+               
+        }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//note: this uses the wiki contents as found on August 2
+Baboom:{
+        learnset:{
+				bite:["5L1"],
+				leer:["5L1"],
+				fling:["5L1"],
+				pursuit:["5L6"],
+				spark:["5L11"],
+				smokescreen:["5L13"],
+				rage:["5L16"],
+				taunt:["5L21"],
+				howl:["5L26"],
+				thunderpunch:["5L32"],
+				bellydrum:["5L38"],
+				wildcharge:["5L44"],
+				crunch:["5L50"],
+				closecombat:["5L54"],
+				suckerpunch:["5L56"],
+				thunder:["5L62"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                roar:["5M"],
+                taunt:["5M"],
+                hyperbeam:["5M"],
+                lightscreen:["5M"],
+                raindance:["5M"],
+                thunderbolt:["5M"],
+                thunder:["5M"],
+                brickbreak:["5M"],
+                reflect:["5M"],
+                torment:["5M"],
+                flamecharge:["5M"],
+                thief:["5M"],
+                lowsweep:["5M"],
+                falseswipe:["5M"],
+                fling:["5M"],
+                chargebeam:["5M"],
+                rocksmash:["5M"],
+                payback:["5M"],
+                retaliate:["5M"],
+                gigaimpact:["5M"],
+                flash:["5M"],
+                voltswitch:["5M"],
+                thunderwave:["5M"],
+                bulldoze:["5M"],
+                wildcharge:["5M"],
+                snarl:["5M"],
+                darkpulse:["5M"],
+                cut:["5M"],
+                strength:["5M"],
+                
+                //tutor
+                doubleedge:["5T"],
+				firepunch:["5T"],
+				fling:["5T"],
+				helpinghand:["5T"],
+				hypervoice:["5T"],
+				icepunch:["5T"],
+				knockoff:["5T"],
+				magnetrise:["5T"],
+				megapunch:["5T"],
+				snatch:["5T"],
+				snore:["5T"],
+				superfang:["5T"],
+				superpower:["5T"],
+				swift:["5T"],
+				thunderpunch:["5T"],
+				uproar:["5T"],
+				
+                //egg move
+                beatup:["5E"],
+                fakeout:["5E"],
+                nightslash:["5E"],
+                superpower:["5E"],
+                
+        }
+},
+/*END OF BABOOM LINE*/
+Icetope:{
+        learnset:{
+                tackle:["5L1"],
+                smog:["5L5"],
+                mist:["5L8"],
+                powdersnow:["5L11"],
+                smokescreen:["5L15"],
+                acidspray:["5L19"],
+                toxic:["5L26"],
+                protect:["5L28"],
+                sludgewave:["5L33"],
+                blizzard:["5L38"],
+                acidarmor:["5L43"],
+                recover:["5L49"],
+                sheercold:["5L54"],
+                explosion:["5L59"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hail:["5M"],
+                venoshock:["5M"],
+                icebeam:["5M"],
+                blizzard:["5M"],
+                lightscreen:["5M"],
+                thunderbolt:["5M"],
+                thunder:["5M"],
+                shadowball:["5M"],
+                sludgewave:["5M"],
+                sludgebomb:["5M"],
+                chargebeam:["5M"],
+                explosion:["5M"],
+                flash:["5M"],
+                voltswitch:["5M"],
+                thunderwave:["5M"],
+                frostbreath:["5M"],
+                
+                //tutor
+                avalanche:["5T"],
+				bugbite:["5T"],
+				doubleedge:["5T"],
+				gastroacid:["5T"],
+				gunkshot:["5T"],
+				heatwave:["5T"],
+				icywind:["5T"],
+				irondefense:["5T"],
+				ominouswind:["5T"],
+				spite:["5T"],
+				
+                //egg move
+                curse:["5E"],
+                destinybond:["5E"],
+                haze:["5E"],
+                memento:["5E"],
+                toxicspikes:["5E"],
+                
+        }
+},
+Chillnobyl:{
+        learnset:{
+                discharge:["5L1"],
+                tackle:["5L1"],
+                smog:["5L5"],
+                mist:["5L8"],
+                powdersnow:["5L11"],
+                smokescreen:["5L15"],
+                acidspray:["5L19"],
+                toxic:["5L26"],
+                protect:["5L28"],
+                frostbreath:["5L32"],
+                sludgewave:["5L35"],
+                blizzard:["5L42"],
+                acidarmor:["5L49"],
+                recover:["5L56"],
+                sheercold:["5L63"],
+                explosion:["5L70"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hail:["5M"],
+                venoshock:["5M"],
+                icebeam:["5M"],
+                blizzard:["5M"],
+                hyperbeam:["5M"],
+                lightscreen:["5M"],
+                thunderbolt:["5M"],
+                thunder:["5M"],
+                shadowball:["5M"],
+                sludgewave:["5M"],
+                sludgebomb:["5M"],
+                overheat:["5M"],
+                chargebeam:["5M"],
+                explosion:["5M"],
+                gigaimpact:["5M"],
+                flash:["5M"],
+                voltswitch:["5M"],
+                thunderwave:["5M"],
+                frostbreath:["5M"],
+                
+                //tutor
+                avalanche:["5T"],
+				bugbite:["5T"],
+				doubleedge:["5T"],
+				gastroacid:["5T"],
+				gunkshot:["5T"],
+				heatwave:["5T"],
+				icywind:["5T"],
+				irondefense:["5T"],
+				ominouswind:["5T"],
+				spite:["5T"],
+				
+                //egg move
+                curse:["5E"],
+                destinybond:["5E"],
+                haze:["5E"],
+                memento:["5E"],
+                toxicspikes:["5E"],
+                
+        }
+},
+/*END OF ICETOPE LINE*/
+Wendingo:{
+        learnset:{
+                leer:["5L1"],
+                scratch:["5L1"],
+                icywind:["5L4"],
+                howl:["5L9"],
+                bite:["5L12"],
+                meanlook:["5L15"],
+                quickattack:["5L19"],
+                takedown:["5L22"],
+                icefang:["5L24"],
+                thunderfang:["5L24"],
+                agility:["5L31"],
+                shadowclaw:["5L33"],
+                hail:["5L37"],
+                crunch:["5L40"],
+                icebeam:["5L45"],
+                endure:["5L51"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                honeclaws:["5M"],
+                dragonclaw:["5M"],
+                roar:["5M"],
+                hail:["5M"],
+                bulkup:["5M"],
+                taunt:["5M"],
+                icebeam:["5M"],
+                blizzard:["5M"],
+                earthquake:["5M"],
+                dig:["5M"],
+                shadowball:["5M"],
+                torment:["5M"],
+                thief:["5M"],
+                lowsweep:["5M"],
+                rocksmash:["5M"],
+                shadowclaw:["5M"],
+                payback:["5M"],
+                retaliate:["5M"],
+                swordsdance:["5M"],
+                frostbreath:["5M"],
+                rockslide:["5M"],
+                xscissor:["5M"],
+                workup:["5M"],
+                poisonjab:["5M"],
+                dreameater:["5M"],
+                wildcharge:["5M"],
+                snarl:["5M"],
+                darkpulse:["5M"],
+                cut:["5M"],
+                
+                //tutor
+                avalanche:["5T"],
+				counter:["5T"],
+				doubleedge:["5T"],
+				fling:["5T"],
+				icywind:["5T"],
+				knockoff:["5T"],
+				outrage:["5T"],
+				painsplit:["5T"],
+				snatch:["5T"],
+				spite:["5T"],
+				swift:["5T"],
+				trick:["5T"],
+				
+                //egg move
+                avalanche:["5E"],
+                closecombat:["5E"],
+                dreameater:["5E"],
+                hornleech:["5E"],
+                moonlight:["5E"],
+                pursuit:["5E"],
+                slash:["5E"],
+                
+        }
+},
+Carnibal:{
+        learnset:{
+                iceshard:["5L1"],
+                leer:["5L1"],
+                scratch:["5L1"],
+                icywind:["5L4"],
+                howl:["5L9"],
+                bite:["5L12"],
+                meanlook:["5L15"],
+                quickattack:["5L19"],
+                takedown:["5L22"],
+                icefang:["5L24"],
+                thunderfang:["5L24"],
+                agility:["5L31"],
+                shadowclaw:["5L33"],
+				metalclaw:["5L35"],
+                detect:["5L40"],
+                crunch:["5L44"],
+                iciclecrash:["5L50"],
+                swordsdance:["5L57"],
+                suckerpunch:["5L63"],
+                megahorn:["5L68"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                honeclaws:["5M"],
+                dragonclaw:["5M"],
+                roar:["5M"],
+                hail:["5M"],
+                bulkup:["5M"],
+                taunt:["5M"],
+                icebeam:["5M"],
+                blizzard:["5M"],
+                hyperbeam:["5M"],
+                earthquake:["5M"],
+                dig:["5M"],
+                shadowball:["5M"],
+                brickbreak:["5M"],
+                torment:["5M"],
+                thief:["5M"],
+                lowsweep:["5M"],
+				falseswipe:["5M"],
+				fling:["5M"],
+                rocksmash:["5M"],
+                shadowclaw:["5M"],
+                payback:["5M"],
+                retaliate:["5M"],
+				gigaimpact:["5M"],
+                swordsdance:["5M"],
+                frostbreath:["5M"],
+                rockslide:["5M"],
+                xscissor:["5M"],
+                workup:["5M"],
+                poisonjab:["5M"],
+                dreameater:["5M"],
+                wildcharge:["5M"],
+                snarl:["5M"],
+                darkpulse:["5M"],
+                cut:["5M"],
+				strength:["5M"],
+                
+                //tutor
+                avalanche:["5T"],
+				counter:["5T"],
+				doubleedge:["5T"],
+				fling:["5T"],
+				icywind:["5T"],
+				knockoff:["5T"],
+				outrage:["5T"],
+				painsplit:["5T"],
+				snatch:["5T"],
+				spite:["5T"],
+				swift:["5T"],
+				trick:["5T"],
+				
+                //egg move
+                avalanche:["5E"],
+                closecombat:["5E"],
+                dreameater:["5E"],
+                hornleech:["5E"],
+                moonlight:["5E"],
+                pursuit:["5E"],
+                slash:["5E"],
+                
+        }
+},
+/*END OF WENDINGO LINE*/
+Luchito:{
+        learnset:{
+                lowkick:["5L1"],
+                growl:["5L1"],
+                vitalthrow:["5L5"],
+                doublekick:["5L9"],
+                charge:["5L13"],
+                spark:["5L17"],
+                bodyslam:["5L21"],
+                bulkup:["5L24"],
+                stormthrow:["5L28"],
+                thunderpunch:["5L31"],
+                jumpkick:["5L34"],
+                circlethrow:["5L39"],
+                reversal:["5L42"],
+                encore:["5L46"],
+                wildcharge:["5L49"],
+                taunt:["5L52"],
+                submission:["5L56"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                
+                //tutor
+				
+                //egg move
+                wideguard:["5E"],
+                
+        }
+},
+Eluchadon:{
+        learnset:{
+                quickguard:["5L1"],
+                lowkick:["5L1"],
+                growl:["5L1"],
+                vitalthrow:["5L5"],
+                doublekick:["5L9"],
+                charge:["5L13"],
+                spark:["5L17"],
+                bodyslam:["5L21"],
+                bulkup:["5L24"],
+                stormthrow:["5L28"],
+                thunderpunch:["5L31"],
+                jumpkick:["5L34"],
+                circlethrow:["5L39"],
+                reversal:["5L42"],
+                encore:["5L46"],
+                wildcharge:["5L51"],
+                submission:["5L58"],
+                dynamicpunch:["5L62"],
+                hijumpkick:["5L66"],
+                zapcannon:["5L70"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+				gigaimpact:["5M"],
+				
+                //tutor
+				
+                //egg move
+                wideguard:["5E"],
+                
+        }
+},
+/*END OF LUCHITO LINE*/
+Grolem:{
+        learnset:{
+                rockthrow:["5L1"],
+                harden:["5L1"],
+                bide:["5L1"],
+                headbutt:["5L8"],
+                ingrain:["5L16"],
+                ancientpower:["5L24"],
+                cosmicpower:["5L32"],
+                energyball:["5L40"],
+                zenheadbutt:["5L48"],
+                block:["5L56"],
+                gyroball:["5L64"],
+                hyperbeam:["5L72"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                // attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                calmmind:["5M"],
+                hail:["5M"],
+                sunnyday:["5M"],
+                hyperbeam:["5M"],
+                lightscreen:["5M"],
+                raindance:["5M"],
+                safeguard:["5M"],
+                solarbeam:["5M"],
+                psychic:["5M"],
+                reflect:["5M"],
+                sandstorm:["5M"],
+                rocktomb:["5M"],
+                gigadrain:["5M"],
+                focusblast:["5M"],
+                energyball:["5M"],
+                explosion:["5M"],
+                gigaimpact:["5M"],
+                rockpolish:["5M"],
+                flash:["5M"],
+                thunderwave:["5M"],
+                gyroball:["5M"],
+                bulldoze:["5M"],
+                rockslide:["5M"],
+                workup:["5M"],
+                grassknot:["5M"],
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+Comossus:{
+        learnset:{
+                extrasensory:["5L1"],
+                rockthrow:["5L1"],
+                harden:["5L1"],
+                bide:["5L1"],
+                headbutt:["5L8"],
+                ingrain:["5L16"],
+                ancientpower:["5L24"],
+                cosmicpower:["5L32"],
+                energyball:["5L40"],
+                superpower:["5L45"],
+                rockpolish:["5L48"],
+                stoneedge:["5L56"],
+                gravity:["5L64"],
+                earthpower:["5L72"],
+                hyperbeam:["5L80"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                // attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                calmmind:["5M"],
+                hail:["5M"],
+                sunnyday:["5M"],
+                hyperbeam:["5M"],
+                lightscreen:["5M"],
+                raindance:["5M"],
+                safeguard:["5M"],
+                solarbeam:["5M"],
+                smackdown:["5M"],
+                earthquake:["5M"],
+                psychic:["5M"],
+                reflect:["5M"],
+                sandstorm:["5M"],
+                fireblast:["5M"],
+                rocktomb:["5M"],
+                gigadrain:["5M"],
+                focusblast:["5M"],
+                energyball:["5M"],
+                explosion:["5M"],
+                gigaimpact:["5M"],
+                rockpolish:["5M"],
+                flash:["5M"],
+                stoneedge:["5M"],
+                thunderwave:["5M"],
+                gyroball:["5M"],
+                bulldoze:["5M"],
+                rockslide:["5M"],
+                workup:["5M"],
+                grassknot:["5M"],
+                trickroom:["5M"],
+                focuspunch:["5M"],
+                strength:["5M"],
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+/*END OF GROLEM LINE*/
+Larvyn:{
+        learnset:{
+                stringshot:["5L1"],
+                poisonstring:["5L1"],
+                twinneedle:["5L10"],
+                twister:["5L15"],
+                pinmissle:["5L20"],
+                bugbite:["5L32"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                venoshock:["5M"],
+                sunnyday:["5M"],
+                raindance:["5M"],
+                dig:["5M"],
+                strugglebug:["5M"],
+                bulldoze:["5M"],
+                workup:["5M"],
+                poisonjab:["5M"],
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+Dracoon:{
+        learnset:{
+                harden:["5L1"],
+                stringshot:["5L1"],
+                poisonsting:["5L1"],
+                twinneedle:["5L10"],
+                twister:["5L15"],
+                pinmissle:["5L20"],
+                crunch:["5L25"],
+                bugbite:["5L32"],
+                dragontail:["5L39"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                honeclaws:["5M"],
+                dragonclaw:["5M"],
+                roar:["5M"],
+                venoshock:["5M"],
+                sunnyday:["5M"],
+                raindance:["5M"],
+                dig:["5M"],
+                brickbreak:["5M"],
+                sandstorm:["5M"],
+                aerialace:["5M"],
+                flamecharge:["5M"],
+                falseswipe:["5M"],
+                drainpunch:["5M"],
+                acrobatics:["5M"],
+                shadowclaw:["5M"],
+                thunderwave:["5M"],
+                swordsdance:["5M"],
+                strugglebug:["5M"],
+                bulldoze:["5M"],
+                xscissor:["5M"],
+                workup:["5M"],
+                poisonjab:["5M"],
+                uturn:["5M"],
+                focuspunch:["5M"],
+                cut:["5M"],
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+Basilect:{
+        learnset:{
+                poisonsting:["5L1"],
+                twinneedle:["5L10"],
+                dragonrage:["5L35"],
+                dragontail:["5L38"],
+                bugbite:["5L41"],
+                dualchop:["5L45"],
+                brickbreak:["5L50"],
+                xscissor:["5L55"],
+                dragondance:["5L57"],
+                megahorn:["5L59"],
+                outrage:["5L64"],
+                superpower:["5L68"],
+                guillotine:["5L72"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                honeclaws:["5M"],
+                dragonclaw:["5M"],
+                roar:["5M"],
+                venoshock:["5M"],
+                sunnyday:["5M"],
+                hyperbeam:["5M"],
+                raindance:["5M"],
+                smackdown:["5M"],
+                earthquake:["5M"],
+                dig:["5M"],
+                brickbreak:["5M"],
+                sandstorm:["5M"],
+                aerialace:["5M"],
+                flamecharge:["5M"],
+                falseswipe:["5M"],
+                drainpunch:["5M"],
+                acrobatics:["5M"],
+                shadowclaw:["5M"],
+                gigaimpact:["5M"],
+                stoneedge:["5M"],
+                thunderwave:["5M"],
+                swordsdance:["5M"],
+                strugglebug:["5M"],
+                bulldoze:["5M"],
+                rockslide:["5M"],
+                xscissor:["5M"],
+                dragontail:["5M"],
+                workup:["5M"],
+                poisonjab:["5M"],
+                uturn:["5M"],
+                focuspunch:["5M"],
+                cut:["5M"],
+                fly:["5M"],
+                strength:["5M"],
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+/*END OF LARVYN LINE*/
+Carbite:{
+        learnset:{
+                dragonrage:["5L1"],
+                ancientpower:["5L1"],
+                headbutt:["5L1"],
+                defensecurl:["5L5"],
+                bide:["5L11"],
+                rockblast:["5L16"],
+                scaryface:["5L22"],
+                thrash:["5L27"],
+                crunch:["5L31"],
+                endure:["5L37"],
+                dragonclaw:["5L42"],
+                rockpolish:["5L48"],
+                dragonrush:["5L53"],
+                doubleedge:["5L59"],
+                overheat:["5L64"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+Pressaur:{
+        learnset:{
+                dragonrage:["5L1"],
+                ancientpower:["5L1"],
+                headbutt:["5L1"],
+                defensecurl:["5L5"],
+                bide:["5L11"],
+                rockblast:["5L16"],
+                scaryface:["5L22"],
+                thrash:["5L27"],
+                lavaplume:["5L30"],
+                crunch:["5L38"],
+                endure:["5L44"],
+                dragonclaw:["5L49"],
+                rockpolish:["5L55"],
+                dragonrush:["5L60"],
+                doubleedge:["5L66"],
+                overheat:["5L71"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+Diamat:{
+        learnset:{
+                sharpen:["5L1"],
+                dragonrage:["5L1"],
+                ancientpower:["5L1"],
+                headsmash:["5L1"],
+                harden:["5L5"],
+                bide:["5L11"],
+                rockblast:["5L16"],
+                scaryface:["5L22"],
+                thrash:["5L27"],
+                mirrorcoat:["5L33"],
+                crunch:["5L38"],
+                endure:["5L44"],
+                dragonclaw:["5L49"],
+                rockpolish:["5L55"],
+                powergem:["5L60"],
+                flashcannon:["5L66"],
+                earthpower:["5L71"],
+                outrage:["5L77"],
+                hyperbeam:["5L82"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+				gigaimpact:["5M"],
+				
+                //tutor
+				
+                //egg move
+                
+        }
+},
+/*END OF CARBITE LINE*/
+Quecko:{
+        learnset:{
+                pound:["5L1"],
+                leer:["5L1"],
+                bite:["5L6"],
+                vinewhip:["5L9"],
+                wrap:["5L12"],
+                dragonrage:["5L16"],
+                magicalleaf:["5L20"],
+                glare:["5L24"],
+                dragonbreath:["5L28"],
+                leafblade:["5L32"],
+                dragontail:["5L36"],
+                twister:["5L41"],
+                coil:["5L45"],
+                crunch:["5L50"],
+                leafstorm:["5L54"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                
+                //tutor
+				
+                //egg move
+                agility:["5E"],
+                camouflage:["5E"],
+                dragondance:["5E"],
+                grasswhistle:["5E"],
+                growth:["5E"],
+                powerwhip:["5E"],
+                roost:["5E"],
+                
+        }
+},
+Tozecko:{
+        learnset:{
+                featherdance:["5L1"],
+                pound:["5L1"],
+                leer:["5L1"],
+                bite:["5L6"],
+                vinewhip:["5L9"],
+                wrap:["5L12"],
+                dragonrage:["5L16"],
+                magicalleaf:["5L20"],
+                glare:["5L24"],
+                dragonbreath:["5L28"],
+                leafblade:["5L32"],
+                dragontail:["5L36"],
+                twister:["5L41"],
+                coil:["5L48"],
+                crunch:["5L53"],
+                leafstorm:["5L59"],
+                dragonpulse:["5L64"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+                gigaimpact:["5M"],
+				
+                //tutor
+				
+                //egg move
+                agility:["5E"],
+                camouflage:["5E"],
+                dragondance:["5E"],
+                grasswhistle:["5E"],
+                growth:["5E"],
+                powerwhip:["5E"],
+                roost:["5E"],
+                
+        }
+},
+/*END OF QUECKO LINE*/
+Crakling:{
+        learnset:{
+                ember:["5L1"],
+                twister:["5L1"],
+                tailwhip:["5L5"],
+                focusenergy:["5L9"],
+                flamecharge:["5L14"],
+                workup:["5L19"],
+                flamewheel:["5L22"],
+                uproar:["5L26"],
+                coil:["5L31"],
+                heatwave:["5L38"],
+                glare:["5L43"],
+                overheat:["5L49"],
+                flareblitz:["5L52"],
+                explosion:["5L59"],
+                healingwish:["5L64"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                honeclaws:["5M"],
+                dragonclaw:["5M"],
+                calmmind:["5M"],
+                roar:["5M"],
+                sunnyday:["5M"],
+                taunt:["5M"],
+                lightscreen:["5M"],
+                raindance:["5M"],
+                safeguard:["5M"],
+                thunderbolt:["5M"],
+                flamethrower:["5M"],
+                aerialace:["5M"],
+                flamecharge:["5M"],
+                echoedvoice:["5M"],
+                incinerate:["5M"],
+                willowisp:["5M"],
+                rocksmash:["5M"],
+                explosion:["5M"],
+                flash:["5M"],
+                dragontail:["5M"],
+                cut:["5M"],
+                
+                //tutor
+                ancientpower:["5T"],
+				doubleedge:["5T"],
+				dragonpulse:["5T"],
+				firepledge:["5T"],
+				heatwave:["5T"],
+				hypervoice:["5T"],
+				irontail:["5T"],
+				knockoff:["5T"],
+				ominouswind:["5T"],
+				outrage:["5T"],
+				secretpower:["5T"],
+				snore:["5T"],
+				swift:["5T"],
+				uproar:["5T"],
+				zenheadbutt:["5T"],
+				
+                //egg move
+                
+        }
+},
+Fuelong:{
+        learnset:{
+                luckychant:["5L1"],
+                ember:["5L1"],
+                twister:["5L1"],
+                tailwhip:["5L5"],
+                focusenergy:["5L9"],
+                flamecharge:["5L14"],
+                workup:["5L19"],
+                flamewheel:["5L22"],
+                uproar:["5L26"],
+                coil:["5L31"],
+                heatwave:["5L38"],
+                dragontail:["5L44"],
+                overheat:["5L52"],
+                flareblitz:["5L58"],
+                dragonrush:["5L65"],
+                outrage:["5L71"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                honeclaws:["5M"],
+                dragonclaw:["5M"],
+                calmmind:["5M"],
+                roar:["5M"],
+                sunnyday:["5M"],
+                taunt:["5M"],
+                hyperbeam:["5M"],
+                lightscreen:["5M"],
+                raindance:["5M"],
+                safeguard:["5M"],
+                solarbeam:["5M"],
+                thunderbolt:["5M"],
+                thunder:["5M"],
+                earthquake:["5M"],
+                shadowball:["5M"],
+                flamethrower:["5M"],
+                fireblast:["5M"],
+                aerialace:["5M"],
+                flamecharge:["5M"],
+                echoedvoice:["5M"],
+                overheat:["5M"],
+                focusblast:["5M"],
+                incinerate:["5M"],
+                willowisp:["5M"],
+                acrobatics:["5M"],
+                rocksmash:["5M"],
+                explosion:["5M"],
+                shadowclaw:["5M"],
+                gigaimpact:["5M"],
+                flash:["5M"],
+                rockslide:["5M"],
+                dragontail:["5M"],
+                flashcannon:["5M"],
+                cut:["5M"],
+                fly:["5M"],
+                strength:["5M"],
+                
+                //tutor
+                ancientpower:["5T"],
+				doubleedge:["5T"],
+				dracometeor:["5T"],
+				dragonpulse:["5T"],
+				firepledge:["5T"],
+				heatwave:["5T"],
+				hypervoice:["5T"],
+				irontail:["5T"],
+				knockoff:["5T"],
+				ominouswind:["5T"],
+				outrage:["5T"],
+				secretpower:["5T"],
+				snore:["5T"],
+				swift:["5T"],
+				uproar:["5T"],
+				zenheadbutt:["5T"],
+				
+                //egg move
+                
+        }
+},
+/*END OF CRAKLING LINE*/
+Draggar:{
+        learnset:{
+                bubble:["5L1"],
+                leer:["5L1"],
+                tailwhip:["5L5"],
+                twister:["5L9"],
+                hornattack:["5L14"],
+                agility:["5L19"],
+                bubblebeam:["5L22"],
+                bite:["5L26"],
+                mist:["5L31"],
+                dragondance:["5L38"],
+                aquatail:["5L43"],
+                scaryface:["5L49"],
+                raindance:["5L52"],
+                whirlpool:["5L59"],
+                outrage:["5L64"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                dragonclaw:["5M"],
+                hail:["5M"],
+                sunnyday:["5M"],
+                raindance:["5M"],
+                sludgewave:["5M"],
+                echoedvoice:["5M"],
+                energyball:["5M"],
+                falseswipe:["5M"],
+                scald:["5M"],
+                chargebeam:["5M"],
+                shadowclaw:["5M"],
+                stoneedge:["5M"],
+                swordsdance:["5M"],
+                frostbreath:["5M"],
+                dragontail:["5M"],
+                workup:["5M"],
+                flashcannon:["5M"],
+                waterpulse:["5M"],
+                surf:["5M"],
+                waterfall:["5M"],
+                
+                //tutor
+                ancientpower:["5T"],
+				aquatail:["5T"],
+				counter:["5T"],
+				doubleedge:["5T"],
+				dragonpulse:["5T"],
+				endeavor:["5T"],
+				icywind:["5T"],
+				irondefense:["5T"],
+				ironhead:["5T"],
+				magiccoat:["5T"],
+				mudslap:["5T"],
+				outrage:["5T"],
+				secretpower:["5T"],
+				snore:["5T"],
+				superpower:["5T"],
+				waterpledge:["5T"],
+				zenheadbutt:["5T"],
+				
+                //egg move
+                
+        }
+},
+Ragnarow:{
+        learnset:{
+                memento:["5L1"],
+                crunch:["5L1"],
+                bubble:["5L1"],
+                leer:["5L1"],
+                tailwhip:["5L5"],
+                twister:["5L9"],
+                hornattack:["5L14"],
+                tailwind:["5L19"],
+                bubblebeam:["5L22"],
+                bite:["5L26"],
+                dragonbreath:["5L31"],
+                dragondance:["5L38"],
+                aquatail:["5L43"],
+                scaryface:["5L52"],
+                raindance:["5L58"],
+                hurricane:["5L65"],
+                outrage:["5L71"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                dragonclaw:["5M"],
+                hail:["5M"],
+                sunnyday:["5M"],
+                hyperbeam:["5M"],
+                raindance:["5M"],
+                sludgewave:["5M"],
+                echoedvoice:["5M"],
+                energyball:["5M"],
+                falseswipe:["5M"],
+                scald:["5M"],
+                chargebeam:["5M"],
+                shadowclaw:["5M"],
+                gigaimpact:["5M"],
+                stoneedge:["5M"],
+                swordsdance:["5M"],
+                frostbreath:["5M"],
+                dragontail:["5M"],
+                workup:["5M"],
+                flashcannon:["5M"],
+                waterpulse:["5M"],
+                surf:["5M"],
+                waterfall:["5M"],
+                
+                //tutor
+                ancientpower:["5T"],
+				avalanche:["5T"],
+				aquatail:["5T"],
+				counter:["5T"],
+				doubleedge:["5T"],
+				dracometeor:["5T"],
+				dragonpulse:["5T"],
+				endeavor:["5T"],
+				hypervoice:["5T"],
+				icywind:["5T"],
+				irondefense:["5T"],
+				ironhead:["5T"],
+				magiccoat:["5T"],
+				mudslap:["5T"],
+				outrage:["5T"],
+				secretpower:["5T"],
+				snore:["5T"],
+				superpower:["5T"],
+				tailwind:["5T"],
+				waterpledge:["5T"],
+				zenheadbutt:["5T"],
+				
+                //egg move
+                
+        }
+},
+/*END OF DRAGGAR LINE*/
+Eronze:{
+        learnset:{
+                ancientpower:["5L1"],
+                lockon:["5L1"],
+                wideguard:["5L1"],
+                incinerate:["5L1"],
+                metalclaw:["5L10"],
+                firepunch:["5L19"],
+                willowisp:["5L28"],
+                ironhead:["5L37"],
+                inferno:["5L46"],
+                heavyslam:["5L55"],
+                dynamicpunch:["5L64"],
+                flareblitz:["5L73"],
+                wonderroom:["5L82"],
+                explosion:["5L91"],
+                futuresight:["5L100"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                // attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+                gigaimpact:["5M"],
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+/*END OF ERONZE LINE*/
+Erion:{
+        learnset:{
+                ancientpower:["5L1"],
+                lockon:["5L1"],
+                wideguard:["5L1"],
+                smog:["5L1"],
+                metalclaw:["5L10"],
+                clearsmog:["5L19"],
+                poisongas:["5L28"],
+                ironhead:["5L37"],
+                sludgewave:["5L46"],
+                heavyslam:["5L55"],
+                toxicspikes:["5L64"],
+                gunkshot:["5L73"],
+                wonderroom:["5L82"],
+                explosion:["5L91"],
+                futuresight:["5L100"],
+				
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                // attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+                gigaimpact:["5M"],
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+/*END OF ERION LINE*/
+Erace:{
+        learnset:{
+                ancientpower:["5L1"],
+                lockon:["5L1"],
+                wideguard:["5L1"],
+                chargebeam:["5L1"],
+                metalclaw:["5L10"],
+                voltswitch:["5L19"],
+                thunderwave:["5L28"],
+                ironhead:["5L37"],
+                zapcannon:["5L46"],
+                heavyslam:["5L55"],
+                magnetrise:["5L64"],
+                thunder:["5L73"],
+                wonderroom:["5L82"],
+                explosion:["5L91"],
+                futuresight:["5L100"],
+				
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                // attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+                gigaimpact:["5M"],
+                
+                //tutor
+                
+                //egg move
+                
+        }
+},
+/*END OF ERACE LINE*/
+Patama:{
+        learnset:{
+                ingrain:["5L1"],
+                magicalleaf:["5L1"],
+                sunnyday:["5L5"],
+                synthesis:["5L15"],
+                leechseed:["5L20"],
+                leaftornado:["5L30"],
+                energyball:["5L35"],
+                shadowball:["5L45"],
+                recover:["5L50"],
+                extrasensory:["5L60"],
+                aurasphere:["5L65"],
+                leafstorm:["5L70"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+                gigaimpact:["5M"],
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+/*END OF PATAMA LINE*/
+Machima:{
+        learnset:{
+                tailwind:["5L1"],
+                gust:["5L1"],
+                sandstorm:["5L5"],
+                aircutter:["5L15"],
+                whirlwind:["5L20"],
+                ominouswind:["5L30"],
+                airslash:["5L35"],
+                shadowball:["5L45"],
+                recover:["5L50"],
+                extrasensory:["5L60"],
+                aurasphere:["5L65"],
+                hurricane:["5L70"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+                gigaimpact:["5M"],
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+/*END OF MACHIMA LINE*/
+Yacuma:{
+        learnset:{
+                aquaring:["5L1"],
+                watergun:["5L1"],
+                raindance:["5L5"],
+                brine:["5L15"],
+                soak:["5L20"],
+                whirlpool:["5L30"],
+                scald:["5L35"],
+                shadowball:["5L45"],
+                recover:["5L50"],
+                extrasensory:["5L60"],
+                aurasphere:["5L65"],
+                hydropump:["5L70"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+                gigaimpact:["5M"],
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+/*END OF YACUMA LINE*/
+Quetzar:{
+        learnset:{
+                scaryface:["5L1"],
+                twister:["5L1"],
+                naturepower:["5L8"],
+                dragonbreath:["5L14"],
+                slash:["5L23"],
+                ancientpower:["5L30"],
+                rocktomb:["5L38"],
+                rockpolish:["5L44"],
+                stoneedge:["5L51"],
+                // Signature Move:["5L59"],
+                dragondance:["5L64"],
+                hypervoice:["5L71"],
+                dragonpulse:["5L79"],
+                outrage:["5L87"],
+				
+				//other form's moves
+				secretpower:["5L8"],
+				airslash:["5L23"],
+				powergem:["5L38"],
+				cosmicpower:["5L44"],
+				
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                // attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+                gigaimpact:["5M"],
+                
+                //tutor
+                
+                //egg move
+                
+        }
+},
+/*END OF QUETZAR LINE*/
+Xochi:{
+        learnset:{
+                ember:["5L1"],
+                healbell:["5L1"],
+                pound:["5L1"],
+                absorb:["5L10"],
+                magicalleaf:["5L15"],
+                firespin:["5L26"],
+                sunnyday:["5L32"],
+                growth:["5L38"],
+                earthpower:["5L45"],
+                morningsun:["5L50"],
+                overheat:["5L56"],
+                bestow:["5L60"],
+                healingwish:["5L68"],
+                flareblitz:["5L75"],
+                petaldance:["5L79"],
+                amnesia:["5L83"],
+                perishsong:["5L88"],
+                leafstorm:["5L91"],
+                // Signature Move:["5L99"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+                gigaimpact:["5M"],
+                
+                //tutor
+				
+                //egg move
+                
+        }
+},
+/*END OF XOCHI LINE*/
+Xotec:{
+        learnset:{
+                payday:["5L1"],
+                healbell:["5L1"],
+                pound:["5L1"],
+                confusion:["5L10"],
+                futuresight:["5L15"],
+                metalsound:["5L26"],
+                hypnosis:["5L32"],
+                luckychant:["5L38"],
+                powergem:["5L45"],
+                moonlight:["5L50"],
+                psychic:["5L56"],
+                substitute:["5L60"],
+                healingwish:["5L68"],
+                ironhead:["5L75"],
+                metalburst:["5L79"],
+                amnesia:["5L83"],
+                destinybond:["5L88"],
+                storedpower:["5L91"],
+                // Signature Move:["5L99"],
+                
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+                gigaimpact:["5M"],
+                
+                //tutor
+                
+                //egg move
+                
+        }
+},
+/*END OF XOTEC LINE*/
