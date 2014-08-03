@@ -2187,7 +2187,7 @@ NoxialIce:{
         types:["Poison","Ghost"],
         baseStats:{hp:40,atk:60,def:60,spa:80,spd:90,spe:60},
         abilities:{0:"Aftermath"},
-        heightm:7.5,
+        heightm:0.9,
         weightkg:4.0,
         color:"",
         eggGroups:["Amorphous"]
@@ -2249,7 +2249,7 @@ Squidrift:{
         species:"Squidrift",
         types:["Poison","Flying"],
         genderRatio:{M:0.5,F:0.5},
-        baseStats:{hp:106,atk:50,def:99,spa:100,spd:75,spe:85},
+        baseStats:{hp:106,atk:50,def:99,spa:100,spd:70,spe:85},
         abilities:{0:"Liquid Ooze",1:"Perforate"},
         heightm:1.7,
         weightkg:4.0,
@@ -2444,7 +2444,7 @@ Kairoglyph:{
         types:["Ground","Psychic"],
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:102,atk:70,def:95,spa:95,spd:70,spe:60},
-        abilities:{0:"Sand Stream",1:"Analytic"},
+        abilities:{0:"Sand Stream",1:"Conundrum"},
         heightm:1.4,
         weightkg:4.0,
         color:"",
@@ -2541,7 +2541,7 @@ Flarrapin:{
         weightkg:4.0,
         color:"Orange",
         prevo:["Shelosene"],
-        eggGroups:["Bug"]
+        eggGroups:["Monster"]
 },
 Desoula:{
         num:1130,
@@ -2694,7 +2694,7 @@ Coltergeist:{
         abilities:{0:"Perforate",1:"Cursed Body"},
         heightm:1.1,
         weightkg:4.0,
-        color:"",
+        color:"Gray",
         evos:["Fantasmare"],
         eggGroups:["Field","Amorphous"]
 },
@@ -3857,11 +3857,13 @@ Xotec:{
 //
 //missing heights: Pounther line,
 //missing weights: Pounther line, Cerebrulb, Peppit line, Skullarva & Maskoon, Vectol line, Bouwee line, Alpint line, Shibalbat, Nobunata
-//  "       "      Psybex line, Craliber line, Leafish line, Quibble line, Cardinite line,
+//  "       "      Psybex line, Craliber line, Leafish line, Quibble line, Cardinite line
 //
 //don't have missing weights: Atomite line, Magnitogre, Cobrascet line, Necronite line, Diloweed line, Dinkywink line
 //more not missing weights: Calphite line, Nurshary, Loneleaf line, Chihaha line, Doppole line,
-//seriously, 101-149 is mostly devoid of weights
+//seriously, 101-149 is mostly devoid of weights - Phlask line, Squink line, Boarealis, Chelonite line, Minarac line, 
+//''                                         ''Pottle line, Pueblant line, Cairup line, Ignishell line, Desoula line, 
+//''                                         ''Solacari, Coltergeist line, Chegrin line, Thoraxe
 //what to do with Noxial's color?
 //
 //missing weights: Pomparunt, Hyekuza, Toxito, Viipii, Slatic line, Glauqua, Lintle line, Parapy line, Chimpoca line, Enigmite
@@ -3870,4 +3872,6 @@ Xotec:{
 //no weights: Icetope line, Larvyn line except Basilect, Spirits
 //missing colors: Aguade, Llamarsh, Buckston, Pengliff line, Taomarin line, Caranox, Musburry, Berratel, Rocano line, 
 //''           '' Alpint, Platypow, Shibalbat, Nobunata, Psybex line, Fowattle, Skurrow
+//''           '' NoxialFire/NoxialIce, Fumighast (has a color but doesn’t look right – color’s based off main color of pokemon, yes?
+//''           '' Atomite, Minarac line, Charmbra, Cairup line, Diloweed line, Solacari, 
 //DO NOT DELETE
