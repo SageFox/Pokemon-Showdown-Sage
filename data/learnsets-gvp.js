@@ -18521,3 +18521,5 @@ Xotec:{
         }
 },
 /*END OF XOTEC LINE*/
+
+/*all copied into learnsets */
