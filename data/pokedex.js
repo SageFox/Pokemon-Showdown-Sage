@@ -2862,7 +2862,7 @@ Leukoon:{
         baseStats:{hp:45,atk:40,def:140,spa:74,spd:130,spe:35},
         abilities:{0:"Regenerator",1:"Magic Guard"}, 
         heightm:0.8,
-        weightkg:22.7,
+        weightkg:34.0,
         color:"White", 
         eggGroups:["Field"]
 },
@@ -2875,7 +2875,7 @@ Toxito:{
         abilities:{0:"Siphon",1:"Malice"}, 
         heightm:0.2,
         weightkg:4.0,
-        color:"", 
+        color:"Purple", 
         evos:["Sanguito"],
         eggGroups:["Bug"]
 },
@@ -2884,7 +2884,7 @@ Sanguito:{
         species:"Sanguito", 
         types:["Bug","Poison"], 
         genderRatio:{M:0.5,F:0.5}, 
-        baseStats:{hp:70,atk:91,def:45,spa:64,spd:40,spe:135},
+        baseStats:{hp:70,atk:91,def:45,spa:64,spd:50,spe:135},
         abilities:{0:"Siphon",1:"Malice"}, 
         heightm:0.7,
         weightkg:4.0,
@@ -2915,7 +2915,7 @@ Anvelid:{
         heightm:1.2,
         weightkg:230.9,
         color:"Gray", 
-		prevo: ["Orett"],
+	prevo: ["Orett"],
         evos:["Magroplex"],
         eggGroups:["Mineral","Dragon"]
 },
@@ -2980,8 +2980,7 @@ Chayan:{
         heightm:0.8,
         weightkg:4.0,
         color:"", 
-	prevo:["Chayan"],
-        evos:["Macuarrior","Ocerumi"],
+	evos:["Macuarrior","Ocerumi"],
         eggGroups:["Human-Like"]
 },
 Macuarrior:{
@@ -3028,12 +3027,12 @@ Oarwish:{
         species:"Oarwish", 
         types:["Water","Psychic"], 
         genderRatio:{M:0.5,F:0.5}, 
-        baseStats:{hp:99,atk:55,def:85,spa:94,spd:127,spe:77},
+        baseStats:{hp:99,atk:55,def:88,spa:94,spd:127,spe:77},
         abilities:{0:"Healer",1:"Regenerator"}, 
         heightm:2.6,
         weightkg:54.7,
         color:"White", 
-		prevo:["Fortifry"],
+	prevo:["Fortifry"],
         eggGroups:["Water 2","Dragon"]
 },
 Smashiary:{
@@ -3080,11 +3079,11 @@ Chameleohm:{
         species:"Chameleohm", 
         types:["Electric"], 
         genderRatio:{M:0.5,F:0.5}, 
-        baseStats:{hp:90,atk:97,def:67,spa:105,spd:85,spe:70},
+        baseStats:{hp:90,atk:97,def:67,spa:106,spd:85,spe:70},
         abilities:{0:"Analytic",1:"Adaptability"}, 
         heightm:1.5,
         weightkg:4.0,
-        color:"", 
+        color:"Green", 
         prevo:["Telsion"],
         eggGroups:["Field","Dragon"]
 },
@@ -3226,7 +3225,7 @@ Enigmite:{
         types:["Bug"], 
         genderRatio:{M:0.5,F:0.5}, 
         baseStats:{hp:40,atk:55,def:63,spa:57,spd:35,spe:30},
-        abilities:{0:"Compound Eyes",1:"Snow Cloak"}, 
+        abilities:{0:"Compound Eyes",1:"Forewarn"}, 
         heightm:0.3,
         weightkg:11.5,
         color:"Pink", 
@@ -3322,7 +3321,7 @@ Sunduke:{
         weightkg:66.7,
         color:"Green", 
         prevo:["Drosire"],
-        eggGroups:["Bug"]
+        eggGroups:["Grass"]
 },
 Wispern:{
         num:1190, 
@@ -3355,7 +3354,7 @@ Glocto:{
         species:"Glocto", 
         types:["Water","Fire"], 
         genderRatio:{M:0.5,F:0.5}, 
-        baseStats:{hp:88,atk:34,def:76,spa:76,spd:54,spe:26},
+        baseStats:{hp:88,atk:34,def:76,spa:76,spd:54,spe:22},
         abilities:{0:"Illuminate",1:"Flame Body"}, 
         heightm:1.3,
         weightkg:6.8,
@@ -3460,7 +3459,7 @@ Baboom:{
         num:1200, 
         species:"Baboom", 
         types:["Electric","Dark"], 
-        genderRatio:{M:0.5,F:0.5}, 
+        genderRatio:{M:0.75,F:0.25}, 
         baseStats:{hp:70,atk:95,def:75,spa:75,spd:55,spe:110},
         abilities:{0:"Moxie",1:"Adrenaline"}, 
         heightm:1.3,
@@ -3866,12 +3865,13 @@ Xotec:{
 //''                                         ''Solacari, Coltergeist line, Chegrin line, Thoraxe
 //what to do with Noxial's color?
 //
-//missing weights: Pomparunt, Hyekuza, Toxito, Viipii, Slatic line, Glauqua, Lintle line, Parapy line, Chimpoca line, Enigmite
-//Barracute line, Wispern line, Gilla line, Bazilisk
-//
+//missing weights: Pomparunt, Hyekuza, Toxito line, Viipii, Chayan line, Slatic line, Glauqua, Lintle line, Parapy line,
+//Chimpoca line, Barracute line, Wispern line, Gilla line, Bazilisk line
+// 
 //no weights: Icetope line, Larvyn line except Basilect, Spirits
 //missing colors: Aguade, Llamarsh, Buckston, Pengliff line, Taomarin line, Caranox, Musburry, Berratel, Rocano line, 
 //''           '' Alpint, Platypow, Shibalbat, Nobunata, Psybex line, Fowattle, Skurrow
 //''           '' NoxialFire/NoxialIce, Fumighast (has a color but doesn’t look right – color’s based off main color of pokemon, yes?
-//''           '' Atomite, Minarac line, Charmbra, Cairup line, Diloweed line, Solacari, 
+//''           '' Atomite, Minarac line, Charmbra, Cairup line, Diloweed line, Solacari, Chayan line, Slatic and Telsion, 
+//''           '' Chimpoca line, Jawgodon, Wispern
 //DO NOT DELETE
