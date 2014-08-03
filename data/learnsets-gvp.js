@@ -17828,10 +17828,50 @@ Quetzar:{
                 outrage:["5L87"],
 				
 				//other form's moves
-				secretpower:["5L8"],
-				airslash:["5L23"],
-				powergem:["5L38"],
-				cosmicpower:["5L44"],
+				
+				
+                //common tms
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                // Return needs to be in quotes otherwise JS thinks it's the function return
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                // attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                //specific tms
+                hyperbeam:["5M"],
+                gigaimpact:["5M"],
+                
+                //tutor
+                
+                //egg move
+                
+        }
+},
+quetzarspace:{
+        learnset:{
+                scaryface:["5L1"],
+                twister:["5L1"],
+                secretpower:["5L8"],
+                dragonbreath:["5L14"],
+                airslash:["5L23"],
+                ancientpower:["5L30"],
+                powergem:["5L38"],
+                cosmicpower:["5L44"],
+                stoneedge:["5L51"],
+                // Signature Move:["5L59"],
+                dragondance:["5L64"],
+                hypervoice:["5L71"],
+                dragonpulse:["5L79"],
+                outrage:["5L87"],
 				
                 //common tms
                 toxic:["5M"],
