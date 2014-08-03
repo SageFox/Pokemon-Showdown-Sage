@@ -3524,7 +3524,7 @@ Luchito:{
         species:"Luchito",
         types:["Fighting","Electric"],
         genderRatio:{M:0.5,F:0.5},
-        baseStats:{hp:40,atk:76,def:45,spa:74,spd:39,spe:91},
+        baseStats:{hp:50,atk:67,def:45,spa:58,spd:40,spe:60},
         abilities:{0:"No Guard",1:"Stubborn"},
         heightm:0.6,
         weightkg:19.5,
@@ -3723,8 +3723,8 @@ Ragnarow:{
         genderRatio:{M:0.5,F:0.5},
         baseStats:{hp:115,atk:90,def:105,spa:85,spd:80,spe:65},
         abilities:{0:"Unburden",1:"Torrent"},
-        heightm:0.2,
-        weightkg:4.0,
+        heightm:3.2,
+        weightkg:147.8,
         color:"Red",
         prevo:["Draggar"],
         eggGroups:["Dragon","Water 1"]
@@ -3822,7 +3822,7 @@ quetzarspace:{
         types:["Dragon","Psychic"],
         baseStats:{hp:105,atk:85,def:105,spa:160,spd:125,spe:90},
         abilities:{0:"Pressure"},
-        heightm:7.5,
+        heightm:7.2,
         weightkg:4.0,
         color:"Brown",
         eggGroups:["Undiscovered"]
@@ -3866,7 +3866,7 @@ Xotec:{
 //what to do with Noxial's color?
 //
 //missing weights: Pomparunt, Hyekuza, Toxito line, Viipii, Chayan line, Slatic line, Glauqua, Lintle line, Parapy line,
-//Chimpoca line, Barracute line, Wispern line, Gilla line, Bazilisk line
+//Chimpoca line, Barracute line, Wispern line, Gilla line, Bazilisk line, Eluchadon,
 // 
 //no weights: Icetope line, Larvyn line except Basilect, Spirits
 //missing colors: Aguade, Llamarsh, Buckston, Pengliff line, Taomarin line, Caranox, Musburry, Berratel, Rocano line, 
