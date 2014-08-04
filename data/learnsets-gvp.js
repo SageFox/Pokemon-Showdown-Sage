@@ -13784,7 +13784,7 @@ Soakoth:{
         	snore:["5L37"],
         	surf:["5L42"],
         	bellydrum:["5L47"],
-        	block:["5L450],
+        	block:["5L450"],
         	hydropump:["5L53"],
         	thrash:["5L58"],
         	
