@@ -4907,7 +4907,7 @@ Jaguile:{
                 bite:["5L15"],
                 doubleteam:["5L19"],
                 takedown:["5L21"],
-                honeclaws:["5L24],
+                honeclaws:["5L24"],
                 swagger:["5L29"],
                 tailslap:["5L32"],
                 slash:["5L36"],
