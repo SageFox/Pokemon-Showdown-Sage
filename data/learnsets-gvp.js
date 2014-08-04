@@ -3936,7 +3936,7 @@ Capulilly:{
                 gigadrain:["5L35"],
                 silverwind:["5L38"],
                 wish:["5L42"],
-                sunnyday:["5L46,
+                sunnyday:["5L46"],
                 tailwind:["5L51"],
                 petaldance:["5L56"],
                 
