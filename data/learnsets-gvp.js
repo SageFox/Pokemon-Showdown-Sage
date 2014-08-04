@@ -28,6 +28,10 @@ the first two and the last two should theoretically be mutually exclusive but th
 //No TMs for Coltergeist line, Chegrin line, Pomparunt line, Chilloth, Chayan line, Fortifry,
 
 // Everything after #173 may or may not have all its moves. I didn't tell them to document it, oh well.
+//No/next to no specific TMs: Chimpoca line, Luchito line, Carbite line, Quecko line, Golems, Spirits , Quetzar (both formes), Idols
+//No/next to no tutors: Chimpoca line, Enigmite line, Wispern line, Gilla line, Bazilisk and Ornitherb, Luchito line, Grolem line, Larvyn line, Carbite line, Quecko line, Golems, Spirits, Quetzar (both formes), Idols
+//No/next to no egg moves: Chimpoca line, Drosire line, Wispern line, Gilla line, Bazilisk line, Luchito line, Grolem line, Larvyn line, Carbite line, Crakling line, Draggar line, Golems, Spirits, Quetzar (both formes), Idols 
+
 /* Note to anyone reading: Once we are SURE that something is good, it wouldn't be a bad idea to collapse the data to
 make it take up less lines. This is optional. */
 Foliat:{
@@ -17718,20 +17722,20 @@ Crakling:{
                 
                 //tutor
                 ancientpower:["5T"],
-				doubleedge:["5T"],
-				dragonpulse:["5T"],
-				firepledge:["5T"],
-				heatwave:["5T"],
-				hypervoice:["5T"],
-				irontail:["5T"],
-				knockoff:["5T"],
-				ominouswind:["5T"],
-				outrage:["5T"],
-				secretpower:["5T"],
-				snore:["5T"],
-				swift:["5T"],
-				uproar:["5T"],
-				zenheadbutt:["5T"],
+                doubleedge:["5T"],
+                dragonpulse:["5T"],
+                firepledge:["5T"],
+                heatwave:["5T"],
+                hypervoice:["5T"],
+                irontail:["5T"],
+                knockoff:["5T"],
+                ominouswind:["5T"],
+                outrage:["5T"],
+                secretpower:["5T"],
+                snore:["5T"],
+                swift:["5T"],
+                uproar:["5T"],
+                zenheadbutt:["5T"],
 				
                 //egg move
                 
@@ -17812,21 +17816,21 @@ Fuelong:{
                 
                 //tutor
                 ancientpower:["5T"],
-				doubleedge:["5T"],
-				dracometeor:["5T"],
-				dragonpulse:["5T"],
-				firepledge:["5T"],
-				heatwave:["5T"],
-				hypervoice:["5T"],
-				irontail:["5T"],
-				knockoff:["5T"],
-				ominouswind:["5T"],
-				outrage:["5T"],
-				secretpower:["5T"],
-				snore:["5T"],
-				swift:["5T"],
-				uproar:["5T"],
-				zenheadbutt:["5T"],
+                doubleedge:["5T"],
+                dracometeor:["5T"],
+                dragonpulse:["5T"],
+                firepledge:["5T"],
+                heatwave:["5T"],
+                hypervoice:["5T"],
+                irontail:["5T"],
+                knockoff:["5T"],
+                ominouswind:["5T"],
+                outrage:["5T"],
+                secretpower:["5T"],
+                snore:["5T"],
+                swift:["5T"],
+                uproar:["5T"],
+                zenheadbutt:["5T"],
 				
                 //egg move
                 
@@ -17891,22 +17895,23 @@ Draggar:{
                 
                 //tutor
                 ancientpower:["5T"],
-				aquatail:["5T"],
-				counter:["5T"],
-				doubleedge:["5T"],
-				dragonpulse:["5T"],
-				endeavor:["5T"],
-				icywind:["5T"],
-				irondefense:["5T"],
-				ironhead:["5T"],
-				magiccoat:["5T"],
-				mudslap:["5T"],
-				outrage:["5T"],
-				secretpower:["5T"],
-				snore:["5T"],
-				superpower:["5T"],
-				waterpledge:["5T"],
-				zenheadbutt:["5T"],
+                ancientpower:["5T"],
+                aquatail:["5T"],
+                counter:["5T"],
+                doubleedge:["5T"],
+                dragonpulse:["5T"],
+                endeavor:["5T"],
+                icywind:["5T"],
+                irondefense:["5T"],
+                ironhead:["5T"],
+                magiccoat:["5T"],
+                mudslap:["5T"],
+                outrage:["5T"],
+                secretpower:["5T"],
+                snore:["5T"],
+                superpower:["5T"],
+                waterpledge:["5T"],
+                zenheadbutt:["5T"],
 				
                 //egg move
                 
@@ -17974,27 +17979,27 @@ Ragnarow:{
                 
                 //tutor
                 ancientpower:["5T"],
-				avalanche:["5T"],
-				aquatail:["5T"],
-				counter:["5T"],
-				doubleedge:["5T"],
-				dracometeor:["5T"],
-				dragonpulse:["5T"],
-				endeavor:["5T"],
-				hypervoice:["5T"],
-				icywind:["5T"],
-				irondefense:["5T"],
-				ironhead:["5T"],
-				magiccoat:["5T"],
-				mudslap:["5T"],
-				outrage:["5T"],
-				secretpower:["5T"],
-				snore:["5T"],
-				superpower:["5T"],
-				tailwind:["5T"],
-				waterpledge:["5T"],
-				zenheadbutt:["5T"],
-				
+                avalanche:["5T"],
+                aquatail:["5T"],
+                counter:["5T"],
+                doubleedge:["5T"],
+                dracometeor:["5T"],
+                dragonpulse:["5T"],
+                endeavor:["5T"],
+                hypervoice:["5T"],
+                icywind:["5T"],
+                irondefense:["5T"],
+                ironhead:["5T"],
+                magiccoat:["5T"],
+                mudslap:["5T"],
+                outrage:["5T"],
+                secretpower:["5T"],
+                snore:["5T"],
+                superpower:["5T"],
+                tailwind:["5T"],
+                waterpledge:["5T"],
+                zenheadbutt:["5T"],
+
                 //egg move
                 
         }
