@@ -3873,5 +3873,5 @@ Xotec:{
 //''           '' Alpint, Platypow, Shibalbat, Nobunata, Psybex line, Fowattle, Skurrow
 //''           '' NoxialFire/NoxialIce, Fumighast (has a color but doesn’t look right – color’s based off main color of pokemon, yes?
 //''           '' Atomite, Minarac line, Charmbra, Cairup line, Diloweed line, Solacari, Chayan line, Slatic and Telsion, 
-//''           '' Chimpoca line, Jawgodon, Wispern
+//''           '' Chimpoca line, Jawgodon, Wispern, Wendingo line, Luchito line, Fuelong, Spirits
 //DO NOT DELETE
