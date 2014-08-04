@@ -14612,12 +14612,6 @@ Glauqua:{
         	sludgewave:["5L45"],
         	hydropump:["5L50"],
 
-        	
-        
-
-                
-                
-                
                 //common tms
                 toxic:["5M"],
                 hiddenpower:["5M"],
@@ -14703,12 +14697,7 @@ Hydranticus:{
         	hydropump:["5L52"],
         	thrash:["5L59"],
 
-        	
         
-
-                
-                
-                
                 //common tms
                 toxic:["5M"],
                 hiddenpower:["5M"],
@@ -14779,7 +14768,7 @@ Hydranticus:{
 },
 
 
-    Lintle:{
+Lintle:{
 	learnset:{
 		tackle:["5L1"],
 		charm:["5L1"],
@@ -14850,7 +14839,8 @@ Hydranticus:{
 		followme:["5E"],
 		lovelykiss:["5E"],
 		wish:["5E"],
-
+        }
+},
 
 Silkinder:{
 	learnset:{
@@ -14931,7 +14921,8 @@ Silkinder:{
 		followme:["5E"],
 		lovelykiss:["5E"],
 		wish:["5E"],
-
+        }
+},
 Paramoth:{
 	learnset:{
 		tackle:["5L1"],
@@ -15014,7 +15005,8 @@ Paramoth:{
 		followme:["5E"],
 		lovelykiss:["5E"],
 		wish:["5E"],
-
+        }
+},
 Parapy:{
 	learnset:{
 		leeclife:["5L1"],
@@ -15093,7 +15085,8 @@ Parapy:{
 		slash:["5E"],
 		soak:["5E"],
 		whirlpool:["5E"],
-
+        }
+},
 Mawasite:{
 	learnset:{
 		aquajet:["5L1"],
@@ -15107,7 +15100,7 @@ Mawasite:{
 		aquaring:["5L26"],
 		steamroller:["5L28"],
 		icefang:["5L33"], 
-aquatail:["5L36"],
+		aquatail:["5L36"],
 		gastroacid:["5L41"],
 		xscissor:["5L44"],
 		doubleedge:["5L49"],
@@ -15180,28 +15173,8 @@ aquatail:["5L36"],
 		slash:["5E"],
 		soak:["5E"],
 		whirlpool:["5E"],
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
+},
 Chimpoca:{
         learnset:{
                 armthrust:["5L1"],
@@ -15563,18 +15536,18 @@ Arjibi:{
                 
                 //tutor
                 aquatail:["5T"],
-				dragonpulse:["5T"],
-				healbell:["5T"],
-				heatwave:["5T"],
-				hypervoice:["5T"],
-				irontail:["5T"],
-				magiccoat:["5T"],
-				outrage:["5T"],
-				signalbeam:["5T"],
-				silverwind:["5T"],
-				swift:["5T"],
-				wonderroom:["5T"],
-				zenheadbutt:["5T"],
+		dragonpulse:["5T"],
+		healbell:["5T"],
+		heatwave:["5T"],
+		hypervoice:["5T"],
+		irontail:["5T"],
+		magiccoat:["5T"],
+		outrage:["5T"],
+		signalbeam:["5T"],
+		silverwind:["5T"],
+		swift:["5T"],
+		wonderroom:["5T"],
+		zenheadbutt:["5T"],
 				
                 //egg move
                 healpulse:["5E"],
@@ -15635,7 +15608,7 @@ Royjibiv:{
                 aerialace:["5M"],
                 skillswap:["5M"],
                 echoedvoice:["5M"],
-				focusblast:["5M"],
+		focusblast:["5M"],
                 energyball:["5M"],
                 chargebeam:["5M"],
                 acrobatics:["5M"],
@@ -15651,19 +15624,19 @@ Royjibiv:{
                 
                 //tutor
                 aquatail:["5T"],
-				dragometeor:["5T"],
-				dragonpulse:["5T"],
-				healbell:["5T"],
-				heatwave:["5T"],
-				hypervoice:["5T"],
-				irontail:["5T"],
-				magiccoat:["5T"],
-				outrage:["5T"],
-				signalbeam:["5T"],
-				silverwind:["5T"],
-				swift:["5T"],
-				wonderroom:["5T"],
-				zenheadbutt:["5T"],
+		dragometeor:["5T"],
+		dragonpulse:["5T"],
+		healbell:["5T"],
+		heatwave:["5T"],
+		hypervoice:["5T"],
+		irontail:["5T"],
+		magiccoat:["5T"],
+		outrage:["5T"],
+		signalbeam:["5T"],
+		silverwind:["5T"],
+		swift:["5T"],
+		wonderroom:["5T"],
+		zenheadbutt:["5T"],
 				
                 //egg move
                 healpulse:["5E"],
@@ -15731,17 +15704,17 @@ Barracute:{
                 
                 //tutor
                 aquatail:["5T"],
-				doubleedge:["5T"],
-				dragonpulse:["5T"],
-				earthpower:["5T"],
-				endeavor:["5T"],
-				ironhead:["5T"],
-				irontail:["5T"],
-				mudslap:["5T"],
-				outrage:["5T"],
-				snore:["5T"],
-				superfang:["5T"],
-				swift:["5T"],
+		doubleedge:["5T"],
+		dragonpulse:["5T"],
+		earthpower:["5T"],
+		endeavor:["5T"],
+		ironhead:["5T"],
+		irontail:["5T"],
+		mudslap:["5T"],
+		outrage:["5T"],
+		snore:["5T"],
+		superfang:["5T"],
+		swift:["5T"],
 				
                 //egg move
                 aquajet:["5E"],
@@ -15766,7 +15739,7 @@ Jawgodon:{
                 flail:["5L26"],
                 crunch:["5L33"],
                 aquatail:["5L39"],
-				icefang:["5L42"],
+		icefang:["5L42"],
                 thrash:["5L47"],
                 hydropump:["5L54"],
                 
@@ -15792,7 +15765,7 @@ Jawgodon:{
                 taunt:["5M"],
                 icebeam:["5M"],
                 blizzard:["5M"],
-				hyperbeam:["5M"],
+		hyperbeam:["5M"],
                 raindance:["5M"],
                 earthquake:["5M"],
                 sludgebomb:["5M"],
@@ -15801,7 +15774,7 @@ Jawgodon:{
                 scald:["5M"],
                 rocksmash:["5M"],
                 payback:["5M"],
-				gigaimpact:["5M"],
+		gigaimpact:["5M"],
                 stoneedge:["5M"],
                 swordsdance:["5M"],
                 bulldoze:["5M"],
@@ -15812,17 +15785,17 @@ Jawgodon:{
                 
                 //tutor
                 aquatail:["5T"],
-				doubleedge:["5T"],
-				dragonpulse:["5T"],
-				earthpower:["5T"],
-				endeavor:["5T"],
-				ironhead:["5T"],
-				irontail:["5T"],
-				mudslap:["5T"],
-				outrage:["5T"],
-				snore:["5T"],
-				superfang:["5T"],
-				swift:["5T"],
+		doubleedge:["5T"],
+		dragonpulse:["5T"],
+		earthpower:["5T"],
+		endeavor:["5T"],
+		ironhead:["5T"],
+		irontail:["5T"],
+		mudslap:["5T"],
+		outrage:["5T"],
+		snore:["5T"],
+		superfang:["5T"],
+		swift:["5T"],
 				
                 //egg move
                 aquajet:["5E"],
@@ -15890,17 +15863,17 @@ Drosire:{
                 
                 //tutor
                 ancientpower:["5T"],
-				doubleedge:["5T"],
-				gastroacid:["5T"],
-				knockoff:["5T"],
-				mudslap:["5T"],
-				painsplit:["5T"],
-				recycle:["5T"],
-				seedbomb:["5T"],
-				signalbeam:["5T"],
-				synthesis:["5T"],
-				thunderpunch:["5T"],
-				worryseed:["5T"],
+		doubleedge:["5T"],
+		gastroacid:["5T"],
+		knockoff:["5T"],
+		mudslap:["5T"],
+		painsplit:["5T"],
+		recycle:["5T"],
+		seedbomb:["5T"],
+		signalbeam:["5T"],
+		synthesis:["5T"],
+		thunderpunch:["5T"],
+		worryseed:["5T"],
 				
                 //egg move
                 
@@ -15943,14 +15916,14 @@ Sunduke:{
                 safeguard:["5M"],
                 solarbeam:["5M"],
                 brickbreak:["5M"],
-				sludgebomb:["5M"],
-				aerialace:["5M"],
-				gigadrain:["5M"],
-				focusblast:["5M"],
+		sludgebomb:["5M"],
+		aerialace:["5M"],
+		gigadrain:["5M"],
+		focusblast:["5M"],
                 energyball:["5M"],
-				drainpunch:["5M"],
+		drainpunch:["5M"],
                 payback:["5M"],
-				gigaimpact:["5M"],
+		gigaimpact:["5M"],
                 gyroball:["5M"],
                 swordsdance:["5M"],
                 poisonjab:["5M"],
@@ -15960,17 +15933,17 @@ Sunduke:{
                 
                 //tutor
                 ancientpower:["5T"],
-				doubleedge:["5T"],
-				gastroacid:["5T"],
-				knockoff:["5T"],
-				mudslap:["5T"],
-				painsplit:["5T"],
-				recycle:["5T"],
-				seedbomb:["5T"],
-				signalbeam:["5T"],
-				synthesis:["5T"],
-				thunderpunch:["5T"],
-				worryseed:["5T"],
+		doubleedge:["5T"],
+		gastroacid:["5T"],
+		knockoff:["5T"],
+		mudslap:["5T"],
+		painsplit:["5T"],
+		recycle:["5T"],
+		seedbomb:["5T"],
+		signalbeam:["5T"],
+		synthesis:["5T"],
+		thunderpunch:["5T"],
+		worryseed:["5T"],
 				
                 //egg move
                 
@@ -16081,11 +16054,11 @@ Phantern:{
                 //specific tms
                 sunnyday:["5M"],
                 taunt:["5M"],
-				hyperbeam:["5M"],
+		hyperbeam:["5M"],
                 lightscreen:["5M"],
                 telekinesis:["5M"],
                 safeguard:["5M"],
-				solarbeam:["5M"],
+		solarbeam:["5M"],
                 psychic:["5M"],
                 shadowball:["5M"],
                 reflect:["5M"],
@@ -16100,10 +16073,10 @@ Phantern:{
                 incinerate:["5M"],
                 willowisp:["5M"],
                 payback:["5M"],
-				gigaimpact:["5M"],
+		gigaimpact:["5M"],
                 flash:["5M"],
                 thunderwave:["5M"],
-				gyroball:["5M"],
+		gyroball:["5M"],
                 psychup:["5M"],
                 dreameater:["5M"],
                 trickroom:["5M"],
@@ -16173,11 +16146,11 @@ Glocto:{
                 
                 //tutor
                 heatwave:["5T"],
-				magiccoat:["5T"],
-				signalbeam:["5T"],
-				snore:["5T"],
-				swift:["5T"],
-				zenheadbutt:["5T"],
+		magiccoat:["5T"],
+		signalbeam:["5T"],
+		snore:["5T"],
+		swift:["5T"],
+		zenheadbutt:["5T"],
 				
                 //egg move
                 aquaring:["5E"],
@@ -16254,15 +16227,15 @@ Lavoon:{
                 
                 //tutor
                 aquatail:["5T"],
-				dragonpulse:["5T"],
-				heatwave:["5T"],
-				hypervoice:["5T"],
-				magiccoat:["5T"],
-				signalbeam:["5T"],
-				snore:["5T"],
-				swift:["5T"],
-				uproar:["5T"],
-				zenheadbutt:["5T"],
+		dragonpulse:["5T"],
+		heatwave:["5T"],
+		hypervoice:["5T"],
+		magiccoat:["5T"],
+		signalbeam:["5T"],
+		snore:["5T"],
+		swift:["5T"],
+		uproar:["5T"],
+		zenheadbutt:["5T"],
 				
                 //egg move
                 aquaring:["5E"],
@@ -16476,111 +16449,109 @@ Ankillosore:{
                
         }
 },
-
-	
-
+/*END OF GILLA LINE*/
 Bazilisk:{
-            learnset:{
-                    pound:["5L1"],
-                    detect:["5L1"],
-                    bite:["5L6"],
-                    pursuit:["5L9"],
-                    razorleaf:["5L13"],
-                    faintattack:["5L18"],
-                    screech:["5L21"],
-                    quickattack:["5L25"],
-                    beatup:["5L30"],
-                    leafblade:["5L34"],
-                    agility:["5L39"],
-                    crunch:["5L42"],
-                    batonpass:["5L47"],
-                    leafstorm:["5L51"],
-     
-		    toxic:["5M"],
-                    hiddenpower:["5M"],
-                    protect:["5M"],
-                    frustration:["5M"],
-                    "return":["5M"],
-                    doubleteam:["5M"],
-                    facade:["5M"],
-                    rest:["5M"],
-                    attract:["5M"],
-                    endure:["5M"],
-                    swagger:["5M"],
-                    substitute:["5M"],
-                    sleeptalk:["5M"],
-            }
+        learnset:{
+                pound:["5L1"],
+                detect:["5L1"],
+                bite:["5L6"],
+                pursuit:["5L9"],
+                razorleaf:["5L13"],
+                faintattack:["5L18"],
+                screech:["5L21"],
+                quickattack:["5L25"],
+                beatup:["5L30"],
+                leafblade:["5L34"],
+                agility:["5L39"],
+                crunch:["5L42"],
+                batonpass:["5L47"],
+                leafstorm:["5L51"],
+ 
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+        }
 },
      
-    Ornitherb:{
-            learnset:{
-                    ancientpower:["5L1"],
-                    pound:["5L1"],
-                    detect:["5L1"],
-                    bite:["5L6"],
-                    pursuit:["5L9"],
-                    razorleaf:["5L13"],
-                    faintattack:["5L18"],
-                    screech:["5L21"],
-                    quickattack:["5L25"],
-                    honeclaws:["5L27"],
-                    beatup:["5L33"],
-                    leafblade:["5L37"],
-                    agility:["5L42"],
-                    crunch:["5L45"],
-                    batonpass:["5L50"],
-                    dragonclaw:["5L54"],
-     
-			 toxic:["5M"],
-                    hiddenpower:["5M"],
-                    protect:["5M"],
-                    frustration:["5M"],
-                    "return":["5M"],
-                    doubleteam:["5M"],
-                    facade:["5M"],
-                    rest:["5M"],
-                    attract:["5M"],
-                    endure:["5M"],
-                    swagger:["5M"],
-                    substitute:["5M"],
-                    sleeptalk:["5M"],
-            }
-    },
-    Dilophlora:{
-            learnset:{
-                    leafstorm:["5L1"],
-                    ancientpower:["5L1"],
-                    pound:["5L1"],
-                    detect:["5L1"],
-                    bite:["5L6"],
-                    pursuit:["5L9"],
-                    razorleaf:["5L13"],
-                    faintattack:["5L18"],
-                    screech:["5L21"],
-                    quickattack:["5L25"],
-                    honeclaws:["5L27"],
-                    beatup:["5L33"],
-                    leafblade:["5L37"],
-                    agility:["5L42"],
-                    crunch:["5L45"],
-                    batonpass:["5L50"],
-                    dragonclaw:["5L54"],
-     
-    toxic:["5M"],
-                    hiddenpower:["5M"],
-                    protect:["5M"],
-                    frustration:["5M"],
-                    "return":["5M"],
-                    doubleteam:["5M"],
-                    facade:["5M"],
-                    rest:["5M"],
-                    attract:["5M"],
-                    endure:["5M"],
-                    swagger:["5M"],
-                    substitute:["5M"],
-                    sleeptalk:["5M"],
-                    
-                   ancientpower:["5T"],
+Ornitherb:{
+    	learnset:{
+            	ancientpower:["5L1"],
+                pound:["5L1"],
+                detect:["5L1"],
+                bite:["5L6"],
+                pursuit:["5L9"],
+                razorleaf:["5L13"],
+                faintattack:["5L18"],
+                screech:["5L21"],
+                quickattack:["5L25"],
+                honeclaws:["5L27"],
+                beatup:["5L33"],
+                leafblade:["5L37"],
+                agility:["5L42"],
+                crunch:["5L45"],
+                batonpass:["5L50"],
+                dragonclaw:["5L54"],
+
+		toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+        }
+},
+Dilophlora:{
+    	learnset:{
+                leafstorm:["5L1"],
+                ancientpower:["5L1"],
+                pound:["5L1"],
+                detect:["5L1"],
+                bite:["5L6"],
+                pursuit:["5L9"],
+                razorleaf:["5L13"],
+                faintattack:["5L18"],
+                screech:["5L21"],
+                quickattack:["5L25"],
+                honeclaws:["5L27"],
+                beatup:["5L33"],
+                leafblade:["5L37"],
+                agility:["5L42"],
+                crunch:["5L45"],
+                batonpass:["5L50"],
+                dragonclaw:["5L54"],
+
+                toxic:["5M"],
+                hiddenpower:["5M"],
+                protect:["5M"],
+                frustration:["5M"],
+                "return":["5M"],
+                doubleteam:["5M"],
+                facade:["5M"],
+                rest:["5M"],
+                attract:["5M"],
+                endure:["5M"],
+                swagger:["5M"],
+                substitute:["5M"],
+                sleeptalk:["5M"],
+                
+                ancientpower:["5T"],
 		aquatail:["5T"],
 		bounce:["5T"],
 		doubleedge:["5T"],
@@ -16599,71 +16570,28 @@ Bazilisk:{
 		superfang:["5T"],
 		synthesis:["5T"],
 		zenheadbutt:["5T"],
-}
+        }
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //note: this uses the wiki contents as found on August 2
 Baboom:{
         learnset:{
-				bite:["5L1"],
-				leer:["5L1"],
-				fling:["5L1"],
-				pursuit:["5L6"],
-				spark:["5L11"],
-				smokescreen:["5L13"],
-				rage:["5L16"],
-				taunt:["5L21"],
-				howl:["5L26"],
-				thunderpunch:["5L32"],
-				bellydrum:["5L38"],
-				wildcharge:["5L44"],
-				crunch:["5L50"],
-				closecombat:["5L54"],
-				suckerpunch:["5L56"],
-				thunder:["5L62"],
+                bite:["5L1"],
+                leer:["5L1"],
+                fling:["5L1"],
+                pursuit:["5L6"],
+                spark:["5L11"],
+                smokescreen:["5L13"],
+                rage:["5L16"],
+                taunt:["5L21"],
+                howl:["5L26"],
+                thunderpunch:["5L32"],
+                bellydrum:["5L38"],
+                wildcharge:["5L44"],
+                crunch:["5L50"],
+                closecombat:["5L54"],
+                suckerpunch:["5L56"],
+                thunder:["5L62"],
                 
                 //common tms
                 toxic:["5M"],
@@ -16714,22 +16642,22 @@ Baboom:{
                 
                 //tutor
                 doubleedge:["5T"],
-				firepunch:["5T"],
-				fling:["5T"],
-				helpinghand:["5T"],
-				hypervoice:["5T"],
-				icepunch:["5T"],
-				knockoff:["5T"],
-				magnetrise:["5T"],
-				megapunch:["5T"],
-				snatch:["5T"],
-				snore:["5T"],
-				superfang:["5T"],
-				superpower:["5T"],
-				swift:["5T"],
-				thunderpunch:["5T"],
-				uproar:["5T"],
-				
+                firepunch:["5T"],
+                fling:["5T"],
+                helpinghand:["5T"],
+                hypervoice:["5T"],
+                icepunch:["5T"],
+                knockoff:["5T"],
+                magnetrise:["5T"],
+                megapunch:["5T"],
+                snatch:["5T"],
+                snore:["5T"],
+                superfang:["5T"],
+                superpower:["5T"],
+                swift:["5T"],
+                thunderpunch:["5T"],
+                uproar:["5T"],
+	
                 //egg move
                 beatup:["5E"],
                 fakeout:["5E"],
@@ -16792,15 +16720,15 @@ Icetope:{
                 
                 //tutor
                 avalanche:["5T"],
-				bugbite:["5T"],
-				doubleedge:["5T"],
-				gastroacid:["5T"],
-				gunkshot:["5T"],
-				heatwave:["5T"],
-				icywind:["5T"],
-				irondefense:["5T"],
-				ominouswind:["5T"],
-				spite:["5T"],
+                bugbite:["5T"],
+                doubleedge:["5T"],
+                gastroacid:["5T"],
+                gunkshot:["5T"],
+                heatwave:["5T"],
+                icywind:["5T"],
+                irondefense:["5T"],
+                ominouswind:["5T"],
+                spite:["5T"],
 				
                 //egg move
                 curse:["5E"],
@@ -16869,16 +16797,16 @@ Chillnobyl:{
                 
                 //tutor
                 avalanche:["5T"],
-				bugbite:["5T"],
-				doubleedge:["5T"],
-				gastroacid:["5T"],
-				gunkshot:["5T"],
-				heatwave:["5T"],
-				icywind:["5T"],
-				irondefense:["5T"],
-				ominouswind:["5T"],
-				spite:["5T"],
-				
+                bugbite:["5T"],
+                doubleedge:["5T"],
+                gastroacid:["5T"],
+                gunkshot:["5T"],
+                heatwave:["5T"],
+                icywind:["5T"],
+                irondefense:["5T"],
+                ominouswind:["5T"],
+                spite:["5T"],
+		
                 //egg move
                 curse:["5E"],
                 destinybond:["5E"],
@@ -16957,18 +16885,18 @@ Wendingo:{
                 
                 //tutor
                 avalanche:["5T"],
-				counter:["5T"],
-				doubleedge:["5T"],
-				fling:["5T"],
-				icywind:["5T"],
-				knockoff:["5T"],
-				outrage:["5T"],
-				painsplit:["5T"],
-				snatch:["5T"],
-				spite:["5T"],
-				swift:["5T"],
-				trick:["5T"],
-				
+                counter:["5T"],
+                doubleedge:["5T"],
+                fling:["5T"],
+                icywind:["5T"],
+                knockoff:["5T"],
+                outrage:["5T"],
+                painsplit:["5T"],
+                snatch:["5T"],
+                spite:["5T"],
+                swift:["5T"],
+                trick:["5T"],
+        	
                 //egg move
                 avalanche:["5E"],
                 closecombat:["5E"],
@@ -16995,7 +16923,7 @@ Carnibal:{
                 thunderfang:["5L24"],
                 agility:["5L31"],
                 shadowclaw:["5L33"],
-				metalclaw:["5L35"],
+		metalclaw:["5L35"],
                 detect:["5L40"],
                 crunch:["5L44"],
                 iciclecrash:["5L50"],
@@ -17036,13 +16964,13 @@ Carnibal:{
                 torment:["5M"],
                 thief:["5M"],
                 lowsweep:["5M"],
-				falseswipe:["5M"],
-				fling:["5M"],
+                falseswipe:["5M"],
+                fling:["5M"],
                 rocksmash:["5M"],
                 shadowclaw:["5M"],
                 payback:["5M"],
                 retaliate:["5M"],
-				gigaimpact:["5M"],
+                gigaimpact:["5M"],
                 swordsdance:["5M"],
                 frostbreath:["5M"],
                 rockslide:["5M"],
@@ -17054,22 +16982,22 @@ Carnibal:{
                 snarl:["5M"],
                 darkpulse:["5M"],
                 cut:["5M"],
-				strength:["5M"],
+		strength:["5M"],
                 
                 //tutor
                 avalanche:["5T"],
-				counter:["5T"],
-				doubleedge:["5T"],
-				fling:["5T"],
-				icywind:["5T"],
-				knockoff:["5T"],
-				outrage:["5T"],
-				painsplit:["5T"],
-				snatch:["5T"],
-				spite:["5T"],
-				swift:["5T"],
-				trick:["5T"],
-				
+                counter:["5T"],
+                doubleedge:["5T"],
+                fling:["5T"],
+                icywind:["5T"],
+                knockoff:["5T"],
+                outrage:["5T"],
+                painsplit:["5T"],
+                snatch:["5T"],
+                spite:["5T"],
+                swift:["5T"],
+                trick:["5T"],
+                
                 //egg move
                 avalanche:["5E"],
                 closecombat:["5E"],
@@ -17168,7 +17096,7 @@ Eluchadon:{
                 
                 //specific tms
                 hyperbeam:["5M"],
-				gigaimpact:["5M"],
+		gigaimpact:["5M"],
 				
                 //tutor
 				
@@ -17619,7 +17547,7 @@ Diamat:{
                 
                 //specific tms
                 hyperbeam:["5M"],
-				gigaimpact:["5M"],
+		gigaimpact:["5M"],
 				
                 //tutor
 				
